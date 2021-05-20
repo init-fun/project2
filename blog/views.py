@@ -45,7 +45,9 @@ def post_list(request):
         "all_posts": all_posts,
         # career related context obj
         "company": workplaces,
+        "first_two_company": workplaces[:2],
         "year_list": year_list,
+        "career_range": range(2),
     }
     return render(request, "blog/post/list.html", context)
 

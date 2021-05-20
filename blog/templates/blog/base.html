@@ -198,30 +198,38 @@
                             <p>I am a highly organised and motivated professional software developer with
                                 experience in designing and developing scalable software solutions.</p>
                         </blockquote>
-                        {% block career_page %}
+                        {% block about_me %}
 
-                        {% endblock career_page %}
+                        {% endblock about_me %}
+                        <span class="apo-scroll-down-label">
+                            <footer class="apo-align-center apo-section-main-action">
+                                <a href="blog_fit_width_4_columns.html" class="apo-btn apo-btn-small"> end of little
+                                    bit about me.
+                                </a>
+                            </footer>
+                        </span>
                     </div>
-
-
-
 
                     <!-- End of Article Content-->
 
                 </article>
                 <!-- End Full Height Article-->
             </div>
+
+            <!-- WORK EXP -->
             <div class="fp-section">
                 <div class="container">
                     <div class="apo-section">
                         <!-- Isotope-->
                         <div data-isotope-layout="grid"
                             class="apo-isotope apo-cols-3 apo-portfolio-container apo-style-6">
-                            <div class="grid-sizer"></div>
+                            <div class="grid-sizer">Work Experience</div>
+                            {% block work_exp %}
                             <div class="apo-item apo-web-design">
                                 <!-- Article-->
                                 <article class="apo-project">
-                                    <div class="apo-project-media"><img src='{% static "images/img-153.jpg"%}' alt="" />
+                                    <div class="apo-project-media">
+                                        <img src='{% static "images/img-153.jpg"%}' alt="" />
                                     </div>
                                     <div class="apo-project-content-wrap">
                                         <div class="apo-aligner-outer">
@@ -244,7 +252,8 @@
                             <div class="apo-item apo-web-design">
                                 <!-- Article-->
                                 <article class="apo-project">
-                                    <div class="apo-project-media"><img src="images/img-154.jpg" alt="" /></div>
+                                    <div class="apo-project-media"><img src='{% static "images/img-154.jpg"%}' alt="" />
+                                    </div>
                                     <div class="apo-project-content-wrap">
                                         <div class="apo-aligner-outer">
                                             <div class="apo-aligner-inner">
@@ -262,106 +271,96 @@
                                     </div>
                                 </article>
                             </div>
-                            <div class="apo-item apo-branding">
-                                <!-- Article-->
-                                <article class="apo-project">
-                                    <div class="apo-project-media"><img src="images/img-155.jpg" alt="" /></div>
-                                    <div class="apo-project-content-wrap">
-                                        <div class="apo-aligner-outer">
-                                            <div class="apo-aligner-inner">
-                                                <header class="apo-project-header">
-                                                    <ul class="apo-project-categories">
-                                                        <li><a href="#">Branding</a></li>
-                                                    </ul>
-                                                    <h2 class="apo-project-title"><a
-                                                            href="portfolio_single_post.html">Visium</a></h2>
-                                                </header>
-                                                <div class="apo-project-content">Lorem ipsum dolor sit amet, consectetur
-                                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="apo-item apo-print-design">
-                                <!-- Article-->
-                                <article class="apo-project">
-                                    <div class="apo-project-media"><img src="images/img-156.jpg" alt="" /></div>
-                                    <div class="apo-project-content-wrap">
-                                        <div class="apo-aligner-outer">
-                                            <div class="apo-aligner-inner">
-                                                <header class="apo-project-header">
-                                                    <ul class="apo-project-categories">
-                                                        <li><a href="#">Print Design</a></li>
-                                                    </ul>
-                                                    <h2 class="apo-project-title"><a
-                                                            href="portfolio_single_post.html">Momo Tokyo</a></h2>
-                                                </header>
-                                                <div class="apo-project-content">Lorem ipsum dolor sit amet, consectetur
-                                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="apo-item apo-photography">
-                                <!-- Article-->
-                                <article class="apo-project">
-                                    <div class="apo-project-media"><img src="images/img-157.jpg" alt="" /></div>
-                                    <div class="apo-project-content-wrap">
-                                        <div class="apo-aligner-outer">
-                                            <div class="apo-aligner-inner">
-                                                <header class="apo-project-header">
-                                                    <ul class="apo-project-categories">
-                                                        <li><a href="#">Photography</a></li>
-                                                    </ul>
-                                                    <h2 class="apo-project-title"><a
-                                                            href="portfolio_single_post.html">Carlotta Monzani</a></h2>
-                                                </header>
-                                                <div class="apo-project-content">Lorem ipsum dolor sit amet, consectetur
-                                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="apo-item apo-branding">
-                                <!-- Article-->
-                                <article class="apo-project">
-                                    <div class="apo-project-media"><img src="images/img-158.jpg" alt="" /></div>
-                                    <div class="apo-project-content-wrap">
-                                        <div class="apo-aligner-outer">
-                                            <div class="apo-aligner-inner">
-                                                <header class="apo-project-header">
-                                                    <ul class="apo-project-categories">
-                                                        <li><a href="#">Branding</a></li>
-                                                    </ul>
-                                                    <h2 class="apo-project-title"><a
-                                                            href="portfolio_single_post.html">Personal Identity</a></h2>
-                                                </header>
-                                                <div class="apo-project-content">Lorem ipsum dolor sit amet, consectetur
-                                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
+                            {% endblock work_exp %}
                         </div>
                         <!-- End Isotope-->
 
-                        <!-- <footer class="apo-align-center apo-section-main-action">
-                            <a href="portfolio_grid_with_top_white_header.html" class="apo-btn apo-btn-small">
-                                See All Works</a>
-                        </footer> -->
+
                         <footer class="apo-align-center apo-section-main-action">
                             <a href="portfolio_grid_with_top_white_header.html" class="apo-btn apo-btn-small">
-                                See All Works</a>
+                                All other projects</a>
                         </footer>
 
 
                     </div>
                 </div>
             </div>
+            <!-- end of WORK EXP -->
+
+            <!-- PROJECTS -->
+            <div class="fp-section">
+                <div class="container">
+                    <div class="apo-section">
+                        <!-- Isotope-->
+                        <div data-isotope-layout="grid"
+                            class="apo-isotope apo-cols-3 apo-portfolio-container apo-style-6">
+                            <div class="grid-sizer">Projects</div>
+                            {% block project %}
+                            <div class="apo-item apo-web-design">
+                                <!-- Article-->
+                                <article class="apo-project">
+                                    <div class="apo-project-media">
+                                        <img src='{% static "images/img-153.jpg"%}' alt="" />
+                                    </div>
+                                    <div class="apo-project-content-wrap">
+                                        <div class="apo-aligner-outer">
+                                            <div class="apo-aligner-inner">
+                                                <header class="apo-project-header">
+                                                    <ul class="apo-project-categories">
+                                                        <li><a href="#">Web Design</a></li>
+                                                    </ul>
+                                                    <h2 class="apo-project-title"><a
+                                                            href="portfolio_single_post.html">Stories Collective</a>
+                                                    </h2>
+                                                </header>
+                                                <div class="apo-project-content">Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="apo-item apo-web-design">
+                                <!-- Article-->
+                                <article class="apo-project">
+                                    <div class="apo-project-media"><img src='{% static "images/img-154.jpg"%}' alt="" />
+                                    </div>
+                                    <div class="apo-project-content-wrap">
+                                        <div class="apo-aligner-outer">
+                                            <div class="apo-aligner-inner">
+                                                <header class="apo-project-header">
+                                                    <ul class="apo-project-categories">
+                                                        <li><a href="#">Web Design</a></li>
+                                                    </ul>
+                                                    <h2 class="apo-project-title"><a
+                                                            href="portfolio_single_post.html">Hand Decor</a></h2>
+                                                </header>
+                                                <div class="apo-project-content">Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            {% endblock project %}
+                        </div>
+                        <!-- End Isotope-->
+
+
+                        <footer class="apo-align-center apo-section-main-action">
+                            <a href="portfolio_grid_with_top_white_header.html" class="apo-btn apo-btn-small">
+                                All other projects</a>
+                        </footer>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- end of PROJECTS -->
+
+
+
+            <!-- BLOG -->
             <div class="fp-section">
                 <div class="apo-section">
                     <div class="container">
@@ -379,7 +378,9 @@
                     </div>
                 </div>
             </div>
-            <!-- footer -->
+            <!-- end of BLOG -->
+
+            <!-- CONTACT ME ----FOOTER  -->
             <div class="fp-section fp-centered-content">
                 <div class="apo-section apo-contact-section">
                     <div class="apo-contact-section-body">
@@ -408,11 +409,11 @@
                     </footer>
                 </div>
             </div>
+            <!-- end of CONTACT ME ----- FOOTER -->
         </div>
     </div>
     <!-- End Page Content-->
-    <!-- Footer-->
-    <!-- End Footer-->
+
     <!-- Vendor JS-->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>

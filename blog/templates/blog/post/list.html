@@ -1,4 +1,12 @@
 {% extends 'blog/base.html' %}
+{% load static %}
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>BLOGSPOT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 
 {% block blogposts %}
 <!-- this is the inner loop for the blogposts -->
@@ -44,7 +52,7 @@
 
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ABOUT ME>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 
@@ -62,8 +70,9 @@
             <em class="apo-experience-list-item-period">{{c.from_year}}
                 &mdash; {{c.to_year}}
                 <br>
-                <span style="font-size: 15px;">{{c.company_name}}</span></em>
-            <h2 class="apo-experience-list-item-title">{{c.role}}</h2>
+                <span style="font-size: 16px; color: #b7956c; ">{{c.company_name}}</span>
+            </em>
+            <h2 class=" apo-experience-list-item-title">{{c.role}}</h2>
         </header>
         <div class="apo-experience-list-item-body">
             <p>{{c.summary|truncatewords:50|linebreaks}}</p>
@@ -85,3 +94,105 @@
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+{% block work_exp %}
+
+{% for comp in first_two_company%}
+
+{% if forloop.first or forloop.counter0|divisibleby:1%}
+<div class="apo-item apo-motivation">
+    {% endif %}
+    <!-- THESE ARE THE ARTICLES/BLOGPOSTS -->
+    <!-- Article-->
+    <article class="apo-entry">
+        <div class="apo-entry-media">
+        </div>
+        <div class="apo-entry-content-wrap">
+            <div class="apo-aligner-outer">
+                <div class="apo-aligner-inner apo-same-height">
+                    <header class="apo-entry-header">
+                        <ul class="apo-entry-categories">
+                            <li>{{comp.from_year}} - {{comp.to_year}}</li>
+
+                            <li>
+                                <h2 class="apo-entry-title"><a href="#">{{comp.company_name}}</a></h2>
+                            </li>
+                            <li>
+                                <h6>{{comp.role}}</h6>
+                            </li>
+                            <!-- <li style="font-size: 20px; padding-top: 10px;"> {{comp.company_name}}</li> -->
+                        </ul>
+
+                        </h2>
+                        <p>{{comp.summary|truncatewords:50|linebreaks}}</p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- End Article-->
+    {% if forloop.counter|divisibleby:1 or forloop.last %}
+</div>
+{% endif %}
+
+{% endfor %}
+<!-- end of the inner loop -->
+
+{% endblock work_exp %}
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>PROJECTS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+{% block project %}
+<div class="apo-item apo-web-design">
+    <!-- Article-->
+    <article class="apo-project">
+        <div class="apo-project-media">
+            <img src='{% static "images/img-153.jpg"%}' alt="" />
+        </div>
+        <div class="apo-project-content-wrap">
+            <div class="apo-aligner-outer">
+                <div class="apo-aligner-inner">
+                    <header class="apo-project-header">
+                        <ul class="apo-project-categories">
+                            <li><a href="#">Web Design</a></li>
+                        </ul>
+                        <h2 class="apo-project-title"><a href="portfolio_single_post.html">Stories Collective</a>
+                        </h2>
+                    </header>
+                    <div class="apo-project-content">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+<div class="apo-item apo-web-design">
+    <!-- Article-->
+    <article class="apo-project">
+        <div class="apo-project-media"><img src='{% static "images/img-154.jpg"%}' alt="" />
+        </div>
+        <div class="apo-project-content-wrap">
+            <div class="apo-aligner-outer">
+                <div class="apo-aligner-inner">
+                    <header class="apo-project-header">
+                        <ul class="apo-project-categories">
+                            <li><a href="#">Web Design</a></li>
+                        </ul>
+                        <h2 class="apo-project-title"><a href="portfolio_single_post.html">Hand Decor</a></h2>
+                    </header>
+                    <div class="apo-project-content">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+{% endblock project %}

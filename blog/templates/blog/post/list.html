@@ -1,0 +1,40 @@
+{% extends 'blog/base.html' %}
+
+{% block blogposts %}
+<h1>Hello post page</h1>
+{% for post in posts%}
+
+<!-- THESE ARE THE ARTICLES/BLOGPOSTS -->
+<div class="apo-item apo-motivation">
+    <!-- Article-->
+    <article class="apo-entry">
+        <div class="apo-entry-media">
+        </div>
+        <div class="apo-entry-content-wrap">
+            <div class="apo-aligner-outer">
+                <div class="apo-aligner-inner apo-same-height">
+                    <header class="apo-entry-header">
+                        <ul class="apo-entry-categories">
+                            <li> <a href='{{post.get_absolute_url}}'>{{post.title}}</a></li>
+                        </ul>
+                        <h2 class="apo-entry-title"><a href="#">{{post.body |truncatewords:30|linebreaks}}</a>
+                        </h2>
+                    </header>
+                    <footer class="apo-entry-footer">
+                        <time datetime="2016-12-24" class="apo-entry-publish-date">Published by {{post.author}} at
+                            {{post.publish}}</time>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- End Article-->
+</div>
+
+
+
+
+
+
+{% endfor %}
+{% endblock blogposts %}

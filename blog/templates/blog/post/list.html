@@ -55,10 +55,32 @@
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ABOUT ME>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+{% block about_me %}
+<div class="apo-experience-list apo-style-2">
+    <article class="apo-experience-list-item">
+
+    </article>
+    <article class="apo-experience-list-item">
+        <header class="apo-experience-list-item-header"><em class="apo-experience-list-item-period">November 2015
+                &mdash; <span>Google</span></em>
+            <h2 class="apo-experience-list-item-title">Images Manager</h2>
+        </header>
+        <div class="apo-experience-list-item-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+            </p>
+        </div>
+    </article>
+</div><span class="apo-scroll-down-label"><i class="icon-arrow-down"></i></span>
+
+
+
+{% endblock about_me %}
+
 
 
 <!-- career pan -->
-{% block about_me %}
+{% block about_me_2 %}
 
 {% for c in first_two_company%}
 
@@ -83,7 +105,7 @@
 {% endif %}
 
 {% endfor %}
-{% endblock about_me %}
+{% endblock about_me_2 %}
 
 
 

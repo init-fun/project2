@@ -1,3 +1,4 @@
+from datetime import datetime
 from django.db import models
 
 from django.utils import timezone
@@ -50,6 +51,7 @@ class Post(models.Model):
 
 class career_post(models.Model):
     from_year = models.DateField()
+    to_year = models.DateField(default=datetime.now)
     company_name = models.CharField(max_length=100)
     role = models.CharField(max_length=100)
     summary = models.TextField()

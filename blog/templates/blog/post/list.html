@@ -50,9 +50,12 @@
 <div class="apo-experience-list apo-style-2">
     {% endif %}
     <article class="apo-experience-list-item">
-        <header class="apo-experience-list-item-header"><em class="apo-experience-list-item-period">{{c.from_year}}
-                &mdash; <span>{{c.company_name}}</span></em>
-            <h2 class="apo-experience-list-item-title">Product Designer &amp; Photographer</h2>
+        <header class="apo-experience-list-item-header">
+            <em class="apo-experience-list-item-period">{{c.from_year}}
+                &mdash; {{c.to_year}}
+                <br>
+                <span style="font-size: 15px;">{{c.company_name}}</span></em>
+            <h2 class="apo-experience-list-item-title">{{c.role}}</h2>
         </header>
         <div class="apo-experience-list-item-body">
             <p>{{c.summary|truncatewords:50|linebreaks}}</p>

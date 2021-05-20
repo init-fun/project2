@@ -7,7 +7,7 @@ from django.core.paginator import Page, EmptyPage, PageNotAnInteger, Paginator
 
 
 def post_list(request):
-    object_list = Post.published.all()
+    object_list = Post.published.all().order_by("-publish")
     paginator = Paginator(object_list, 2)
     page = request.GET.get("page")
     try:
@@ -17,11 +17,12 @@ def post_list(request):
     except EmptyPage:
         posts = paginator.page(paginator.num_pages)
 
-    # post = Post.published.all()
+    all_posts = Post.published.all()
 
     context = {
         "posts": posts,
         "page": page,
+        "all_posts": all_posts,
     }
     return render(request, "blog/post/list.html", context)
 

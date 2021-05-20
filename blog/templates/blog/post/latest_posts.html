@@ -1,12 +1,9 @@
 {% extends 'blog/base.html' %}
 
-{% block blogposts %}
-<!-- this is the inner loop for the blogposts -->
-
-{% for post in posts%}
-
-{% if forloop.first or forloop.counter0|divisibleby:1%}
+{% for post in latest_post%}
+{% if forloop.first or forloop.counter0|divisibleby:2 %}
 <div class="apo-item apo-motivation">
+
     {% endif %}
     <!-- THESE ARE THE ARTICLES/BLOGPOSTS -->
     <!-- Article-->
@@ -32,10 +29,16 @@
         </div>
     </article>
     <!-- End Article-->
-    {% if forloop.counter|divisibleby:1 or forloop.last %}
+    {% if forloop.counter|divisibleby:2 or forloop.last %}
 </div>
 {% endif %}
+
+{%endfor%}
+
+
+
+
+
 {% endfor %}
-<!-- end of the inner loop -->
 
 {% endblock blogposts %}

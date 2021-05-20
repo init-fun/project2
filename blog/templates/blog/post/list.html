@@ -35,7 +35,32 @@
     {% if forloop.counter|divisibleby:1 or forloop.last %}
 </div>
 {% endif %}
+
 {% endfor %}
 <!-- end of the inner loop -->
 
 {% endblock blogposts %}
+
+<!-- career pan -->
+{% block career_page %}
+
+{% for c in company%}
+
+{% if forloop.first or forloop.counter0|divisibleby:1%}
+<div class="apo-experience-list apo-style-2">
+    {% endif %}
+    <article class="apo-experience-list-item">
+        <header class="apo-experience-list-item-header"><em class="apo-experience-list-item-period">{{c.from_year}}
+                &mdash; <span>{{c.company_name}}</span></em>
+            <h2 class="apo-experience-list-item-title">Product Designer &amp; Photographer</h2>
+        </header>
+        <div class="apo-experience-list-item-body">
+            <p>{{c.summary|truncatewords:50|linebreaks}}</p>
+        </div>
+    </article>
+    {% if forloop.counter|divisibleby:1 or forloop.last %}
+</div>
+{% endif %}
+
+{% endfor %}
+{% endblock career_page %}

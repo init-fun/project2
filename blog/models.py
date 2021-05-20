@@ -46,3 +46,13 @@ class Post(models.Model):
             "blog:post_detail",
             args=[self.publish.year, self.publish.month, self.publish.day, self.slug],
         )
+
+
+class career_post(models.Model):
+    from_year = models.DateField()
+    company_name = models.CharField(max_length=100)
+    role = models.CharField(max_length=100)
+    summary = models.TextField()
+
+    def __str__(self):
+        return self.company_name

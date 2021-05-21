@@ -103,6 +103,7 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    color: black;
   }
   
   .button5 {
@@ -110,6 +111,7 @@
     border: 2px solid #555555;
   }
   
+
   .button5:hover {
     background-color: #555555;
     color: white;

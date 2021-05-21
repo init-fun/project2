@@ -1,5 +1,6 @@
 from datetime import datetime
 from django.db import models
+from django.db.models.fields import BLANK_CHOICE_DASH
 
 from django.utils import timezone
 from django.contrib.auth.models import User
@@ -60,8 +61,21 @@ class career_post(models.Model):
         return self.company_name
 
 
-class landingpage(models.Model):
-    skills = models.TextField(max_length=400)
-    resume = models.FileField(upload_to="static/resume")
+class SocialMedia(models.Model):
+    name = models.CharField(max_length=50)
+    link = models.URLField()
+    LandingPage = models.ForeignKey(
+        "LandingPage", related_name="socialSites", on_delete=models.CASCADE
+    )
+
+
+class LandingPage(models.Model):
+    avatar = models.ImageField(upload_to="media/images", null=True, blank=True)
     quote = models.TextField()
-    intor = models.TextField()
+    intro = models.TextField()
+    social_json = models.JSONField(null=True)
+    resume = models.FileField(upload_to="media/docs")
+    skills = models.TextField(max_length=400)
+
+    def social_nw_creator(self, *args, **kwargs):
+        self.socialSites.create()

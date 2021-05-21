@@ -1,7 +1,8 @@
 from django.contrib import admin
-from .models import Post, career_post
+from .models import Post, career_post, LandingPage
 
 admin.site.register(career_post)
+admin.site.register(LandingPage)
 
 
 @admin.register(Post)

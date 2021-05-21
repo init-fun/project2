@@ -130,7 +130,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+# locally these two work
+
 STATIC_URL = "/static/"
+MEDIA_URL = "/media/"
+
+# all static file after doing collectstatic will go to the below folder
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
+# we will find the USER UPLOADED FILES here (locally not during production)
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field

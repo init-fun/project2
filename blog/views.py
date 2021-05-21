@@ -2,28 +2,18 @@ from django.core import paginator
 from django.shortcuts import render, get_object_or_404
 from .models import Post
 from .models import career_post
+from .models import LandingPage
 
 # pagination imports
 from django.core.paginator import Page, EmptyPage, PageNotAnInteger, Paginator
 
 
-year_list = {
-    1: "Jan",
-    2: "Feb",
-    3: "Mar",
-    4: "Apr",
-    5: "May",
-    6: "Jun",
-    7: "Jul",
-    8: "Aug",
-    9: "Sep",
-    10: "Oct",
-    11: "Nov",
-    12: "Dec",
-}
-
-
 def post_list(request):
+    # landing page objects
+    index_obj = LandingPage.objects.first()
+
+    # end of landing page objects
+
     # blog related objects
     object_list = Post.published.all().order_by("-publish")
     paginator = Paginator(object_list, 2)
@@ -46,8 +36,8 @@ def post_list(request):
         # career related context obj
         "company": workplaces,
         "first_two_company": workplaces[:2],
-        "year_list": year_list,
         "career_range": range(2),
+        "index_obj": index_obj,
     }
     return render(request, "blog/post/list.html", context)
 

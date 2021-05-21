@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unna" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+
     <!-- Vendor CSS-->
     <link rel="stylesheet" media="all" href='{% static "css/bootstrap.min.css"%}' />
     <link rel="stylesheet" media="all" href='{% static "css/font-awesome.min.css" %}' />
@@ -34,8 +36,11 @@
     <link rel="stylesheet" media="all" href='{% static "css/style.css"  %}' />
     <!-- Vendor JS-->
     <script src='{% static "vendors/modernizr.js"%}'></script>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
     <!-- icon -->
     <link rel="stylesheet" media="all" href='{% static "css/buttons.css"%}' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <title>Hey there!</title>
 </head>
@@ -198,11 +203,8 @@
 
 
                     <div class="apo-fh-article-content">
-                        <blockquote class="apo-style-2">
-                            <p>I am a highly organised and motivated professional software developer with
-                                experience in designing and developing scalable software solutions.</p>
-                        </blockquote>
                         {% block about_me %}
+
 
                         {% endblock about_me %}
                         <span class="apo-scroll-down-label">

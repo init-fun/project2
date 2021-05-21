@@ -61,21 +61,10 @@ class career_post(models.Model):
         return self.company_name
 
 
-class SocialMedia(models.Model):
-    name = models.CharField(max_length=50)
-    link = models.URLField()
-    LandingPage = models.ForeignKey(
-        "LandingPage", related_name="socialSites", on_delete=models.CASCADE
-    )
-
-
 class LandingPage(models.Model):
-    avatar = models.ImageField(upload_to="media/images", null=True, blank=True)
+    avatar = models.ImageField(upload_to="index/images", null=True, blank=True)
     quote = models.TextField()
     intro = models.TextField()
+    resume = models.FileField(upload_to="index/docs")
     social_json = models.JSONField(null=True)
-    resume = models.FileField(upload_to="media/docs")
     skills = models.TextField(max_length=400)
-
-    def social_nw_creator(self, *args, **kwargs):
-        self.socialSites.create()

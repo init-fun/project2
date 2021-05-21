@@ -11,7 +11,7 @@ from django.core.paginator import Page, EmptyPage, PageNotAnInteger, Paginator
 def post_list(request):
     # landing page objects
     index_obj = LandingPage.objects.first()
-
+    web_obj = index_obj.social_json
     # end of landing page objects
 
     # blog related objects
@@ -38,6 +38,7 @@ def post_list(request):
         "first_two_company": workplaces[:2],
         "career_range": range(2),
         "index_obj": index_obj,
+        "web_obj": web_obj,
     }
     return render(request, "blog/post/list.html", context)
 

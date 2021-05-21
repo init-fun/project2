@@ -58,8 +58,7 @@
 {% block about_me %}
 
 <blockquote class="apo-style-2">
-    <p>I am a highly organised and motivated professional software developer with
-        experience in designing and developing scalable software solutions.</p>
+    <p>{{index_obj.quote}}</p>
 </blockquote>
 
 <div class="apo-experience-list apo-style-2">
@@ -71,18 +70,14 @@
         <div class="apo-experience-list-item-body">
             <h2 style="font-family: Unna, sans-serif;font-weight: 400;
             line-height: 1.2em; color:black; margin-bottom: 0px;">Hello!</h2>
-            I am a software developer hailing from North India. I love to work on
-            meaningful projects with inspiring, creative people.I enjoy learning new things
-            and am currently teaching myself System Design. I also like meeting new people to talk about
-            design,
-            video games, music and ambitious product ideas over coffee or beers. If you do too, hit me up on
-            any of my social network below.
+            {{index_obj.intro}}
 
             <div style="text-align: center; margin-top: 20px;">
                 <div style="margin-top: 20px;">
                     <!-- download button -->
                     <button class="button button5">
-                        <i class="fa fa-angle-double-down" style="font-size:24px"></i> Resume
+                        <i class="fa fa-angle-double-down" style="font-size:24px"></i> <a
+                            href="{{index_obj.resume.url}}">Resume</a>
                     </button>
                 </div>
                 <div style="margin-top: 20px;">

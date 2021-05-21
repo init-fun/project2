@@ -63,3 +63,5 @@ class career_post(models.Model):
 class landingpage(models.Model):
     skills = models.TextField(max_length=400)
     resume = models.FileField(upload_to="static/resume")
+    quote = models.TextField()
+    intor = models.TextField()

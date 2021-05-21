@@ -58,3 +58,8 @@ class career_post(models.Model):
 
     def __str__(self):
         return self.company_name
+
+
+class landingpage(models.Model):
+    skills = models.TextField(max_length=400)
+    resume = models.FileField(upload_to="static/resume")

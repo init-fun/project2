@@ -40,6 +40,7 @@
     <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
     <!-- icon -->
     <link rel="stylesheet" media="all" href='{% static "css/buttons.css"%}' />
+    <link rel="stylesheet" media="all" href='{% static "css/Xtra.css"  %}' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -223,7 +224,12 @@
                 <div class="apo-section">
                     <div class="container">
                         <!-- Isotope-->
-                        <div class="grid-sizer">WORKEXP</div>
+                        <div class="grid-sizer"></div>
+                        <div class="apo-section-main-action apo-btn" id="module">
+                            Work Experience
+                        </div>
+                        <!-- <h1 class="text-center mb-5 display-4" style="color:black;">
+                            Work Experience</h1> -->
                         <div data-isotope-layout="grid"
                             class="apo-isotope apo-cols-2 apo-entries-container apo-style-4 apo-same-height-container">
 
@@ -233,8 +239,11 @@
                             {% endblock work_exp %}
                         </div>
                         <!-- End Isotope-->
-                        <footer class="apo-align-center apo-section-main-action"><a href="blog_fit_width_4_columns.html"
-                                class="apo-btn apo-btn-small">See All Work Experience stuff</a></footer>
+                        <footer class="apo-align-center apo-section-main-action">
+                            <a href="blog_fit_width_4_columns.html" class="apo-btn apo-btn-small">See All Work
+                                Experience stuff
+                            </a>
+                        </footer>
                     </div>
                 </div>
             </div>
@@ -247,7 +256,10 @@
                         <!-- Isotope-->
                         <div data-isotope-layout="grid"
                             class="apo-isotope apo-cols-3 apo-portfolio-container apo-style-6">
-                            <div class="grid-sizer">Projects</div>
+                            <div class="grid-sizer"></div>
+                            <div class="apo-section-main-action apo-btn" id="module">
+                                Projects
+                            </div>
                             {% block project %}
 
                             {% endblock project %}
@@ -273,7 +285,10 @@
                 <div class="apo-section">
                     <div class="container">
                         <!-- Isotope-->
-                        <div class="grid-sizer">Blogposts</div>
+                        <div class="grid-sizer"></div>
+                        <div class="apo-section-main-action apo-btn" id="module">
+                            Blogposts
+                        </div>
                         <div data-isotope-layout="grid"
                             class="apo-isotope apo-cols-2 apo-entries-container apo-style-4 apo-same-height-container">
 
@@ -316,7 +331,8 @@
                                     </ul>
                                 </div>
                                 <div class="col-sm-6">
-                                    By yours truly.
+                                    By yours truly.<br>
+                                    Yada Yada Yo, take me back to the top.
 
                                 </div>
 

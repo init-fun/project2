@@ -119,6 +119,7 @@
 /* ------------------------------------------------------
   0. Reset
 ------------------------------------------------------ */
+
 * {
   margin: 0;
   padding: 0;
@@ -217,7 +218,7 @@ fieldset, legend, label, select, input, textarea, form, button, optgroup {
   -webkit-appearance: none;
 }
 
-.apo-page-dark-skin a, .apo-striped-photo a, .apo-team-member-name a, .apo-footer .apo-contact-info-widget a, .apo-entries-container.apo-style-1 .apo-entry a:not(.apo-btn), .apo-entries-container.apo-style-4 .apo-entry:hover a:not(.apo-btn), .apo-portfolio-container.apo-style-2 .apo-project a, .apo-portfolio-container.apo-style-3 .apo-project a, .apo-portfolio-container.apo-style-4 .apo-project a, .apo-portfolio-container.apo-style-5 .apo-project-categories a, .apo-portfolio-container.apo-style-6 .apo-project-title a, .apo-portfolio-container.apo-style-6 .apo-project-categories a, .apo-footer.apo-style-2 a, a, .apo-pagination > li > a, .apo-pagination .current, .apo-filter a, .apo-filter a.apo-active, .apo-full-page-controls .apo-language, .apo-widget-area a, .apo-entry-tags a, .apo-entries-container.apo-style-2 .apo-entry a:not(.apo-btn), .apo-entries-container.apo-style-3 .apo-entry a:not(.apo-btn), .apo-entries-container.apo-style-4 .apo-entry a:not(.apo-btn), .apo-entry.apo-single .apo-entry-meta a, .comments-list .reply, .apo-contact-section-body .apo-contact-info a, .apo-contact-section-footer a, .apo-portfolio-container.apo-style-1 .apo-project-categories a {
+.apo-page-dark-skin a, .apo-striped-photo a, .apo-team-member-name a, .apo-footer .apo-contact-info-widget a, .apo-entries-container.apo-style-1 .apo-entry a:not(.apo-btn), .apo-entries-container.apo-style-4 .apo-entry:hover a:not(.apo-btn), .apo-portfolio-container.apo-style-2 .apo-project a, .apo-portfolio-container.apo-style-3 .apo-project a, .apo-portfolio-container.apo-style-4 .apo-project a, .apo-portfolio-container.apo-style-5 .apo-project-categories a, .apo-portfolio-container.apo-style-6 .apo-project-title a, .apo-portfolio-container.apo-style-6 .apo-project-categories a, .apo-footer.apo-style-2 a, a, .apo-pagination>li>a, .apo-pagination .current, .apo-filter a, .apo-filter a.apo-active, .apo-full-page-controls .apo-language, .apo-widget-area a, .apo-entry-tags a, .apo-entries-container.apo-style-2 .apo-entry a:not(.apo-btn), .apo-entries-container.apo-style-3 .apo-entry a:not(.apo-btn), .apo-entries-container.apo-style-4 .apo-entry a:not(.apo-btn), .apo-entry.apo-single .apo-entry-meta a, .comments-list .reply, .apo-contact-section-body .apo-contact-info a, .apo-contact-section-footer a, .apo-portfolio-container.apo-style-1 .apo-project-categories a {
   border: none;
   line-height: inherit;
   display: inline;
@@ -228,7 +229,7 @@ fieldset, legend, label, select, input, textarea, form, button, optgroup {
   transition: all 0.4s ease-out;
 }
 
-.apo-footer .apo-contact-info-widget a:hover, .apo-team-member-name a:hover, .apo-entries-container.apo-style-1 .apo-entry a:hover:not(.apo-btn), .apo-portfolio-container.apo-style-2 .apo-project a:hover, .apo-portfolio-container.apo-style-3 .apo-project a:hover, .apo-portfolio-container.apo-style-4 .apo-project a:hover, .apo-portfolio-container.apo-style-5 .apo-project-categories a:hover, .apo-portfolio-container.apo-style-6 .apo-project-title a:hover, .apo-portfolio-container.apo-style-6 .apo-project-categories a:hover, .apo-footer.apo-style-2 a:hover, a:hover, .apo-pagination > li > a:hover, .apo-pagination .current:hover, .apo-filter a.apo-active:hover, .apo-full-page-controls .apo-language:hover, .apo-entries-container.apo-style-2 .apo-entry a:hover:not(.apo-btn), .apo-entries-container.apo-style-3 .apo-entry a:hover:not(.apo-btn), .apo-entries-container.apo-style-4 .apo-entry a:hover:not(.apo-btn), .apo-entry.apo-single .apo-entry-meta a:hover, .comments-list .reply:hover, .apo-contact-section-body .apo-contact-info a:hover, .apo-portfolio-container.apo-style-1 .apo-project-categories a:hover, .apo-footer .apo-contact-info-widget a:focus, .apo-entries-container.apo-style-1 .apo-entry a:focus:not(.apo-btn), .apo-portfolio-container.apo-style-2 .apo-project a:focus, .apo-portfolio-container.apo-style-3 .apo-project a:focus, .apo-portfolio-container.apo-style-4 .apo-project a:focus, .apo-portfolio-container.apo-style-5 .apo-project-categories a:focus, .apo-portfolio-container.apo-style-6 .apo-project-title a:focus, .apo-portfolio-container.apo-style-6 .apo-project-categories a:focus, .apo-footer.apo-style-2 a:focus, a:focus, .apo-pagination > li > a:focus, .apo-pagination .current:focus, .apo-filter a.apo-active:focus, .apo-full-page-controls .apo-language:focus, .apo-entries-container.apo-style-2 .apo-entry a:focus:not(.apo-btn), .apo-entries-container.apo-style-3 .apo-entry a:focus:not(.apo-btn), .apo-entries-container.apo-style-4 .apo-entry a:focus:not(.apo-btn), .apo-entry.apo-single .apo-entry-meta a:focus, .comments-list .reply:focus, .apo-contact-section-body .apo-contact-info a:focus, .apo-portfolio-container.apo-style-1 .apo-project-categories a:focus {
+.apo-footer .apo-contact-info-widget a:hover, .apo-team-member-name a:hover, .apo-entries-container.apo-style-1 .apo-entry a:hover:not(.apo-btn), .apo-portfolio-container.apo-style-2 .apo-project a:hover, .apo-portfolio-container.apo-style-3 .apo-project a:hover, .apo-portfolio-container.apo-style-4 .apo-project a:hover, .apo-portfolio-container.apo-style-5 .apo-project-categories a:hover, .apo-portfolio-container.apo-style-6 .apo-project-title a:hover, .apo-portfolio-container.apo-style-6 .apo-project-categories a:hover, .apo-footer.apo-style-2 a:hover, a:hover, .apo-pagination>li>a:hover, .apo-pagination .current:hover, .apo-filter a.apo-active:hover, .apo-full-page-controls .apo-language:hover, .apo-entries-container.apo-style-2 .apo-entry a:hover:not(.apo-btn), .apo-entries-container.apo-style-3 .apo-entry a:hover:not(.apo-btn), .apo-entries-container.apo-style-4 .apo-entry a:hover:not(.apo-btn), .apo-entry.apo-single .apo-entry-meta a:hover, .comments-list .reply:hover, .apo-contact-section-body .apo-contact-info a:hover, .apo-portfolio-container.apo-style-1 .apo-project-categories a:hover, .apo-footer .apo-contact-info-widget a:focus, .apo-entries-container.apo-style-1 .apo-entry a:focus:not(.apo-btn), .apo-portfolio-container.apo-style-2 .apo-project a:focus, .apo-portfolio-container.apo-style-3 .apo-project a:focus, .apo-portfolio-container.apo-style-4 .apo-project a:focus, .apo-portfolio-container.apo-style-5 .apo-project-categories a:focus, .apo-portfolio-container.apo-style-6 .apo-project-title a:focus, .apo-portfolio-container.apo-style-6 .apo-project-categories a:focus, .apo-footer.apo-style-2 a:focus, a:focus, .apo-pagination>li>a:focus, .apo-pagination .current:focus, .apo-filter a.apo-active:focus, .apo-full-page-controls .apo-language:focus, .apo-entries-container.apo-style-2 .apo-entry a:focus:not(.apo-btn), .apo-entries-container.apo-style-3 .apo-entry a:focus:not(.apo-btn), .apo-entries-container.apo-style-4 .apo-entry a:focus:not(.apo-btn), .apo-entry.apo-single .apo-entry-meta a:focus, .comments-list .reply:focus, .apo-contact-section-body .apo-contact-info a:focus, .apo-portfolio-container.apo-style-1 .apo-project-categories a:focus {
   background-size: 100% 1px;
 }
 
@@ -236,7 +237,7 @@ fieldset, legend, label, select, input, textarea, form, button, optgroup {
   background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
 }
 
-a, .apo-pagination > li > a, .apo-pagination .current, .apo-filter a, .apo-filter a.apo-active, .apo-full-page-controls .apo-language, .apo-widget-area a, .apo-entry-tags a, .apo-entries-container.apo-style-2 .apo-entry a:not(.apo-btn), .apo-entries-container.apo-style-3 .apo-entry a:not(.apo-btn), .apo-entries-container.apo-style-4 .apo-entry a:not(.apo-btn), .apo-entry.apo-single .apo-entry-meta a, .comments-list .reply, .apo-contact-section-body .apo-contact-info a, .apo-contact-section-footer a {
+a, .apo-pagination>li>a, .apo-pagination .current, .apo-filter a, .apo-filter a.apo-active, .apo-full-page-controls .apo-language, .apo-widget-area a, .apo-entry-tags a, .apo-entries-container.apo-style-2 .apo-entry a:not(.apo-btn), .apo-entries-container.apo-style-3 .apo-entry a:not(.apo-btn), .apo-entries-container.apo-style-4 .apo-entry a:not(.apo-btn), .apo-entry.apo-single .apo-entry-meta a, .comments-list .reply, .apo-contact-section-body .apo-contact-info a, .apo-contact-section-footer a {
   background-image: linear-gradient(to bottom, #000000 0%, #000000 100%);
 }
 
@@ -244,14 +245,14 @@ a, .apo-pagination > li > a, .apo-pagination .current, .apo-filter a, .apo-filte
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
-.apo-logo,
-.apo-header-button, .apo-header a, .apo-fullscreen-nav-pages a, .apo-hidden-column a, .apo-breadcrumbs a, .apo-tabs-nav > li > a, .apo-social-networks > li > a, .apo-lightbox, #fp-nav ul > li > a, .apo-fp-menu a, .tagcloud a, .apo-entry-media a, .apo-entries-container.apo-style-5 .apo-entry a, .apo-portfolio-container.apo-style-1 .apo-project-title a, .apo-portfolio-container.apo-style-5 .apo-project-title a, .apo-footer a, .apo-footer .apo-social-networks a, .apo-page-dark-skin a.apo-btn {
+.apo-logo, .apo-header-button, .apo-header a, .apo-fullscreen-nav-pages a, .apo-hidden-column a, .apo-breadcrumbs a, .apo-tabs-nav>li>a, .apo-social-networks>li>a, .apo-lightbox, #fp-nav ul>li>a, .apo-fp-menu a, .tagcloud a, .apo-entry-media a, .apo-entries-container.apo-style-5 .apo-entry a, .apo-portfolio-container.apo-style-1 .apo-project-title a, .apo-portfolio-container.apo-style-5 .apo-project-title a, .apo-footer a, .apo-footer .apo-social-networks a, .apo-page-dark-skin a.apo-btn {
   background-image: none;
 }
 
 /* ------------------------------------------------------
   1. Global
 ------------------------------------------------------ */
+
 html {
   overflow-x: hidden;
 }
@@ -285,13 +286,11 @@ body {
   opacity: 1 !important;
 }
 
-.apo-hidden-column .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
-.apo-hidden-column .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+.apo-hidden-column .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .apo-hidden-column .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
   background-color: #000000 !important;
 }
 
-.apo-hidden-column.apo-hidden-column-dark .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
-.apo-hidden-column.apo-hidden-column-dark .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+.apo-hidden-column.apo-hidden-column-dark .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .apo-hidden-column.apo-hidden-column-dark .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
   background-color: #ffffff !important;
 }
 
@@ -302,6 +301,7 @@ body {
 /* ------------------------------------------------------
         1.1. Preloader
     ------------------------------------------------------ */
+
 .apo-preloader {
   text-align: center;
   background-color: #fff;
@@ -362,9 +362,11 @@ body {
 /* ------------------------------------------------------
         1.2. Reusable Patterns
     ------------------------------------------------------ */
+
 /* ------------------------------------------------------
 	    1.2.0. Grid
 	------------------------------------------------------ */
+
 .apo-grid {
   font-size: 0;
   line-height: 0;
@@ -398,8 +400,7 @@ body {
   width: 25%;
 }
 
-.apo-grid.apo-cols-3 .apo-grid-col,
-.apo-has-sidebar .apo-grid.apo-cols-4 .apo-grid-col {
+.apo-grid.apo-cols-3 .apo-grid-col, .apo-has-sidebar .apo-grid.apo-cols-4 .apo-grid-col {
   width: 33.33333%;
 }
 
@@ -410,6 +411,7 @@ body {
 /* ------------------------------------------------------
 	    1.2.1. Aligner
 	------------------------------------------------------ */
+
 .apo-aligner-outer {
   display: table;
   table-layout: fixed;
@@ -452,6 +454,7 @@ body {
 /* ------------------------------------------------------
 	    1.2.2. Isotope
 	------------------------------------------------------ */
+
 .apo-isotope {
   margin-top: -30px;
   margin-left: -15px;
@@ -469,8 +472,7 @@ body {
 				}*/
 }
 
-.apo-isotope.apo-cols-4 .grid-sizer,
-.apo-isotope.apo-cols-4 .apo-item {
+.apo-isotope.apo-cols-4 .grid-sizer, .apo-isotope.apo-cols-4 .apo-item {
   width: 25%;
 }
 
@@ -478,8 +480,7 @@ body {
   width: 50%;
 }
 
-.apo-isotope.apo-cols-3 .grid-sizer,
-.apo-isotope.apo-cols-3 .apo-item {
+.apo-isotope.apo-cols-3 .grid-sizer, .apo-isotope.apo-cols-3 .apo-item {
   width: 33.33333%;
 }
 
@@ -487,8 +488,7 @@ body {
   width: 66.66666%;
 }
 
-.apo-isotope.apo-cols-2 .grid-sizer,
-.apo-isotope.apo-cols-2 .apo-item {
+.apo-isotope.apo-cols-2 .grid-sizer, .apo-isotope.apo-cols-2 .apo-item {
   width: 50%;
 }
 
@@ -500,6 +500,7 @@ body {
 	    1.2.3. Table Row (Extension for 
 	    the bootstrap grid system)
 	------------------------------------------------------ */
+
 .apo-table-row {
   margin-left: 0;
   margin-right: 0;
@@ -508,27 +509,28 @@ body {
   table-layout: fixed;
 }
 
-.apo-table-row > [class*="col-"] {
+.apo-table-row>[class*="col-"] {
   display: table-cell;
   vertical-align: middle;
   float: none;
 }
 
-.apo-table-row > [class*="col-"]:first-child {
+.apo-table-row>[class*="col-"]:first-child {
   padding-left: 0;
 }
 
-.apo-table-row > [class*="col-"]:last-child {
+.apo-table-row>[class*="col-"]:last-child {
   padding-right: 0;
 }
 
-.apo-table-row > [class*="col-"]:last-child:not(:only-child) {
+.apo-table-row>[class*="col-"]:last-child:not(:only-child) {
   text-align: right;
 }
 
 /* ------------------------------------------------------
 	    1.2.4. Named Element
 	------------------------------------------------------ */
+
 .apo-named-element {
   overflow: hidden;
 }
@@ -551,6 +553,7 @@ body {
 /* ------------------------------------------------------
         1.3. Page Skin
     ------------------------------------------------------ */
+
 .apo-page-dark-skin {
   color: #8b8b8f;
   background-color: #000000;
@@ -558,12 +561,7 @@ body {
   line-height: 30px;
 }
 
-.apo-page-dark-skin h1,
-.apo-page-dark-skin h2,
-.apo-page-dark-skin h3,
-.apo-page-dark-skin h4,
-.apo-page-dark-skin h5,
-.apo-page-dark-skin h6 {
+.apo-page-dark-skin h1, .apo-page-dark-skin h2, .apo-page-dark-skin h3, .apo-page-dark-skin h4, .apo-page-dark-skin h5, .apo-page-dark-skin h6 {
   color: #fff;
 }
 
@@ -571,8 +569,7 @@ body {
   color: #fff;
 }
 
-.apo-page-dark-skin a:hover,
-.apo-page-dark-skin a:focus {
+.apo-page-dark-skin a:hover, .apo-page-dark-skin a:focus {
   color: #fff;
 }
 
@@ -608,6 +605,7 @@ body {
 /* ------------------------------------------------------
   2. Layout
 ------------------------------------------------------ */
+
 .apo-section {
   padding-top: 85px;
   padding-bottom: 85px;
@@ -630,15 +628,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .apo-no-flexbox .apo-fullheight-section {
@@ -646,8 +644,7 @@ body {
   padding-bottom: 182px;
 }
 
-.apo-has-sidebar.apo-section-thin,
-.apo-has-sidebar .apo-section-thin {
+.apo-has-sidebar.apo-section-thin, .apo-has-sidebar .apo-section-thin {
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -666,16 +663,11 @@ body {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-.apo-section:not([data-bg-img-src]):not([data-image-src]) + .apo-section:not([data-bg-img-src]):not([data-image-src]),
-.apo-page-header + .apo-section,
-.apo-section + .apo-page-controls,
-.apo-section .apo-section:first-child,
-.apo-page-header + .container > .apo-section:first-child {
+.apo-section:not([data-bg-img-src]):not([data-image-src])+.apo-section:not([data-bg-img-src]):not([data-image-src]), .apo-page-header+.apo-section, .apo-section+.apo-page-controls, .apo-section .apo-section:first-child, .apo-page-header+.container>.apo-section:first-child {
   padding-top: 0;
 }
 
-.apo-section .apo-section:last-child,
-.apo-section .apo-page-controls:last-child {
+.apo-section .apo-section:last-child, .apo-section .apo-page-controls:last-child {
   padding-bottom: 0;
 }
 
@@ -699,13 +691,13 @@ body {
   padding-bottom: 55px;
 }
 
-.apo-section + .apo-page-controls.apo-small {
+.apo-section+.apo-page-controls.apo-small {
   margin-top: -80px;
   position: relative;
   z-index: 3;
 }
 
-.apo-section + .apo-page-controls.apo-medium {
+.apo-section+.apo-page-controls.apo-medium {
   margin-top: -85px;
   position: relative;
   z-index: 3;
@@ -719,6 +711,7 @@ body {
 /* ------------------------------------------------------
         2.1. Fixed Content
     ------------------------------------------------------ */
+
 .apo-fixed-content-fixed-col {
   font-size: 14px;
   line-height: 24px;
@@ -742,34 +735,26 @@ body {
   right: 4%;
 }
 
-.apo-fixed-content-fixed-col + .apo-fixed-content-scroll-col {
+.apo-fixed-content-fixed-col+.apo-fixed-content-scroll-col {
   padding-left: 56%;
 }
 
-.apo-fixed-content-fixed-col h1,
-.apo-fixed-content-fixed-col h2,
-.apo-fixed-content-fixed-col h3,
-.apo-fixed-content-fixed-col h4,
-.apo-fixed-content-fixed-col h5,
-.apo-fixed-content-fixed-col h6 {
+.apo-fixed-content-fixed-col h1, .apo-fixed-content-fixed-col h2, .apo-fixed-content-fixed-col h3, .apo-fixed-content-fixed-col h4, .apo-fixed-content-fixed-col h5, .apo-fixed-content-fixed-col h6 {
   color: #000;
 }
 
-.apo-fixed-content-fixed-col h1:not(:last-child),
-.apo-fixed-content-fixed-col h2:not(:last-child),
-.apo-fixed-content-fixed-col h3:not(:last-child) {
+.apo-fixed-content-fixed-col h1:not(:last-child), .apo-fixed-content-fixed-col h2:not(:last-child), .apo-fixed-content-fixed-col h3:not(:last-child) {
   margin-bottom: 40px;
 }
 
-.apo-fixed-content-fixed-col h4:not(:last-child),
-.apo-fixed-content-fixed-col h5:not(:last-child),
-.apo-fixed-content-fixed-col h6:not(:last-child) {
+.apo-fixed-content-fixed-col h4:not(:last-child), .apo-fixed-content-fixed-col h5:not(:last-child), .apo-fixed-content-fixed-col h6:not(:last-child) {
   margin-bottom: 50px;
 }
 
 /* ------------------------------------------------------
         2.2. Full Height Article
     ------------------------------------------------------ */
+
 .apo-fh-article {
   position: relative;
   z-index: 1;
@@ -809,12 +794,9 @@ body {
 }
 
 .apo-fh-article-title {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-family: Unna, sans-serif;
   font-size: 50px;
-  line-height: 28px;
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 .apo-fh-article-title:not(:last-child) {
@@ -839,8 +821,7 @@ body {
   padding: 50px 200px 50px 100px;
 }
 
-.apo-fh-article blockquote,
-.apo-fh-article blockquote[class*="apo-style"] {
+.apo-fh-article blockquote, .apo-fh-article blockquote[class*="apo-style"] {
   color: #000000;
   font-size: 30px;
   line-height: 40px;
@@ -865,6 +846,7 @@ body {
 /* ------------------------------------------------------
         2.3. Parallax Grid
     ------------------------------------------------------ */
+
 .apo-parallax-grid {
   font-size: 0;
   line-height: 0;
@@ -903,6 +885,7 @@ body {
 /* ------------------------------------------------------
   3. General Classes
 ------------------------------------------------------ */
+
 .apo-align-center {
   text-align: center;
 }
@@ -945,7 +928,7 @@ body {
   left: 0;
   z-index: -1;
   -webkit-filter: blur(5px);
-          filter: blur(5px);
+  filter: blur(5px);
   opacity: .5;
 }
 
@@ -972,9 +955,7 @@ body {
   vertical-align: middle;
 }
 
-.hamburger .hamburger-inner,
-.hamburger .hamburger-inner::after,
-.hamburger .hamburger-inner::before {
+.hamburger .hamburger-inner, .hamburger .hamburger-inner::after, .hamburger .hamburger-inner::before {
   height: 1px;
 }
 
@@ -997,15 +978,13 @@ body {
   right: auto;
 }
 
-.apo-page,
-.apo-header,
-.apo-footer {
+.apo-page, .apo-header, .apo-footer {
   transition: all 0.4s ease-out;
 }
 
 .apo-blured {
   -webkit-filter: blur(15px);
-          filter: blur(15px);
+  filter: blur(15px);
 }
 
 body.apo-body-scroll-locked {
@@ -1015,12 +994,12 @@ body.apo-body-scroll-locked {
 /* ------------------------------------------------------
       3.1. WordPress Core
     ------------------------------------------------------ */
+
 .alignnone {
   margin: 5px 20px 20px 0;
 }
 
-.aligncenter,
-div.aligncenter {
+.aligncenter, div.aligncenter {
   display: block;
   margin: 5px auto 5px auto;
 }
@@ -1095,6 +1074,7 @@ a img.aligncenter {
 }
 
 /* Text meant only for screen readers. */
+
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
@@ -1127,6 +1107,7 @@ a img.aligncenter {
 /* ------------------------------------------------------
       3.2. Basic Concepts
     ------------------------------------------------------ */
+
 .apo-vcentered-outer {
   display: table;
   table-layout: fixed;
@@ -1144,6 +1125,7 @@ a img.aligncenter {
 /* ------------------------------------------------------
     4. Typography
 ------------------------------------------------------ */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Abril Fatface', sans-serif;
   font-weight: 400;
@@ -1152,8 +1134,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-h1,
-.apo-h1-size {
+h1, .apo-h1-size {
   font-size: 60px;
 }
 
@@ -1177,15 +1158,11 @@ h6 {
   font-size: 20px;
 }
 
-h1:not(:last-child),
-h2:not(:last-child),
-h3:not(:last-child) {
+h1:not(:last-child), h2:not(:last-child), h3:not(:last-child) {
   margin-bottom: 46px;
 }
 
-h4:not(:last-child),
-h5:not(:last-child),
-h6:not(:last-child) {
+h4:not(:last-child), h5:not(:last-child), h6:not(:last-child) {
   margin-bottom: 50px;
 }
 
@@ -1206,8 +1183,7 @@ small {
   display: inline-block;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: #000;
   transition-duration: .2s;
 }
@@ -1251,18 +1227,14 @@ a:focus {
   margin-bottom: 25px;
 }
 
-h1 + .apo-section-sub-title,
-h2 + .apo-section-sub-title,
-h3 + .apo-section-sub-title,
-h4 + .apo-section-sub-title,
-h5 + .apo-section-sub-title,
-h6 + .apo-section-sub-title {
+h1+.apo-section-sub-title, h2+.apo-section-sub-title, h3+.apo-section-sub-title, h4+.apo-section-sub-title, h5+.apo-section-sub-title, h6+.apo-section-sub-title {
   margin-top: -10px;
 }
 
 /* ------------------------------------------------------
         4.1. Dropcap
     ------------------------------------------------------ */
+
 .apo-dropcap::first-letter {
   font-size: 60px;
   line-height: 60px;
@@ -1273,6 +1245,7 @@ h6 + .apo-section-sub-title {
 }
 
 /* firefox only */
+
 @-moz-document url-prefix() {
   .apo-dropcap::first-letter {
     margin-top: 8px;
@@ -1282,6 +1255,7 @@ h6 + .apo-section-sub-title {
 /* ------------------------------------------------------
         4.2. Blockquote
     ------------------------------------------------------ */
+
 blockquote {
   text-align: center;
   color: #a9aaae;
@@ -1291,8 +1265,7 @@ blockquote {
   padding: 0 17%;
 }
 
-blockquote.apo-style-2,
-blockquote.apo-style-3 {
+blockquote.apo-style-2, blockquote.apo-style-3 {
   font-family: "Unna", sans-serif;
   font-size: 36px;
   line-height: 55px;
@@ -1323,15 +1296,11 @@ blockquote.apo-style-3:not(:last-child) {
   margin-bottom: 140px;
 }
 
-blockquote.apo-style-3 footer::before,
-blockquote.apo-style-3 .apo-bq-author::before,
-blockquote.apo-style-3 footer::after,
-blockquote.apo-style-3 .apo-bq-author::after {
+blockquote.apo-style-3 footer::before, blockquote.apo-style-3 .apo-bq-author::before, blockquote.apo-style-3 footer::after, blockquote.apo-style-3 .apo-bq-author::after {
   display: none;
 }
 
-blockquote.apo-style-3 footer:not(:first-child),
-blockquote.apo-style-3 .apo-bq-author:not(:first-child) {
+blockquote.apo-style-3 footer:not(:first-child), blockquote.apo-style-3 .apo-bq-author:not(:first-child) {
   margin-top: 110px;
 }
 
@@ -1343,13 +1312,11 @@ blockquote p:last-of-type::after {
   content: close-quote;
 }
 
-.apo-bq-author:last-child,
-blockquote footer:last-child {
+.apo-bq-author:last-child, blockquote footer:last-child {
   margin-top: 5px;
 }
 
-.apo-bq-author,
-blockquote footer {
+.apo-bq-author, blockquote footer {
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
@@ -1362,10 +1329,7 @@ blockquote footer {
   padding: 0 13px;
 }
 
-.apo-bq-author::before,
-.apo-bq-author::after,
-blockquote footer::before,
-blockquote footer::after {
+.apo-bq-author::before, .apo-bq-author::after, blockquote footer::before, blockquote footer::after {
   content: '';
   display: block;
   width: 6px;
@@ -1375,13 +1339,11 @@ blockquote footer::after {
   margin-top: -2px;
 }
 
-.apo-bq-author::before,
-blockquote footer::before {
+.apo-bq-author::before, blockquote footer::before {
   left: 0;
 }
 
-.apo-bq-author::after,
-blockquote footer::after {
+.apo-bq-author::after, blockquote footer::after {
   right: 0;
 }
 
@@ -1396,13 +1358,13 @@ blockquote:not(:last-child) {
 /* ------------------------------------------------------
         4.3. Tooltips
     ------------------------------------------------------ */
+
 .apo-tooltip {
   position: relative;
   z-index: 1;
 }
 
-.apo-tooltip::before,
-.apo-tooltip::after {
+.apo-tooltip::before, .apo-tooltip::after {
   position: absolute;
   left: 50%;
   bottom: 100%;
@@ -1437,8 +1399,7 @@ blockquote:not(:last-child) {
   margin: 0 0 3px -5px;
 }
 
-.apo-csstransforms3d .apo-tooltip::before,
-.apo-csstransforms3d .apo-tooltip::after {
+.apo-csstransforms3d .apo-tooltip::before, .apo-csstransforms3d .apo-tooltip::after {
   transition-property: opacity, visibility, -webkit-transform;
   transition-property: transform, opacity, visibility;
   transition-property: transform, opacity, visibility, -webkit-transform;
@@ -1446,38 +1407,38 @@ blockquote:not(:last-child) {
 
 .apo-csstransforms3d .apo-tooltip::before {
   -webkit-transform: translate3d(-50%, -10px, 0);
-          transform: translate3d(-50%, -10px, 0);
+  transform: translate3d(-50%, -10px, 0);
 }
 
 .apo-csstransforms3d .apo-tooltip::after {
   -webkit-transform: translate3d(0, -10px, 0);
-          transform: translate3d(0, -10px, 0);
+  transform: translate3d(0, -10px, 0);
 }
 
 .apo-no-csstransforms3d .apo-tooltip::before {
   -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 
-.apo-tooltip:hover::before,
-.apo-tooltip:hover::after {
+.apo-tooltip:hover::before, .apo-tooltip:hover::after {
   opacity: 1;
   visibility: visible;
 }
 
 .apo-csstransforms3d .apo-tooltip:hover::before {
   -webkit-transform: translate3d(-50%, 0, 0);
-          transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
 }
 
 .apo-csstransforms3d .apo-tooltip:hover::after {
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 /* ------------------------------------------------------
     5. Header
 ------------------------------------------------------ */
+
 .apo-header {
   position: relative;
   z-index: 25;
@@ -1524,8 +1485,7 @@ blockquote:not(:last-child) {
   z-index: 1;
 }
 
-.apo-header:not(.apo-header-vertical) .apo-header-component-first,
-.apo-header:not(.apo-header-vertical) .apo-header-component-last {
+.apo-header:not(.apo-header-vertical) .apo-header-component-first, .apo-header:not(.apo-header-vertical) .apo-header-component-last {
   width: 30%;
 }
 
@@ -1548,6 +1508,7 @@ blockquote:not(:last-child) {
 /* ------------------------------------------------------
         5.1. Layout
     ------------------------------------------------------ */
+
 .apo-header-section {
   display: table;
   table-layout: fixed;
@@ -1562,6 +1523,7 @@ blockquote:not(:last-child) {
 /* ------------------------------------------------------
         5.2. Skins
     ------------------------------------------------------ */
+
 .apo-header .apo-header-section {
   color: #000000;
   background-color: #ffffff;
@@ -1571,22 +1533,12 @@ blockquote:not(:last-child) {
   color: #000000;
 }
 
-.apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a,
-.apo-page-dark-skin .apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a,
-.apo-header-light .apo-social-networks a,
-.apo-page-dark-skin .apo-header-light .apo-social-networks a {
-    color: rgba(0, 0, 0, 0.5);
+.apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a, .apo-page-dark-skin .apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a, .apo-header-light .apo-social-networks a, .apo-page-dark-skin .apo-header-light .apo-social-networks a {
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.apo-header-light .apo-social-networks a:hover,
-.apo-header-light .apo-social-networks a:focus,
-.apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a:hover,
-.apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a:focus,
-.apo-page-dark-skin .apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a:hover,
-.apo-page-dark-skin .apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a:focus,
-.apo-page-dark-skin .apo-header-light .apo-social-networks a:hover,
-.apo-page-dark-skin .apo-header-light .apo-social-networks a:focus {
-    color: #000000;
+.apo-header-light .apo-social-networks a:hover, .apo-header-light .apo-social-networks a:focus, .apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a:hover, .apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a:focus, .apo-page-dark-skin .apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a:hover, .apo-page-dark-skin .apo-hidden-column:not(.apo-hidden-column-dark) .apo-social-networks a:focus, .apo-page-dark-skin .apo-header-light .apo-social-networks a:hover, .apo-page-dark-skin .apo-header-light .apo-social-networks a:focus {
+  color: #000000;
 }
 
 .apo-header-dark, .apo-header-transparent {
@@ -1597,27 +1549,15 @@ blockquote:not(:last-child) {
   color: #ffffff;
 }
 
-.apo-header-dark .hamburger-inner,
-.apo-header-dark .hamburger-inner::after,
-.apo-header-dark .hamburger-inner::before, .apo-header-transparent .hamburger-inner,
-.apo-header-transparent .hamburger-inner::after,
-.apo-header-transparent .hamburger-inner::before {
+.apo-header-dark .hamburger-inner, .apo-header-dark .hamburger-inner::after, .apo-header-dark .hamburger-inner::before, .apo-header-transparent .hamburger-inner, .apo-header-transparent .hamburger-inner::after, .apo-header-transparent .hamburger-inner::before {
   background-color: #ffffff;
 }
 
-.apo-header-dark .apo-navigation > li:hover > a,
-.apo-header-dark .apo-navigation > .apo-tapped > a,
-.apo-header-dark .apo-navigation > .apo-selected > a,
-.apo-header-dark .apo-navigation > .apo-current > a,
-.apo-header-dark .apo-navigation > .current-menu-item > a, .apo-header-transparent .apo-navigation > li:hover > a,
-.apo-header-transparent .apo-navigation > .apo-tapped > a,
-.apo-header-transparent .apo-navigation > .apo-selected > a,
-.apo-header-transparent .apo-navigation > .apo-current > a,
-.apo-header-transparent .apo-navigation > .current-menu-item > a {
+.apo-header-dark .apo-navigation>li:hover>a, .apo-header-dark .apo-navigation>.apo-tapped>a, .apo-header-dark .apo-navigation>.apo-selected>a, .apo-header-dark .apo-navigation>.apo-current>a, .apo-header-dark .apo-navigation>.current-menu-item>a, .apo-header-transparent .apo-navigation>li:hover>a, .apo-header-transparent .apo-navigation>.apo-tapped>a, .apo-header-transparent .apo-navigation>.apo-selected>a, .apo-header-transparent .apo-navigation>.apo-current>a, .apo-header-transparent .apo-navigation>.current-menu-item>a {
   color: #fff;
 }
 
-.apo-header-dark .apo-navigation > li > a::after, .apo-header-transparent .apo-navigation > li > a::after {
+.apo-header-dark .apo-navigation>li>a::after, .apo-header-transparent .apo-navigation>li>a::after {
   background-color: #fff;
 }
 
@@ -1634,7 +1574,7 @@ blockquote:not(:last-child) {
   background-color: #000000;
 }
 
-.apo-header-dark .apo-navigation > li > a {
+.apo-header-dark .apo-navigation>li>a {
   color: #8a8a8a;
 }
 
@@ -1668,19 +1608,7 @@ blockquote:not(:last-child) {
   opacity: 0.5;
 }
 
-.apo-header-dark input[type="text"],
-.apo-header-dark input[type="email"],
-.apo-header-dark input[type="password"],
-.apo-header-dark input[type="number"],
-.apo-header-dark input[type="search"],
-.apo-header-dark input[type="url"],
-.apo-header-dark input[type="date"],
-.apo-header-dark input[type="datetime-local"],
-.apo-header-dark input[type="month"],
-.apo-header-dark input[type="tel"],
-.apo-header-dark input[type="time"],
-.apo-header-dark input[type="week"],
-.apo-header-dark textarea {
+.apo-header-dark input[type="text"], .apo-header-dark input[type="email"], .apo-header-dark input[type="password"], .apo-header-dark input[type="number"], .apo-header-dark input[type="search"], .apo-header-dark input[type="url"], .apo-header-dark input[type="date"], .apo-header-dark input[type="datetime-local"], .apo-header-dark input[type="month"], .apo-header-dark input[type="tel"], .apo-header-dark input[type="time"], .apo-header-dark input[type="week"], .apo-header-dark textarea {
   border: none;
   box-shadow: inset 2px 3px 5px rgba(0, 0, 0, 0.5);
   background-color: #1a1a1a;
@@ -1707,7 +1635,7 @@ blockquote:not(:last-child) {
   background-color: transparent;
 }
 
-.apo-header-transparent .apo-navigation > li > a {
+.apo-header-transparent .apo-navigation>li>a {
   color: #fff;
 }
 
@@ -1735,22 +1663,24 @@ blockquote:not(:last-child) {
   font-weight: 400;
 }
 
-.apo-page-dark-skin .apo-header-dark .apo-social-networks > li > a {
+.apo-page-dark-skin .apo-header-dark .apo-social-networks>li>a {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.apo-page-dark-skin .apo-header-dark .apo-social-networks > li > a:hover, .apo-page-dark-skin .apo-header-dark .apo-social-networks > li > a:focus {
+.apo-page-dark-skin .apo-header-dark .apo-social-networks>li>a:hover, .apo-page-dark-skin .apo-header-dark .apo-social-networks>li>a:focus {
   color: #ffffff;
 }
 
 /* ------------------------------------------------------
         5.3. Navigation
     ------------------------------------------------------ */
+
 /*
     .menu-item-has-children
     .sub-menu
     .current-menu-item
 */
+
 .apo-mobile-nav-btn {
   text-align: center;
   font-size: 36px;
@@ -1777,13 +1707,13 @@ blockquote:not(:last-child) {
   z-index: 1;
 }
 
-.apo-navigation > li {
+.apo-navigation>li {
   display: inline-block;
   vertical-align: middle;
   margin: 20px 8px 0;
 }
 
-.apo-navigation > li > a {
+.apo-navigation>li>a {
   font-size: 12px;
   line-height: 18px;
   font-weight: 700;
@@ -1795,7 +1725,7 @@ blockquote:not(:last-child) {
   position: relative;
 }
 
-.apo-navigation > li > a::after {
+.apo-navigation>li>a::after {
   content: '';
   display: block;
   width: 5px;
@@ -1810,19 +1740,11 @@ blockquote:not(:last-child) {
   animation: apoBounceOut .5s ease forwards;
 }
 
-.apo-navigation > li:hover > a,
-.apo-navigation > .apo-tapped > a,
-.apo-navigation > .apo-selected > a,
-.apo-navigation > .apo-current > a,
-.apo-navigation > .current-menu-item > a {
+.apo-navigation>li:hover>a, .apo-navigation>.apo-tapped>a, .apo-navigation>.apo-selected>a, .apo-navigation>.apo-current>a, .apo-navigation>.current-menu-item>a {
   color: #3e3d4a;
 }
 
-.apo-navigation > li:hover > a::after,
-.apo-navigation > .apo-tapped > a::after,
-.apo-navigation > .apo-selected > a::after,
-.apo-navigation > .apo-current > a::after,
-.apo-navigation > .current-menu-item > a::after {
+.apo-navigation>li:hover>a::after, .apo-navigation>.apo-tapped>a::after, .apo-navigation>.apo-selected>a::after, .apo-navigation>.apo-current>a::after, .apo-navigation>.current-menu-item>a::after {
   -webkit-animation: apoBounceIn .5s ease forwards;
   animation: apoBounceIn .5s ease forwards;
 }
@@ -1860,36 +1782,37 @@ blockquote:not(:last-child) {
 @keyframes apoBounceIn {
   0% {
     -webkit-transform: scale3d(0, 0, 0);
-            transform: scale3d(0, 0, 0);
+    transform: scale3d(0, 0, 0);
   }
   60% {
     -webkit-transform: scale3d(1.3, 1.3, 1.3);
-            transform: scale3d(1.3, 1.3, 1.3);
+    transform: scale3d(1.3, 1.3, 1.3);
   }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 }
 
 @keyframes apoBounceOut {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
   40% {
     -webkit-transform: scale3d(1.3, 1.3, 1.3);
-            transform: scale3d(1.3, 1.3, 1.3);
+    transform: scale3d(1.3, 1.3, 1.3);
   }
   100% {
     -webkit-transform: scale3d(0, 0, 0);
-            transform: scale3d(0, 0, 0);
+    transform: scale3d(0, 0, 0);
   }
 }
 
 /* ------------------------------------------------------
             5.3.1. Sub-menu
         ------------------------------------------------------ */
+
 .apo-sub-menu {
   font-size: 14px;
   line-height: 30px;
@@ -1900,7 +1823,7 @@ blockquote:not(:last-child) {
   transition: all 0.4s ease-out;
 }
 
-.apo-sub-menu > li {
+.apo-sub-menu>li {
   margin-bottom: 18px;
 }
 
@@ -1911,15 +1834,11 @@ blockquote:not(:last-child) {
   line-height: inherit;
 }
 
-.apo-sub-menu li:hover > a,
-.apo-sub-menu .apo-tapped > a,
-.apo-sub-menu .apo-selected > a,
-.apo-sub-menu .apo-current > a,
-.apo-sub-menu a:focus {
+.apo-sub-menu li:hover>a, .apo-sub-menu .apo-tapped>a, .apo-sub-menu .apo-selected>a, .apo-sub-menu .apo-current>a, .apo-sub-menu a:focus {
   color: #000000;
 }
 
-.apo-has-children > .apo-sub-menu {
+.apo-has-children>.apo-sub-menu {
   font-size: 0;
   line-height: 0;
   position: absolute;
@@ -1934,7 +1853,7 @@ blockquote:not(:last-child) {
   padding-right: 80px;
 }
 
-.apo-has-children > .apo-sub-menu > li {
+.apo-has-children>.apo-sub-menu>li {
   font-size: 14px;
   line-height: 30px;
   display: inline-block;
@@ -1943,12 +1862,12 @@ blockquote:not(:last-child) {
   padding-right: 15px;
 }
 
-.apo-has-children > .apo-sub-menu.apo-reverse {
+.apo-has-children>.apo-sub-menu.apo-reverse {
   left: auto;
   right: -80px;
 }
 
-.apo-has-children > .apo-sub-menu::before {
+.apo-has-children>.apo-sub-menu::before {
   content: "";
   display: block;
   position: absolute;
@@ -1959,22 +1878,20 @@ blockquote:not(:last-child) {
   margin-bottom: -1px;
 }
 
-.apo-csstransforms3d .apo-has-children > .apo-sub-menu {
+.apo-csstransforms3d .apo-has-children>.apo-sub-menu {
   -webkit-transform-origin: 50% 0;
   transform-origin: 50% 0;
   -webkit-transform: scale3d(1.05, 1.05, 1.05);
   transform: scale3d(1.05, 1.05, 1.05);
 }
 
-.apo-no-touchevents .apo-selected > .apo-sub-menu,
-.apo-touchevents .apo-tapped > .apo-sub-menu {
+.apo-no-touchevents .apo-selected>.apo-sub-menu, .apo-touchevents .apo-tapped>.apo-sub-menu {
   opacity: 1;
   visibility: visible;
   z-index: 2;
 }
 
-.apo-no-touchevents.apo-csstransforms3d .apo-selected > .apo-sub-menu,
-.apo-touchevents.apo-csstransforms3d .apo-tapped > .apo-sub-menu {
+.apo-no-touchevents.apo-csstransforms3d .apo-selected>.apo-sub-menu, .apo-touchevents.apo-csstransforms3d .apo-tapped>.apo-sub-menu {
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
 }
@@ -1982,18 +1899,19 @@ blockquote:not(:last-child) {
 /* ------------------------------------------------------
                 5.3.1.1. Sub-menu (level 3)
             ------------------------------------------------------ */
+
 .apo-has-children .apo-has-children {
   position: relative;
   z-index: 1;
 }
 
-.apo-has-children .apo-has-children > a {
+.apo-has-children .apo-has-children>a {
   padding-right: 30px;
   position: relative;
   z-index: 1;
 }
 
-.apo-has-children .apo-has-children > a::after {
+.apo-has-children .apo-has-children>a::after {
   font-family: 'Linearicons';
   font-size: 16px;
   line-height: 30px;
@@ -2004,19 +1922,19 @@ blockquote:not(:last-child) {
   margin-top: -15px;
 }
 
-.apo-has-children .apo-has-children > .apo-sub-menu {
+.apo-has-children .apo-has-children>.apo-sub-menu {
   top: 0;
   left: 100%;
   margin: -60px 0 0 15px;
   min-width: 280px;
 }
 
-.apo-has-children .apo-has-children > .apo-sub-menu > li {
+.apo-has-children .apo-has-children>.apo-sub-menu>li {
   width: auto;
   display: block;
 }
 
-.apo-has-children .apo-has-children > .apo-sub-menu::before {
+.apo-has-children .apo-has-children>.apo-sub-menu::before {
   top: 0;
   bottom: auto;
   left: auto;
@@ -2026,7 +1944,7 @@ blockquote:not(:last-child) {
   margin: 0 -1px 0 0;
 }
 
-.apo-has-children .apo-has-children > .apo-sub-menu.apo-reverse {
+.apo-has-children .apo-has-children>.apo-sub-menu.apo-reverse {
   left: auto;
   right: 100%;
   margin-left: auto;
@@ -2036,6 +1954,7 @@ blockquote:not(:last-child) {
 /* ------------------------------------------------------
             5.3.2. Full Screen Navigation
         ------------------------------------------------------ */
+
 .apo-fullscreen-nav-title {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -2054,7 +1973,7 @@ blockquote:not(:last-child) {
   line-height: 24px;
 }
 
-.apo-fullscreen-nav-pages > li:not(:last-child) {
+.apo-fullscreen-nav-pages>li:not(:last-child) {
   margin-bottom: 25px;
 }
 
@@ -2062,17 +1981,18 @@ blockquote:not(:last-child) {
   color: #a9aaae;
 }
 
-.apo-fullscreen-nav-pages .apo-active > a,
-.apo-fullscreen-nav-pages a:hover, .apo-fullscreen-nav-pages a:focus {
+.apo-fullscreen-nav-pages .apo-active>a, .apo-fullscreen-nav-pages a:hover, .apo-fullscreen-nav-pages a:focus {
   color: #fff;
 }
 
 /* ------------------------------------------------------
         5.4. Vertical
     ------------------------------------------------------ */
+
 /* ------------------------------------------------------
 	    5.4.1. Side Header
 	------------------------------------------------------ */
+
 body.apo-header-vertical-left {
   margin-left: 100px;
 }
@@ -2150,7 +2070,7 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   margin: -17px -15px;
 }
 
-.apo-header-vertical .apo-header-item .apo-social-networks > li {
+.apo-header-vertical .apo-header-item .apo-social-networks>li {
   display: block;
 }
 
@@ -2163,7 +2083,7 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   letter-spacing: 5px;
   text-transform: uppercase;
   -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
 }
 
 .apo-header-vertical .apo-header-button {
@@ -2183,7 +2103,7 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
 
 .apo-csstransforms3d .apo-header-vertical .apo-header-item .apo-page-title {
   -webkit-transform: rotate3d(0, 0, 1, -90deg);
-          transform: rotate3d(0, 0, 1, -90deg);
+  transform: rotate3d(0, 0, 1, -90deg);
 }
 
 .apo-nocsstransforms3d .apo-header-vertical .apo-header-item .apo-page-title {
@@ -2194,39 +2114,28 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
 /* ------------------------------------------------------
         5.5. Hidden Side Column
     ------------------------------------------------------ */
-.apo-hidden-column-initialized .apo-page,
-.apo-hidden-column-initialized .apo-footer,
-.apo-hidden-column-initialized .apo-fixed-content-fixed-col,
-.apo-hidden-column-initialized .apo-full-page-fixed-col {
+
+.apo-hidden-column-initialized .apo-page, .apo-hidden-column-initialized .apo-footer, .apo-hidden-column-initialized .apo-fixed-content-fixed-col, .apo-hidden-column-initialized .apo-full-page-fixed-col {
   transition: all 0.4s ease-out;
 }
 
-.apo-hidden-column-initialized .apo-page,
-.apo-hidden-column-initialized .apo-footer {
+.apo-hidden-column-initialized .apo-page, .apo-hidden-column-initialized .apo-footer {
   position: relative;
 }
 
-.apo-hidden-column-initialized.apo-hidden-column-left .apo-page,
-.apo-hidden-column-initialized.apo-hidden-column-left .apo-footer {
+.apo-hidden-column-initialized.apo-hidden-column-left .apo-page, .apo-hidden-column-initialized.apo-hidden-column-left .apo-footer {
   left: 0;
 }
 
-.apo-hidden-column-initialized.apo-hidden-column-right .apo-page,
-.apo-hidden-column-initialized.apo-hidden-column-right .apo-footer {
+.apo-hidden-column-initialized.apo-hidden-column-right .apo-page, .apo-hidden-column-initialized.apo-hidden-column-right .apo-footer {
   right: 0;
 }
 
-.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-page,
-.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-footer,
-.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-fixed-content-fixed-col,
-.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-full-page-fixed-col {
+.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-page, .apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-footer, .apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-fixed-content-fixed-col, .apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-full-page-fixed-col {
   left: 375px;
 }
 
-.apo-header-vertical-left.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-page,
-.apo-header-vertical-left.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-footer,
-.apo-header-vertical-left.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-fixed-content-fixed-col,
-.apo-header-vertical-left.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-full-page-fixed-col {
+.apo-header-vertical-left.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-page, .apo-header-vertical-left.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-footer, .apo-header-vertical-left.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-fixed-content-fixed-col, .apo-header-vertical-left.apo-hidden-column-initialized.apo-hidden-column-left.apo-hidden-column-opened .apo-full-page-fixed-col {
   left: 275px;
 }
 
@@ -2237,7 +2146,7 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
 .apo-csstransforms3d .apo-hidden-column-left .apo-hidden-column {
   left: 0;
   -webkit-transform: translate3d(-100%, 0, 0);
-          transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
 }
 
 .apo-no-csstransforms3d .apo-hidden-column-right .apo-hidden-column {
@@ -2247,16 +2156,14 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
 .apo-csstransforms3d .apo-hidden-column-right .apo-hidden-column {
   right: 0;
   -webkit-transform: translate3d(100%, 0, 0);
-          transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
 }
 
-.apo-hidden-column-initialized.apo-hidden-column-right.apo-hidden-column-opened .apo-page,
-.apo-hidden-column-initialized.apo-hidden-column-right.apo-hidden-column-opened .apo-footer {
+.apo-hidden-column-initialized.apo-hidden-column-right.apo-hidden-column-opened .apo-page, .apo-hidden-column-initialized.apo-hidden-column-right.apo-hidden-column-opened .apo-footer {
   right: 375px;
 }
 
-.apo-header-vertical-right.apo-hidden-column-initialized.apo-hidden-column-right.apo-hidden-column-opened .apo-page,
-.apo-header-vertical-right.apo-hidden-column-initialized.apo-hidden-column-right.apo-hidden-column-opened .apo-footer {
+.apo-header-vertical-right.apo-hidden-column-initialized.apo-hidden-column-right.apo-hidden-column-opened .apo-page, .apo-header-vertical-right.apo-hidden-column-initialized.apo-hidden-column-right.apo-hidden-column-opened .apo-footer {
   right: 275px;
 }
 
@@ -2268,10 +2175,9 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   right: 0;
 }
 
-.apo-csstransforms3d .apo-hidden-column-opened.apo-hidden-column-left .apo-hidden-column,
-.apo-csstransforms3d .apo-hidden-column-opened.apo-hidden-column-right .apo-hidden-column {
+.apo-csstransforms3d .apo-hidden-column-opened.apo-hidden-column-left .apo-hidden-column, .apo-csstransforms3d .apo-hidden-column-opened.apo-hidden-column-right .apo-hidden-column {
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .apo-hidden-column {
@@ -2301,18 +2207,7 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   background-color: transparent;
 }
 
-.apo-hidden-column-dark .apo-navigation > li:hover > a,
-.apo-hidden-column-dark .apo-navigation > .apo-tapped > a,
-.apo-hidden-column-dark .apo-navigation > .apo-selected > a,
-.apo-hidden-column-dark .apo-navigation > .apo-current > a,
-.apo-hidden-column-dark .apo-navigation > .current-menu-item > a,
-.apo-hidden-column-dark a:hover,
-.apo-hidden-column-dark a:focus,
-.apo-hidden-column-dark .apo-sub-menu li:hover > a,
-.apo-hidden-column-dark .apo-sub-menu .apo-tapped > a,
-.apo-hidden-column-dark .apo-sub-menu .apo-selected > a,
-.apo-hidden-column-dark .apo-sub-menu > .apo-current > a,
-.apo-hidden-column-dark .apo-sub-menu a:focus {
+.apo-hidden-column-dark .apo-navigation>li:hover>a, .apo-hidden-column-dark .apo-navigation>.apo-tapped>a, .apo-hidden-column-dark .apo-navigation>.apo-selected>a, .apo-hidden-column-dark .apo-navigation>.apo-current>a, .apo-hidden-column-dark .apo-navigation>.current-menu-item>a, .apo-hidden-column-dark a:hover, .apo-hidden-column-dark a:focus, .apo-hidden-column-dark .apo-sub-menu li:hover>a, .apo-hidden-column-dark .apo-sub-menu .apo-tapped>a, .apo-hidden-column-dark .apo-sub-menu .apo-selected>a, .apo-hidden-column-dark .apo-sub-menu>.apo-current>a, .apo-hidden-column-dark .apo-sub-menu a:focus {
   color: #fff;
 }
 
@@ -2320,11 +2215,11 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   border-color: rgba(255, 255, 255, 0.1);
 }
 
-.apo-page-dark-skin .apo-hidden-column .apo-social-networks > li > a {
+.apo-page-dark-skin .apo-hidden-column .apo-social-networks>li>a {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.apo-page-dark-skin .apo-hidden-column .apo-social-networks > li > a:hover, .apo-page-dark-skin .apo-hidden-column .apo-social-networks > li > a:focus {
+.apo-page-dark-skin .apo-hidden-column .apo-social-networks>li>a:hover, .apo-page-dark-skin .apo-hidden-column .apo-social-networks>li>a:focus {
   color: #ffffff;
 }
 
@@ -2335,9 +2230,7 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   height: 100%;
 }
 
-.apo-hidden-column-header,
-.apo-hidden-column-content,
-.apo-hidden-column-footer {
+.apo-hidden-column-header, .apo-hidden-column-content, .apo-hidden-column-footer {
   display: table-row;
 }
 
@@ -2419,16 +2312,16 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   display: block !important;
 }
 
-.apo-hidden-column .apo-navigation > li {
+.apo-hidden-column .apo-navigation>li {
   display: block;
   margin: 0;
 }
 
-.apo-hidden-column .apo-navigation > li:not(:last-child) {
+.apo-hidden-column .apo-navigation>li:not(:last-child) {
   margin-bottom: 22px;
 }
 
-.apo-hidden-column .apo-navigation > li > a {
+.apo-hidden-column .apo-navigation>li>a {
   font-family: "Unna", sans-serif;
   font-size: 48px;
   line-height: 1em;
@@ -2436,7 +2329,7 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   text-transform: none;
 }
 
-.apo-hidden-column .apo-navigation > li > a::after {
+.apo-hidden-column .apo-navigation>li>a::after {
   display: none;
 }
 
@@ -2446,7 +2339,7 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   opacity: 1;
   visibility: visible;
   -webkit-transform: none;
-          transform: none;
+  transform: none;
   transition: none;
   min-width: initial;
   padding: 0;
@@ -2459,20 +2352,21 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   padding-top: 20px;
 }
 
-.apo-hidden-column .apo-has-children .apo-sub-menu > li {
+.apo-hidden-column .apo-has-children .apo-sub-menu>li {
   line-height: 22px;
   display: block;
   width: 100%;
   margin-bottom: 15px;
 }
 
-.apo-hidden-column .apo-has-children .apo-has-children > a::after {
+.apo-hidden-column .apo-has-children .apo-has-children>a::after {
   content: "\e93a";
 }
 
 /* ------------------------------------------------------
     6. Page Header
 ------------------------------------------------------ */
+
 .apo-page-header {
   padding: 95px 0 90px;
   display: table;
@@ -2549,6 +2443,7 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
 /* ------------------------------------------------------
         6.1. Breadcrumbs
     ------------------------------------------------------ */
+
 .apo-breadcrumbs {
   font-size: 12px;
   line-height: 24px;
@@ -2557,13 +2452,13 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   margin-top: -5px;
 }
 
-.apo-breadcrumbs > li {
+.apo-breadcrumbs>li {
   display: inline-block;
   vertical-align: baseline;
   margin-top: 5px;
 }
 
-.apo-breadcrumbs > li:not(:last-child)::after {
+.apo-breadcrumbs>li:not(:last-child)::after {
   content: "/";
   color: #9b9c9f;
   display: inline-block;
@@ -2581,10 +2476,12 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
 /* ------------------------------------------------------
     7. Content Elements
 ------------------------------------------------------ */
+
 /* ------------------------------------------------------
         7.1. Forms
     ------------------------------------------------------ */
-form > ul > li:not(:last-child) {
+
+form>ul>li:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -2620,28 +2517,13 @@ textarea::-moz-placeholder {
   font-weight: 400;
 }
 
-body:not(.apo-form-controls-default-bs) input,
-body:not(.apo-form-controls-default-bs) button,
-body:not(.apo-form-controls-default-bs) textarea {
+body:not(.apo-form-controls-default-bs) input, body:not(.apo-form-controls-default-bs) button, body:not(.apo-form-controls-default-bs) textarea {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="number"],
-input[type="search"],
-input[type="url"],
-input[type="date"],
-input[type="datetime-local"],
-input[type="month"],
-input[type="tel"],
-input[type="time"],
-input[type="week"],
-textarea,
-.apo-selected-option {
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="search"], input[type="url"], input[type="date"], input[type="datetime-local"], input[type="month"], input[type="tel"], input[type="time"], input[type="week"], textarea, .apo-selected-option {
   width: 100%;
   font-size: 12px;
   line-height: 24px;
@@ -2664,19 +2546,7 @@ textarea:not([rows]) {
   height: 200px;
 }
 
-.apo-footer input[type="text"],
-.apo-footer input[type="email"],
-.apo-footer input[type="password"],
-.apo-footer input[type="number"],
-.apo-footer input[type="search"],
-.apo-footer input[type="url"],
-.apo-footer input[type="date"],
-.apo-footer input[type="datetime-local"],
-.apo-footer input[type="month"],
-.apo-footer input[type="tel"],
-.apo-footer input[type="time"],
-.apo-footer input[type="week"],
-.apo-footer textarea {
+.apo-footer input[type="text"], .apo-footer input[type="email"], .apo-footer input[type="password"], .apo-footer input[type="number"], .apo-footer input[type="search"], .apo-footer input[type="url"], .apo-footer input[type="date"], .apo-footer input[type="datetime-local"], .apo-footer input[type="month"], .apo-footer input[type="tel"], .apo-footer input[type="time"], .apo-footer input[type="week"], .apo-footer textarea {
   height: 38px;
   background-color: transparent;
   border-width: 0 0 1px 0;
@@ -2687,6 +2557,7 @@ textarea:not([rows]) {
 /* ------------------------------------------------------
             7.2. Select
         ------------------------------------------------------ */
+
 .apo-custom-select {
   position: relative;
   z-index: 1;
@@ -2720,9 +2591,9 @@ textarea:not([rows]) {
   padding-right: 70px;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .apo-selected-option::before, .apo-selected-option::after {
@@ -2768,12 +2639,12 @@ textarea:not([rows]) {
   transition: opacity .5s ease, visibility .5s ease;
 }
 
-.apo-options-list > li {
+.apo-options-list>li {
   cursor: pointer;
   transition: color .5s ease;
 }
 
-.apo-options-list > li:hover {
+.apo-options-list>li:hover {
   color: #000000;
 }
 
@@ -2795,27 +2666,28 @@ textarea:not([rows]) {
 
 .apo-csstransforms3d .apo-custom-select .apo-selected-option::after {
   -webkit-transform: scale3d(0, 0, 0);
-          transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
 }
 
 .apo-csstransforms3d .apo-custom-select.apo-opened .apo-options-list {
   -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 
 .apo-csstransforms3d .apo-custom-select.apo-opened .apo-selected-option::before {
   -webkit-transform: scale3d(0, 0, 0);
-          transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
 }
 
 .apo-csstransforms3d .apo-custom-select.apo-opened .apo-selected-option::after {
   -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 
 /* ------------------------------------------------------
             7.3. Oneline Form
         ------------------------------------------------------ */
+
 .apo-oneline-form {
   position: relative;
   z-index: 1;
@@ -2826,18 +2698,7 @@ textarea:not([rows]) {
   max-width: initial;
 }
 
-.apo-oneline-form input[type="text"],
-.apo-oneline-form input[type="email"],
-.apo-oneline-form input[type="password"],
-.apo-oneline-form input[type="number"],
-.apo-oneline-form input[type="search"],
-.apo-oneline-form input[type="url"],
-.apo-oneline-form input[type="date"],
-.apo-oneline-form input[type="datetime-local"],
-.apo-oneline-form input[type="month"],
-.apo-oneline-form input[type="tel"],
-.apo-oneline-form input[type="time"],
-.apo-oneline-form input[type="week"] {
+.apo-oneline-form input[type="text"], .apo-oneline-form input[type="email"], .apo-oneline-form input[type="password"], .apo-oneline-form input[type="number"], .apo-oneline-form input[type="search"], .apo-oneline-form input[type="url"], .apo-oneline-form input[type="date"], .apo-oneline-form input[type="datetime-local"], .apo-oneline-form input[type="month"], .apo-oneline-form input[type="tel"], .apo-oneline-form input[type="time"], .apo-oneline-form input[type="week"] {
   padding-right: 60px;
 }
 
@@ -2860,18 +2721,7 @@ textarea:not([rows]) {
   line-height: 38px;
 }
 
-.apo-hidden-column .apo-oneline-form input[type="text"],
-.apo-hidden-column .apo-oneline-form input[type="email"],
-.apo-hidden-column .apo-oneline-form input[type="password"],
-.apo-hidden-column .apo-oneline-form input[type="number"],
-.apo-hidden-column .apo-oneline-form input[type="search"],
-.apo-hidden-column .apo-oneline-form input[type="url"],
-.apo-hidden-column .apo-oneline-form input[type="date"],
-.apo-hidden-column .apo-oneline-form input[type="datetime-local"],
-.apo-hidden-column .apo-oneline-form input[type="month"],
-.apo-hidden-column .apo-oneline-form input[type="tel"],
-.apo-hidden-column .apo-oneline-form input[type="time"],
-.apo-hidden-column .apo-oneline-form input[type="week"] {
+.apo-hidden-column .apo-oneline-form input[type="text"], .apo-hidden-column .apo-oneline-form input[type="email"], .apo-hidden-column .apo-oneline-form input[type="password"], .apo-hidden-column .apo-oneline-form input[type="number"], .apo-hidden-column .apo-oneline-form input[type="search"], .apo-hidden-column .apo-oneline-form input[type="url"], .apo-hidden-column .apo-oneline-form input[type="date"], .apo-hidden-column .apo-oneline-form input[type="datetime-local"], .apo-hidden-column .apo-oneline-form input[type="month"], .apo-hidden-column .apo-oneline-form input[type="tel"], .apo-hidden-column .apo-oneline-form input[type="time"], .apo-hidden-column .apo-oneline-form input[type="week"] {
   font-size: 14px;
   padding-left: 38px;
   padding-right: 0;
@@ -2888,24 +2738,15 @@ textarea:not([rows]) {
 /* ------------------------------------------------------
             7.4. Rounded Form
         ------------------------------------------------------ */
-.apo-rounded-form input[type="text"],
-.apo-rounded-form input[type="email"],
-.apo-rounded-form input[type="password"],
-.apo-rounded-form input[type="number"],
-.apo-rounded-form input[type="search"],
-.apo-rounded-form input[type="url"],
-.apo-rounded-form input[type="date"],
-.apo-rounded-form input[type="datetime-local"],
-.apo-rounded-form input[type="month"],
-.apo-rounded-form input[type="tel"],
-.apo-rounded-form input[type="time"],
-.apo-rounded-form input[type="week"] {
+
+.apo-rounded-form input[type="text"], .apo-rounded-form input[type="email"], .apo-rounded-form input[type="password"], .apo-rounded-form input[type="number"], .apo-rounded-form input[type="search"], .apo-rounded-form input[type="url"], .apo-rounded-form input[type="date"], .apo-rounded-form input[type="datetime-local"], .apo-rounded-form input[type="month"], .apo-rounded-form input[type="tel"], .apo-rounded-form input[type="time"], .apo-rounded-form input[type="week"] {
   border-radius: 25px;
 }
 
 /* ------------------------------------------------------
             7.5. Moved Label
         ------------------------------------------------------ */
+
 .apo-moved-label {
   position: relative;
   z-index: 1;
@@ -2939,19 +2780,7 @@ textarea:not([rows]) {
   transition: all .3s ease;
 }
 
-.apo-moved-label input[type="text"],
-.apo-moved-label input[type="email"],
-.apo-moved-label input[type="password"],
-.apo-moved-label input[type="number"],
-.apo-moved-label input[type="search"],
-.apo-moved-label input[type="url"],
-.apo-moved-label input[type="date"],
-.apo-moved-label input[type="datetime-local"],
-.apo-moved-label input[type="month"],
-.apo-moved-label input[type="tel"],
-.apo-moved-label input[type="time"],
-.apo-moved-label input[type="week"],
-.apo-moved-label textarea {
+.apo-moved-label input[type="text"], .apo-moved-label input[type="email"], .apo-moved-label input[type="password"], .apo-moved-label input[type="number"], .apo-moved-label input[type="search"], .apo-moved-label input[type="url"], .apo-moved-label input[type="date"], .apo-moved-label input[type="datetime-local"], .apo-moved-label input[type="month"], .apo-moved-label input[type="tel"], .apo-moved-label input[type="time"], .apo-moved-label input[type="week"], .apo-moved-label textarea {
   padding: 0;
   height: 40px;
   line-height: 40px;
@@ -2961,19 +2790,7 @@ textarea:not([rows]) {
   z-index: 3;
 }
 
-.apo-moved-label input[type="text"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="email"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="password"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="number"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="search"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="url"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="date"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="datetime-local"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="month"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="tel"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="time"]:focus ~ .apo-moved-label-border,
-.apo-moved-label input[type="week"]:focus ~ .apo-moved-label-border,
-.apo-moved-label textarea:focus ~ .apo-moved-label-border {
+.apo-moved-label input[type="text"]:focus~.apo-moved-label-border, .apo-moved-label input[type="email"]:focus~.apo-moved-label-border, .apo-moved-label input[type="password"]:focus~.apo-moved-label-border, .apo-moved-label input[type="number"]:focus~.apo-moved-label-border, .apo-moved-label input[type="search"]:focus~.apo-moved-label-border, .apo-moved-label input[type="url"]:focus~.apo-moved-label-border, .apo-moved-label input[type="date"]:focus~.apo-moved-label-border, .apo-moved-label input[type="datetime-local"]:focus~.apo-moved-label-border, .apo-moved-label input[type="month"]:focus~.apo-moved-label-border, .apo-moved-label input[type="tel"]:focus~.apo-moved-label-border, .apo-moved-label input[type="time"]:focus~.apo-moved-label-border, .apo-moved-label input[type="week"]:focus~.apo-moved-label-border, .apo-moved-label textarea:focus~.apo-moved-label-border {
   width: 100%;
 }
 
@@ -3000,52 +2817,42 @@ textarea:not([rows]) {
   border-bottom-color: #fff;
 }
 
-.apo-page-dark-skin .apo-moved-label input[type="text"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="email"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="password"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="number"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="search"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="url"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="date"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="datetime-local"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="month"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="tel"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="time"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label input[type="week"]:focus ~ label,
-.apo-page-dark-skin .apo-moved-label textarea:focus ~ label {
+.apo-page-dark-skin .apo-moved-label input[type="text"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="email"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="password"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="number"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="search"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="url"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="date"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="datetime-local"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="month"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="tel"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="time"]:focus~label, .apo-page-dark-skin .apo-moved-label input[type="week"]:focus~label, .apo-page-dark-skin .apo-moved-label textarea:focus~label {
   color: #fff;
 }
 
 /* ------------------------------------------------------
             7.6. Contact Form
         ------------------------------------------------------ */
-.apo-contact-form ul > li:not(:last-child) {
+
+.apo-contact-form ul>li:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.apo-contact-form ul > li:last-child > .apo-btn:only-child {
+.apo-contact-form ul>li:last-child>.apo-btn:only-child {
   margin-top: 10px;
 }
 
 /* ------------------------------------------------------
         7.7. Lists
     ------------------------------------------------------ */
+
 .apo-hr-dotted-list {
   margin-left: -7px;
 }
 
-.apo-hr-dotted-list > li {
+.apo-hr-dotted-list>li {
   display: inline-block;
   padding-left: 5px;
 }
 
-.apo-hr-dotted-list > li:not(:last-child) {
+.apo-hr-dotted-list>li:not(:last-child) {
   position: relative;
   z-index: 1;
   padding-right: 13px;
 }
 
-.apo-hr-dotted-list > li:not(:last-child)::after {
+.apo-hr-dotted-list>li:not(:last-child)::after {
   content: "";
   display: block;
   width: 3px;
@@ -3061,10 +2868,8 @@ textarea:not([rows]) {
 /* ------------------------------------------------------
         7.8. Alert Boxes
     ------------------------------------------------------ */
-.apo-alert-box-warning,
-.apo-alert-box-error,
-.apo-alert-box-info,
-.apo-alert-box-success {
+
+.apo-alert-box-warning, .apo-alert-box-error, .apo-alert-box-info, .apo-alert-box-success {
   color: #000;
   font-size: 14px;
   line-height: 30px;
@@ -3078,8 +2883,7 @@ textarea:not([rows]) {
   padding: 16px 20px 14px 80px;
 }
 
-[class*="apo-alert-box"] .icon,
-[class*="apo-alert-box"] .fa {
+[class*="apo-alert-box"] .icon, [class*="apo-alert-box"] .fa {
   font-size: 28px;
   position: absolute;
   top: 50%;
@@ -3088,8 +2892,7 @@ textarea:not([rows]) {
   transform: translate(0, -50%);
 }
 
-.apo-csstransforms3d [class*="apo-alert-box"] .icon,
-.apo-csstransforms3d [class*="apo-alert-box"] .fa {
+.apo-csstransforms3d [class*="apo-alert-box"] .icon, .apo-csstransforms3d [class*="apo-alert-box"] .fa {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
@@ -3113,13 +2916,12 @@ textarea:not([rows]) {
 /* ------------------------------------------------------
         7.9. Accordion & Toggle
     ------------------------------------------------------ */
-.apo-accordion,
-.apo-toggle {
+
+.apo-accordion, .apo-toggle {
   margin-top: -10px;
 }
 
-.apo-accordion-title,
-.apo-toggle-title {
+.apo-accordion-title, .apo-toggle-title {
   font-weight: 400;
   position: relative;
   z-index: 1;
@@ -3131,13 +2933,10 @@ textarea:not([rows]) {
   -moz-user-select: none;
   -o-user-select: none;
   -ms-user-select: none;
-      user-select: none;
+  user-select: none;
 }
 
-.apo-accordion-title::after,
-.apo-accordion-title::before,
-.apo-toggle-title::after,
-.apo-toggle-title::before {
+.apo-accordion-title::after, .apo-accordion-title::before, .apo-toggle-title::after, .apo-toggle-title::before {
   font-family: 'Linearicons';
   font-size: 13px;
   line-height: 20px;
@@ -3148,57 +2947,39 @@ textarea:not([rows]) {
   margin-top: -8px;
 }
 
-.apo-accordion-title::before,
-.apo-toggle-title::before {
+.apo-accordion-title::before, .apo-toggle-title::before {
   content: "\e93a";
 }
 
-.apo-accordion-title::after,
-.apo-toggle-title::after {
+.apo-accordion-title::after, .apo-toggle-title::after {
   content: "\e939";
 }
 
-.apo-accordion-title::after,
-.apo-toggle-title::after,
-.apo-accordion-title.apo-active::before,
-.apo-toggle-title.apo-active::before {
+.apo-accordion-title::after, .apo-toggle-title::after, .apo-accordion-title.apo-active::before, .apo-toggle-title.apo-active::before {
   opacity: 0;
 }
 
-.apo-accordion-title::before,
-.apo-toggle-title::before,
-.apo-accordion-title.apo-active::after,
-.apo-toggle-title.apo-active::after {
+.apo-accordion-title::before, .apo-toggle-title::before, .apo-accordion-title.apo-active::after, .apo-toggle-title.apo-active::after {
   opacity: 1;
 }
 
-.apo-csstransforms3d .apo-accordion-title::after,
-.apo-csstransforms3d .apo-accordion-title::before,
-.apo-csstransforms3d .apo-toggle-title::after,
-.apo-csstransforms3d .apo-toggle-title::before {
+.apo-csstransforms3d .apo-accordion-title::after, .apo-csstransforms3d .apo-accordion-title::before, .apo-csstransforms3d .apo-toggle-title::after, .apo-csstransforms3d .apo-toggle-title::before {
   transition: opacity .5s ease, -webkit-transform .5s ease;
   transition: transform .5s ease, opacity .5s ease;
   transition: transform .5s ease, opacity .5s ease, -webkit-transform .5s ease;
 }
 
-.apo-csstransforms3d .apo-accordion-title::after,
-.apo-csstransforms3d .apo-accordion-title.apo-active::before,
-.apo-csstransforms3d .apo-toggle-title::after,
-.apo-csstransforms3d .apo-toggle-title.apo-active::before {
+.apo-csstransforms3d .apo-accordion-title::after, .apo-csstransforms3d .apo-accordion-title.apo-active::before, .apo-csstransforms3d .apo-toggle-title::after, .apo-csstransforms3d .apo-toggle-title.apo-active::before {
   -webkit-transform: scale3d(0, 0, 0);
   transform: scale3d(0, 0, 0);
 }
 
-.apo-csstransforms3d .apo-accordion-title::before,
-.apo-csstransforms3d .apo-accordion-title.apo-active::after,
-.apo-csstransforms3d .apo-toggle-title::before,
-.apo-csstransforms3d .apo-toggle-title.apo-active::after {
+.apo-csstransforms3d .apo-accordion-title::before, .apo-csstransforms3d .apo-accordion-title.apo-active::after, .apo-csstransforms3d .apo-toggle-title::before, .apo-csstransforms3d .apo-toggle-title.apo-active::after {
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
 }
 
-.apo-accordion-definition,
-.apo-toggle-definition {
+.apo-accordion-definition, .apo-toggle-definition {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.7);
   padding: 21px 0 10px;
@@ -3207,6 +2988,7 @@ textarea:not([rows]) {
 /* ------------------------------------------------------
         7.10. Tabs
     ------------------------------------------------------ */
+
 .apo-tabs-nav:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -3216,7 +2998,7 @@ textarea:not([rows]) {
   line-height: 0;
 }
 
-.apo-no-flexbox .apo-tabs-nav > li {
+.apo-no-flexbox .apo-tabs-nav>li {
   display: inline-block;
   min-width: 165px;
 }
@@ -3227,22 +3009,22 @@ textarea:not([rows]) {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
-.apo-flexbox .apo-tabs-nav > li {
+.apo-flexbox .apo-tabs-nav>li {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   -ms-flex-negative: 1;
-      flex-shrink: 1;
+  flex-shrink: 1;
 }
 
-.apo-tabs-nav > li > a {
+.apo-tabs-nav>li>a {
   font-size: 18px;
   line-height: 32px;
   font-weight: 400;
@@ -3258,7 +3040,7 @@ textarea:not([rows]) {
   border-color: rgba(0, 0, 0, 0.1);
 }
 
-.apo-tabs-nav > li > a::after {
+.apo-tabs-nav>li>a::after {
   content: "";
   display: block;
   position: absolute;
@@ -3271,7 +3053,7 @@ textarea:not([rows]) {
   background-color: #000;
 }
 
-.apo-no-cssanimations .apo-tabs-nav > li > a::after {
+.apo-no-cssanimations .apo-tabs-nav>li>a::after {
   opacity: 0;
 }
 
@@ -3279,7 +3061,7 @@ textarea:not([rows]) {
   opacity: 1;
 }
 
-.apo-cssanimations .apo-tabs-nav > li > a::after {
+.apo-cssanimations .apo-tabs-nav>li>a::after {
   -webkit-animation: apoBounceOut .5s ease;
   animation: apoBounceOut .5s ease;
   -webkit-animation-fill-mode: forwards;
@@ -3291,8 +3073,7 @@ textarea:not([rows]) {
   animation-name: apoBounceIn;
 }
 
-.apo-tabs-nav .apo-active,
-.apo-tabs.apo-vertical-tabs .apo-tabs-nav .apo-active {
+.apo-tabs-nav .apo-active, .apo-tabs.apo-vertical-tabs .apo-tabs-nav .apo-active {
   font-weight: 600;
   color: #000;
   border-color: #000;
@@ -3307,6 +3088,7 @@ textarea:not([rows]) {
 /* ------------------------------------------------------
             7.10.1. Vertical Tabs
         ------------------------------------------------------ */
+
 .apo-tabs.apo-vertical-tabs::after {
   content: "";
   display: block;
@@ -3339,18 +3121,18 @@ textarea:not([rows]) {
   border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.apo-tabs.apo-vertical-tabs .apo-tabs-nav > li:not(:last-child) {
+.apo-tabs.apo-vertical-tabs .apo-tabs-nav>li:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.apo-tabs.apo-vertical-tabs .apo-tabs-nav > li > a {
+.apo-tabs.apo-vertical-tabs .apo-tabs-nav>li>a {
   text-align: initial;
   padding: 0px 28px;
   border-color: transparent;
   border-width: 0 0 0 1px;
 }
 
-.apo-tabs.apo-vertical-tabs .apo-tabs-nav > li > a::after {
+.apo-tabs.apo-vertical-tabs .apo-tabs-nav>li>a::after {
   left: 0;
   top: 50%;
   bottom: auto;
@@ -3360,6 +3142,7 @@ textarea:not([rows]) {
 /* ------------------------------------------------------
         7.11. Buttons
     ------------------------------------------------------ */
+
 .apo-btns-container-example {
   margin: -30px -15px 0;
 }
@@ -3385,7 +3168,7 @@ textarea:not([rows]) {
   -moz-user-select: none;
   -o-user-select: none;
   -ms-user-select: none;
-      user-select: none;
+  user-select: none;
 }
 
 .apo-btn::after {
@@ -3411,21 +3194,15 @@ textarea:not([rows]) {
   right: -5px;
 }
 
-.apo-btn-red,
-.apo-btn-red:hover,
-.apo-btn-red:focus {
+.apo-btn-red, .apo-btn-red:hover, .apo-btn-red:focus {
   color: #f32e29;
 }
 
-.apo-btn-blue,
-.apo-btn-blue:hover,
-.apo-btn-blue:focus {
+.apo-btn-blue, .apo-btn-blue:hover, .apo-btn-blue:focus {
   color: #2970f3;
 }
 
-.apo-btn-white,
-.apo-btn-white:hover,
-.apo-btn-white:focus {
+.apo-btn-white, .apo-btn-white:hover, .apo-btn-white:focus {
   color: #ffffff;
 }
 
@@ -3487,12 +3264,12 @@ textarea:not([rows]) {
 
 .apo-no-csstransforms3d .apo-hover-btn-tooltip {
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .apo-csstransforms3d .apo-hover-btn-tooltip {
   -webkit-transform: translate3d(-50%, 0, 0);
-          transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
 }
 
 .apo-btn-rectangle {
@@ -3517,8 +3294,7 @@ textarea:not([rows]) {
   right: 35px;
 }
 
-.apo-cta-btn,
-.apo-page-dark-skin .apo-cta-btn {
+.apo-cta-btn, .apo-page-dark-skin .apo-cta-btn {
   width: 100px;
   height: 100px;
   font-size: 24px;
@@ -3543,6 +3319,7 @@ textarea:not([rows]) {
 /* ------------------------------------------------------
         7.12. Dividers
     ------------------------------------------------------ */
+
 hr {
   border-width: 0 0 2px 0;
   border-style: solid;
@@ -3567,11 +3344,11 @@ hr:not(:last-child) {
   margin-bottom: 37px;
 }
 
-.apo-section + hr {
+.apo-section+hr {
   margin-top: 0;
 }
 
-.apo-section + hr:not(:last-child) {
+.apo-section+hr:not(:last-child) {
   margin-bottom: 0;
 }
 
@@ -3614,6 +3391,7 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
         7.13. Progress Bars
     ------------------------------------------------------ */
+
 .apo-progress-bar-item:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -3664,6 +3442,7 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
         7.14. Testimonials
     ------------------------------------------------------ */
+
 .apo-testimonial {
   font-family: 'PT Serif', serif;
   font-size: 17px;
@@ -3686,23 +3465,18 @@ hr:not(:last-child) {
   border-top: 3px solid #000000;
 }
 
-.apo-testimonial footer,
-.apo-testimonial .apo-testimonial-author {
+.apo-testimonial footer, .apo-testimonial .apo-testimonial-author {
   font-style: normal;
   font-family: 'Poppins', sans-serif;
   text-align: initial;
   padding: 0;
 }
 
-.apo-testimonial footer:not(:first-child),
-.apo-testimonial .apo-testimonial-author:not(:first-child) {
+.apo-testimonial footer:not(:first-child), .apo-testimonial .apo-testimonial-author:not(:first-child) {
   margin-top: 18px;
 }
 
-.apo-testimonial footer::after,
-.apo-testimonial footer::before,
-.apo-testimonial .apo-testimonial-author::after,
-.apo-testimonial .apo-testimonial-author::before {
+.apo-testimonial footer::after, .apo-testimonial footer::before, .apo-testimonial .apo-testimonial-author::after, .apo-testimonial .apo-testimonial-author::before {
   display: none;
 }
 
@@ -3726,6 +3500,7 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
             7.14.1. Style 2
         ------------------------------------------------------ */
+
 .apo-testimonials.apo-style-2 .apo-testimonial {
   padding: 62px 70px 40px;
   background-color: #fff;
@@ -3770,8 +3545,7 @@ hr:not(:last-child) {
   border-radius: 50%;
 }
 
-.apo-testimonials.apo-style-2 .apo-testimonial-author-image,
-.apo-testimonials.apo-style-2 .apo-testimonial-author-info {
+.apo-testimonials.apo-style-2 .apo-testimonial-author-image, .apo-testimonials.apo-style-2 .apo-testimonial-author-info {
   display: table-cell;
   vertical-align: middle;
 }
@@ -3787,6 +3561,7 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
             7.14.2. Style 3
         ------------------------------------------------------ */
+
 .apo-testimonials.apo-style-3 {
   text-align: center;
 }
@@ -3814,8 +3589,7 @@ hr:not(:last-child) {
   border: none;
 }
 
-.apo-testimonials.apo-style-3 blockquote p:first-of-type::before,
-.apo-testimonials.apo-style-3 blockquote p:last-of-type::after {
+.apo-testimonials.apo-style-3 blockquote p:first-of-type::before, .apo-testimonials.apo-style-3 blockquote p:last-of-type::after {
   display: none;
 }
 
@@ -3865,6 +3639,7 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
         7.15. Team Members
     ------------------------------------------------------ */
+
 .apo-team-member {
   color: #fff;
   text-align: center;
@@ -3944,6 +3719,7 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
         7.16. Social Networks
     ------------------------------------------------------ */
+
 .apo-social-networks {
   font-size: 25px;
   margin-left: -7px;
@@ -3951,16 +3727,16 @@ hr:not(:last-child) {
   line-height: 1em;
 }
 
-.apo-social-networks > li {
+.apo-social-networks>li {
   display: inline-block;
 }
 
-.apo-social-networks > li > a {
+.apo-social-networks>li>a {
   display: block;
   padding: 8px 7px;
 }
 
-.apo-social-networks > li > a:hover, .apo-social-networks > li > a:focus {
+.apo-social-networks>li>a:hover, .apo-social-networks>li>a:focus {
   color: #000;
 }
 
@@ -3982,13 +3758,13 @@ hr:not(:last-child) {
   /*margin-top: -10px;*/
 }
 
-.apo-social-networks.apo-style-2 > li > a {
+.apo-social-networks.apo-style-2>li>a {
   position: relative;
   z-index: 1;
   padding: 10px 12px 13px;
 }
 
-.apo-social-networks.apo-style-2 > li > a::before {
+.apo-social-networks.apo-style-2>li>a::before {
   content: "";
   display: block;
   width: 4px;
@@ -4003,12 +3779,12 @@ hr:not(:last-child) {
   transition: opacity .5s ease;
 }
 
-.apo-social-networks.apo-style-2 > li > a:hover::before {
+.apo-social-networks.apo-style-2>li>a:hover::before {
   opacity: 1;
   transition-duration: .35s;
 }
 
-.apo-page-dark-skin .apo-social-networks > li > a {
+.apo-page-dark-skin .apo-social-networks>li>a {
   color: #fff;
 }
 
@@ -4021,6 +3797,7 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
         7.17. Counters
     ------------------------------------------------------ */
+
 .apo-counter {
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
@@ -4046,6 +3823,7 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
         7.18. Pagination
     ------------------------------------------------------ */
+
 .apo-pagination {
   font-size: 14px;
   line-height: 30px;
@@ -4054,20 +3832,20 @@ hr:not(:last-child) {
   margin-top: -10px;
 }
 
-.apo-pagination > li {
+.apo-pagination>li {
   display: inline-block;
   vertical-align: baseline;
   padding: 10px 23px 0;
 }
 
-.apo-pagination > li > a {
+.apo-pagination>li>a {
   color: inherit;
   display: block;
   padding: 0 5px;
   background-position: 0 29px;
 }
 
-.apo-pagination > li > a:hover, .apo-pagination > li > a:focus {
+.apo-pagination>li>a:hover, .apo-pagination>li>a:focus {
   color: #000000;
 }
 
@@ -4086,6 +3864,7 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
         7.19. Filter
     ------------------------------------------------------ */
+
 .apo-filter-wrap {
   display: inline-block;
 }
@@ -4096,7 +3875,7 @@ hr:not(:last-child) {
   margin-right: -17px;
 }
 
-.apo-filter > li {
+.apo-filter>li {
   display: inline-block;
   vertical-align: baseline;
   padding: 5px 17px 0;
@@ -4121,7 +3900,7 @@ hr:not(:last-child) {
   margin-right: -27px;
 }
 
-.apo-filter.apo-style-2 > li {
+.apo-filter.apo-style-2>li {
   padding: 5px 27px 0;
 }
 
@@ -4133,6 +3912,7 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
         7.20. Gallery
     ------------------------------------------------------ */
+
 .apo-gallery {
   font-size: 0;
   line-height: 0;
@@ -4164,8 +3944,8 @@ hr:not(:last-child) {
 /* ------------------------------------------------------
             7.20.1. LightBox
         ------------------------------------------------------ */
-.apo-lightbox,
-a.apo-lightbox {
+
+.apo-lightbox, a.apo-lightbox {
   display: block;
   position: relative;
   z-index: 1;
@@ -4217,17 +3997,18 @@ a.apo-lightbox {
   transition-property: opacity, visibility, transform;
   transition-property: opacity, visibility, transform, -webkit-transform;
   -webkit-transform: scale3d(2, 2, 2);
-          transform: scale3d(2, 2, 2);
+  transform: scale3d(2, 2, 2);
 }
 
 .apo-csstransforms3d .apo-lightbox:hover::after {
   -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 
 /* ------------------------------------------------------
         7.21. Tables
     ------------------------------------------------------ */
+
 table {
   width: 100%;
   table-layout: fixed;
@@ -4236,6 +4017,7 @@ table {
 /* ------------------------------------------------------
         7.22. Full Page 
     ------------------------------------------------------ */
+
 .apo-full-page-container {
   z-index: 2;
 }
@@ -4282,12 +4064,12 @@ table {
   transition-property: opacity, transform;
   transition-property: opacity, transform, -webkit-transform;
   -webkit-transform: translate3d(0, -20px, 0);
-          transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
 }
 
 .apo-csstransforms3d .apo-full-page-fixed-content .fp-section.active.fp-completely .apo-scroll-down-label {
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .apo-scroll-down-label i {
@@ -4298,28 +4080,25 @@ table {
   margin-right: auto;
 }
 
-#fp-nav ul > li {
+#fp-nav ul>li {
   width: 10px;
   height: 10px;
   margin: 10px;
 }
 
-#fp-nav ul > li > a {
+#fp-nav ul>li>a {
   border-radius: 50%;
   border-width: 1px;
   border-style: solid;
   border-color: #000;
 }
 
-#fp-nav ul > li > a > span {
+#fp-nav ul>li>a>span {
   opacity: 0;
   background-color: #000;
 }
 
-#fp-nav ul li a.active span,
-#fp-nav ul li:hover a.active span,
-.fp-slidesNav ul li a.active span,
-.fp-slidesNav ul li:hover a.active span {
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
   width: 10px;
   height: 10px;
   margin: -5px 0 0 -5px;
@@ -4334,11 +4113,11 @@ table {
   left: 5.20%;
 }
 
-.apo-page-dark-skin #fp-nav ul > li > a {
+.apo-page-dark-skin #fp-nav ul>li>a {
   border-color: #fff;
 }
 
-.apo-page-dark-skin #fp-nav ul > li > a > span {
+.apo-page-dark-skin #fp-nav ul>li>a>span {
   background-color: #fff;
 }
 
@@ -4356,9 +4135,7 @@ table {
   border-width: 0 0 0 1px;
 }
 
-.apo-full-page-controls-header,
-.apo-full-page-controls-content,
-.apo-full-page-controls-footer {
+.apo-full-page-controls-header, .apo-full-page-controls-content, .apo-full-page-controls-footer {
   display: table-row;
 }
 
@@ -4452,21 +4229,21 @@ table {
   transition: opacity 0.4s ease-out, visibility 0.4s ease-out;
 }
 
-.apo-fp-menu > li::after {
+.apo-fp-menu>li::after {
   content: "";
   display: block;
   clear: both;
 }
 
-.apo-fp-menu > li:not(:last-child) {
+.apo-fp-menu>li:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.apo-fp-menu > li.active a {
+.apo-fp-menu>li.active a {
   width: 100px;
 }
 
-.apo-fp-menu > li.active a span {
+.apo-fp-menu>li.active a span {
   opacity: 1;
   visibility: visible;
 }
@@ -4477,7 +4254,7 @@ table {
 
 .apo-csstransforms3d .apo-fp-layer {
   -webkit-transform: translate3d(0, -20px, 0);
-          transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
   transition: -webkit-transform 0.7s ease-out;
   transition: transform 0.7s ease-out;
   transition: transform 0.7s ease-out, -webkit-transform 0.7s ease-out;
@@ -4485,7 +4262,7 @@ table {
 
 .apo-csstransforms3d .fp-section.active .apo-fp-layer {
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .apo-scroll-down-icon {
@@ -4505,6 +4282,7 @@ table {
 /* ------------------------------------------------------
         7.23. Experience List 
     ------------------------------------------------------ */
+
 .apo-experience-list {
   margin-top: -35px;
   margin-bottom: -35px;
@@ -4530,7 +4308,7 @@ table {
   margin-bottom: 16px;
 }
 
-.apo-experience-list-item-header > * {
+.apo-experience-list-item-header>* {
   display: inline-block;
   vertical-align: baseline;
   margin: 10px 20px 0;
@@ -4587,6 +4365,7 @@ table {
 /* ------------------------------------------------------
         7.24. Services 
     ------------------------------------------------------ */
+
 .apo-services {
   margin-top: -30px;
 }
@@ -4606,6 +4385,7 @@ table {
 /* ------------------------------------------------------
         7.25. Call to Action 
     ------------------------------------------------------ */
+
 .apo-cta {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -4621,6 +4401,7 @@ table {
 /* ------------------------------------------------------
         7.26. Back to Top Button
     ------------------------------------------------------ */
+
 .apo-back-to-top-message {
   color: #a9aaae;
   font-size: 14px;
@@ -4651,6 +4432,7 @@ table {
 /* ------------------------------------------------------
         7.27. Owl Carousel & Revolution Slider
     ------------------------------------------------------ */
+
 .owl-nav {
   font-size: 11px;
   font-weight: 500;
@@ -4663,8 +4445,7 @@ table {
   transition: color 0.4s ease-out;
 }
 
-.owl-prev,
-.owl-next {
+.owl-prev, .owl-next {
   position: relative;
   z-index: 1;
   cursor: pointer;
@@ -4673,15 +4454,13 @@ table {
   padding: 5px 10px;
 }
 
-.owl-prev [class^="icon"],
-.owl-next [class^="icon"] {
+.owl-prev [class^="icon"], .owl-next [class^="icon"] {
   display: block;
   font-size: 30px;
   line-height: 30px;
 }
 
-.owl-prev:hover .owl-nav-text,
-.owl-next:hover .owl-nav-text{
+.owl-prev:hover .owl-nav-text, .owl-next:hover .owl-nav-text {
   opacity: 1;
 }
 
@@ -4701,12 +4480,12 @@ table {
 /* ------------------------------------------------------
         7.28. Striped Photos
     ------------------------------------------------------ */
+
 .apo-striped-photos.owl-carousel .apo-striped-photo .apo-aligner-inner {
   transition: all .4s ease-out .3s;
 }
 
-.apo-striped-photos.owl-carousel .owl-item.owl-item-focused .apo-striped-photo .apo-aligner-inner,
-.apo-striped-photos.owl-carousel .owl-item.owl-item-unfocused .apo-striped-photo .apo-aligner-inner {
+.apo-striped-photos.owl-carousel .owl-item.owl-item-focused .apo-striped-photo .apo-aligner-inner, .apo-striped-photos.owl-carousel .owl-item.owl-item-unfocused .apo-striped-photo .apo-aligner-inner {
   transition-duration: 0s;
   transition-delay: 0s;
 }
@@ -4746,12 +4525,12 @@ table {
 
 .apo-csstransforms3d .apo-striped-photos.owl-carousel .apo-striped-photo .apo-aligner-inner {
   -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 
 .apo-csstransforms3d .apo-striped-photos.owl-carousel .owl-item.owl-item-unfocused .apo-striped-photo .apo-aligner-inner {
   -webkit-transform: scale3d(1.03, 1.03, 1.03);
-          transform: scale3d(1.03, 1.03, 1.03);
+  transform: scale3d(1.03, 1.03, 1.03);
 }
 
 .apo-striped-photo {
@@ -4813,11 +4592,11 @@ table {
   letter-spacing: 3px;
 }
 
-.apo-striped-photo-categories > li {
+.apo-striped-photo-categories>li {
   display: inline;
 }
 
-.apo-striped-photo-categories > li:not(:last-child)::after {
+.apo-striped-photo-categories>li:not(:last-child)::after {
   content: ", ";
 }
 
@@ -4832,6 +4611,7 @@ table {
 /* ------------------------------------------------------
         7.29. Slider
     ------------------------------------------------------ */
+
 .apo-slider-audio {
   visibility: hidden;
   opacity: 0;
@@ -4854,34 +4634,17 @@ table {
   height: 100%;
 }
 
-.apo-slider-thumbs-vr .swiper-button-prev,
-.apo-slider-thumbs-vr .swiper-button-next,
-.apo-slider-thumbs-hr .swiper-button-prev,
-.apo-slider-thumbs-hr .swiper-button-next {
+.apo-slider-thumbs-vr .swiper-button-prev, .apo-slider-thumbs-vr .swiper-button-next, .apo-slider-thumbs-hr .swiper-button-prev, .apo-slider-thumbs-hr .swiper-button-next {
   background-image: none;
   background-color: #000000;
   opacity: 1;
 }
 
-.apo-slider-thumbs-vr .swiper-button-prev .icon,
-.apo-slider-thumbs-vr .swiper-button-prev .fa,
-.apo-slider-thumbs-vr .swiper-button-next .icon,
-.apo-slider-thumbs-vr .swiper-button-next .fa,
-.apo-slider-thumbs-hr .swiper-button-prev .icon,
-.apo-slider-thumbs-hr .swiper-button-prev .fa,
-.apo-slider-thumbs-hr .swiper-button-next .icon,
-.apo-slider-thumbs-hr .swiper-button-next .fa {
+.apo-slider-thumbs-vr .swiper-button-prev .icon, .apo-slider-thumbs-vr .swiper-button-prev .fa, .apo-slider-thumbs-vr .swiper-button-next .icon, .apo-slider-thumbs-vr .swiper-button-next .fa, .apo-slider-thumbs-hr .swiper-button-prev .icon, .apo-slider-thumbs-hr .swiper-button-prev .fa, .apo-slider-thumbs-hr .swiper-button-next .icon, .apo-slider-thumbs-hr .swiper-button-next .fa {
   transition: opacity 0.4s ease-out;
 }
 
-.apo-slider-thumbs-vr .swiper-button-prev.swiper-button-disabled .icon,
-.apo-slider-thumbs-vr .swiper-button-prev.swiper-button-disabled .fa,
-.apo-slider-thumbs-vr .swiper-button-next.swiper-button-disabled .icon,
-.apo-slider-thumbs-vr .swiper-button-next.swiper-button-disabled .fa,
-.apo-slider-thumbs-hr .swiper-button-prev.swiper-button-disabled .icon,
-.apo-slider-thumbs-hr .swiper-button-prev.swiper-button-disabled .fa,
-.apo-slider-thumbs-hr .swiper-button-next.swiper-button-disabled .icon,
-.apo-slider-thumbs-hr .swiper-button-next.swiper-button-disabled .fa {
+.apo-slider-thumbs-vr .swiper-button-prev.swiper-button-disabled .icon, .apo-slider-thumbs-vr .swiper-button-prev.swiper-button-disabled .fa, .apo-slider-thumbs-vr .swiper-button-next.swiper-button-disabled .icon, .apo-slider-thumbs-vr .swiper-button-next.swiper-button-disabled .fa, .apo-slider-thumbs-hr .swiper-button-prev.swiper-button-disabled .icon, .apo-slider-thumbs-hr .swiper-button-prev.swiper-button-disabled .fa, .apo-slider-thumbs-hr .swiper-button-next.swiper-button-disabled .icon, .apo-slider-thumbs-hr .swiper-button-next.swiper-button-disabled .fa {
   opacity: .7;
 }
 
@@ -4899,8 +4662,7 @@ table {
   padding: 2px;
 }
 
-.apo-slider-thumbs-vr .swiper-button-prev,
-.apo-slider-thumbs-vr .swiper-button-next {
+.apo-slider-thumbs-vr .swiper-button-prev, .apo-slider-thumbs-vr .swiper-button-next {
   height: 55px;
   margin-top: 0;
   left: 0;
@@ -4927,8 +4689,7 @@ table {
   width: 70px;
 }
 
-.apo-slider-thumbs-hr .swiper-button-prev,
-.apo-slider-thumbs-hr .swiper-button-next {
+.apo-slider-thumbs-hr .swiper-button-prev, .apo-slider-thumbs-hr .swiper-button-next {
   width: 28px;
   height: 52px;
   margin-top: -26px;
@@ -4990,6 +4751,7 @@ table {
 /* ------------------------------------------------------
             7.29.1. Layers
         ------------------------------------------------------ */
+
 .apo-layer-style-1 {
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -5017,24 +4779,16 @@ table {
   position: relative;
 }
 
-.apo-revslider-controls-item [class*="apo-icon"],
-.apo-revslider-controls-item .fa,
-.apo-revslider-controls-item .icon {
+.apo-revslider-controls-item [class*="apo-icon"], .apo-revslider-controls-item .fa, .apo-revslider-controls-item .icon {
   font-size: 34px;
   line-height: 0.9em;
 }
 
-.apo-revslider-controls-item .apo-revslider-control-play [class*="apo-icon"],
-.apo-revslider-controls-item .apo-revslider-control-pause [class*="apo-icon"],
-.apo-revslider-controls-item .apo-revslider-control-play .fa,
-.apo-revslider-controls-item .apo-revslider-control-pause .fa,
-.apo-revslider-controls-item .apo-revslider-control-play .icon,
-.apo-revslider-controls-item .apo-revslider-control-pause .icon {
+.apo-revslider-controls-item .apo-revslider-control-play [class*="apo-icon"], .apo-revslider-controls-item .apo-revslider-control-pause [class*="apo-icon"], .apo-revslider-controls-item .apo-revslider-control-play .fa, .apo-revslider-controls-item .apo-revslider-control-pause .fa, .apo-revslider-controls-item .apo-revslider-control-play .icon, .apo-revslider-controls-item .apo-revslider-control-pause .icon {
   font-size: 32px;
 }
 
-.apo-revslider-controls-item .apo-revslider-control-play .apo-revslider-control-title,
-.apo-revslider-controls-item .apo-revslider-control-pause .apo-revslider-control-title {
+.apo-revslider-controls-item .apo-revslider-control-play .apo-revslider-control-title, .apo-revslider-controls-item .apo-revslider-control-pause .apo-revslider-control-title {
   margin-bottom: 15px;
 }
 
@@ -5050,26 +4804,21 @@ table {
   bottom: 100%;
   width: 100%;
   left: 0;
-
   -webkit-transition: opacity .4s ease, visibility .4s ease;
-          transition: opacity .4s ease, visibility .4s ease;
+  transition: opacity .4s ease, visibility .4s ease;
 }
 
-.apo-revslider-controls-item .apo-revslider-control-play,
-.apo-revslider-controls-item .apo-revslider-control-pause {
+.apo-revslider-controls-item .apo-revslider-control-play, .apo-revslider-controls-item .apo-revslider-control-pause {
   -webkit-transition: opacity .4s ease, visibility .4s ease;
-          transition: opacity .4s ease, visibility .4s ease;
+  transition: opacity .4s ease, visibility .4s ease;
 }
 
-.apo-revslider-controls-item .apo-revslider-control-play,
-.apo-revslider-controls-item.apo-playing .apo-revslider-control-pause,
-.apo-revslider-controls-item:hover .apo-revslider-control-title {
+.apo-revslider-controls-item .apo-revslider-control-play, .apo-revslider-controls-item.apo-playing .apo-revslider-control-pause, .apo-revslider-controls-item:hover .apo-revslider-control-title {
   opacity: 1;
   visibility: visible;
 }
 
-.apo-revslider-controls-item .apo-revslider-control-pause,
-.apo-revslider-controls-item.apo-playing .apo-revslider-control-play {
+.apo-revslider-controls-item .apo-revslider-control-pause, .apo-revslider-controls-item.apo-playing .apo-revslider-control-play {
   opacity: 0;
   visibility: hidden;
 }
@@ -5079,10 +4828,9 @@ table {
   top: 50%;
   left: 50%;
   z-index: 1;
-
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .apo-revslider-theme .apo-revslider-controls {
@@ -5093,11 +4841,11 @@ table {
   color: #fff;
 }
 
-.apo-header-bottom ~ .apo-page .apo-revslider-theme .apo-revslider-controls {
+.apo-header-bottom~.apo-page .apo-revslider-theme .apo-revslider-controls {
   bottom: 120px;
 }
 
-.apo-header-bottom ~ .apo-page .apo-revslider-theme .apo-revslider-controls.apo-right {
+.apo-header-bottom~.apo-page .apo-revslider-theme .apo-revslider-controls.apo-right {
   right: 70px;
 }
 
@@ -5109,6 +4857,7 @@ table {
 /* ------------------------------------------------------
         7.30. Icon Boxes
     ------------------------------------------------------ */
+
 .apo-icon-box {
   padding-top: 15px;
   font-size: 14px;
@@ -5140,6 +4889,7 @@ table {
 /* ------------------------------------------------------
         7.31. Pricing Tables
     ------------------------------------------------------ */
+
 .apo-pricing-tables {
   padding-top: 50px;
 }
@@ -5242,7 +4992,7 @@ table {
   margin-bottom: 25px;
 }
 
-.apo-pricing-table-list > li {
+.apo-pricing-table-list>li {
   color: #7f868d;
   border-top: 1px solid #eeeeee;
   padding: 11px 0 9px;
@@ -5261,6 +5011,7 @@ table {
 /* ------------------------------------------------------
         7.32. Bottom Controls
     ------------------------------------------------------ */
+
 .apo-hr-controls {
   display: table;
   width: 100%;
@@ -5313,6 +5064,7 @@ table {
 /* ------------------------------------------------------
         7.33. Extended Info List
     ------------------------------------------------------ */
+
 .apo-extended-info-list-item {
   font-size: 14px;
   font-weight: 400;
@@ -5333,6 +5085,7 @@ table {
 /* ------------------------------------------------------
     8. Sidebar & Widgets
 ------------------------------------------------------ */
+
 .apo-widget-title {
   font-size: 14px;
   line-height: 24px;
@@ -5364,11 +5117,11 @@ table {
   background-position: 0 18px;
 }
 
-.apo-widget ul > li > a {
+.apo-widget ul>li>a {
   text-transform: uppercase;
 }
 
-.apo-widget ul > li:not(:last-child) {
+.apo-widget ul>li:not(:last-child) {
   margin-bottom: 12px;
 }
 
@@ -5410,6 +5163,7 @@ table {
 /* ------------------------------------------------------
         8.1. Contact Info Widget
     ------------------------------------------------------ */
+
 .apo-contact-info:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -5435,7 +5189,7 @@ table {
   word-break: break-all;
 }
 
-.apo-contact-info > li:not(:last-child) {
+.apo-contact-info>li:not(:last-child) {
   margin-bottom: 2px;
 }
 
@@ -5444,13 +5198,14 @@ table {
   background-position: 0 33px;
 }
 
-.apo-footer .apo-contact-info-widget ~ .apo-widget .apo-widget-title {
+.apo-footer .apo-contact-info-widget~.apo-widget .apo-widget-title {
   margin-top: 70px;
 }
 
 /* ------------------------------------------------------
         8.2. Tags Widget
     ------------------------------------------------------ */
+
 .tagcloud {
   margin-top: -5px;
   margin-left: -3px;
@@ -5478,6 +5233,7 @@ table {
 /* ------------------------------------------------------
         8.3. Entries Widgets
     ------------------------------------------------------ */
+
 .apo-widget .apo-entries-container {
   margin-top: -30px;
 }
@@ -5493,6 +5249,7 @@ table {
 /* ------------------------------------------------------
         8.4. Comment Widgets
     ------------------------------------------------------ */
+
 .apo-widget.apo-widget-comments .apo-comments {
   margin-top: -30px;
 }
@@ -5535,6 +5292,7 @@ table {
 /* ------------------------------------------------------
         8.5. Gallery Widget
     ------------------------------------------------------ */
+
 .apo-widget .apo-gallery {
   margin-top: -20px;
   margin-left: -10px;
@@ -5549,6 +5307,7 @@ table {
 /* ------------------------------------------------------
         8.6. Calendar Widget
     ------------------------------------------------------ */
+
 .apo-widget .calendar_wrap {
   font-size: 14px;
   line-height: 24px;
@@ -5613,9 +5372,11 @@ table {
 /* ------------------------------------------------------
     9. Blog
 ------------------------------------------------------ */
+
 /* ------------------------------------------------------
 	    9.1. Container
 	------------------------------------------------------ */
+
 .apo-entries-container {
   position: relative;
   z-index: 1;
@@ -5628,6 +5389,7 @@ table {
 /* ------------------------------------------------------
 	    9.2. Items
 	------------------------------------------------------ */
+
 .apo-entry {
   font-size: 12px;
   line-height: 24px;
@@ -5650,11 +5412,11 @@ table {
   letter-spacing: 1px;
 }
 
-.apo-entry-categories > li {
+.apo-entry-categories>li {
   display: inline;
 }
 
-.apo-entry-categories > li:not(:last-child)::after {
+.apo-entry-categories>li:not(:last-child)::after {
   content: ', ';
 }
 
@@ -5686,11 +5448,11 @@ table {
   line-height: 24px;
 }
 
-.apo-entry-tags > li {
+.apo-entry-tags>li {
   display: inline;
 }
 
-.apo-entry-tags > li:not(:last-child)::after {
+.apo-entry-tags>li:not(:last-child)::after {
   content: ", ";
 }
 
@@ -5702,6 +5464,7 @@ table {
 /* ------------------------------------------------------
 		    9.2.1. Style 1
 		------------------------------------------------------ */
+
 .apo-entries-container.apo-style-1.apo-isotope {
   margin-top: 0;
   margin-left: 0;
@@ -5763,7 +5526,7 @@ table {
   background-position: left bottom;
 }
 
-.apo-entries-container.apo-style-1 .apo-entry-header-dublicate > * {
+.apo-entries-container.apo-style-1 .apo-entry-header-dublicate>* {
   position: relative;
   z-index: 2;
 }
@@ -5806,10 +5569,7 @@ table {
   vertical-align: middle;
 }
 
-.apo-entries-container.apo-style-1 .apo-entry-content-wrap::before,
-.apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-header,
-.apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-content,
-.apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-footer {
+.apo-entries-container.apo-style-1 .apo-entry-content-wrap::before, .apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-header, .apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-content, .apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-footer {
   opacity: 0;
   visibility: hidden;
   transition-property: visibility, opacity;
@@ -5851,9 +5611,7 @@ table {
   visibility: visible;
 }
 
-.apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-header,
-.apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-content,
-.apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-footer {
+.apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-header, .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-content, .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-footer {
   opacity: 1;
   visibility: visible;
 }
@@ -5873,32 +5631,28 @@ table {
   transition-property: opacity, visibility, transform, -webkit-transform;
 }
 
-.apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-header,
-.apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-content,
-.apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-footer {
+.apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-header, .apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-content, .apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry-content-wrap .apo-entry-footer {
   transition-property: visibility, opacity, -webkit-transform;
   transition-property: visibility, opacity, transform;
   transition-property: visibility, opacity, transform, -webkit-transform;
   -webkit-transform: translate3d(-30px, 0, 0);
-          transform: translate3d(-30px, 0, 0);
+  transform: translate3d(-30px, 0, 0);
 }
 
 .apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-header-dublicate .apo-entry-title, .apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-header-dublicate .apo-entry-categories {
   -webkit-transform: translate3d(30px, 0, 0);
-          transform: translate3d(30px, 0, 0);
+  transform: translate3d(30px, 0, 0);
 }
 
-.apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap::before,
-.apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-header,
-.apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-content,
-.apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-footer {
+.apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap::before, .apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-header, .apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-content, .apo-csstransforms3d .apo-entries-container.apo-style-1 .apo-entry:hover .apo-entry-content-wrap .apo-entry-footer {
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 /* ------------------------------------------------------
 		    9.2.2. Style 2
 		------------------------------------------------------ */
+
 .apo-entries-container.apo-style-2.apo-isotope {
   margin-top: -20px;
   margin-left: 20px;
@@ -5966,7 +5720,7 @@ table {
 
 .apo-csstransforms3d .apo-entries-container.apo-style-2 .apo-entry:hover .apo-entry-media img {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
-          transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .apo-csstransforms3d .apo-entries-container.apo-style-2 .apo-entry::before {
@@ -5974,17 +5728,18 @@ table {
   transition-property: opacity, visibility, transform;
   transition-property: opacity, visibility, transform, -webkit-transform;
   -webkit-transform: scale3d(0.97, 0.97, 0.97);
-          transform: scale3d(0.97, 0.97, 0.97);
+  transform: scale3d(0.97, 0.97, 0.97);
 }
 
 .csstransforms3d .apo-entries-container.apo-style-2 .apo-entry:hover::before {
   -webkit-transform: scale3d(0, 0, 0);
-          transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
 }
 
 /* ------------------------------------------------------
 		    9.2.3. Style 3
 		------------------------------------------------------ */
+
 .apo-entries-container.apo-style-3.apo-isotope {
   margin-top: -40px;
 }
@@ -6019,19 +5774,18 @@ table {
 
 .apo-csstransforms3d .apo-entries-container.apo-style-3 .apo-entry:hover .apo-entry-media img {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
-          transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 /* ------------------------------------------------------
 		    9.2.4. Style 4
 		------------------------------------------------------ */
+
 .apo-entries-container.apo-style-4 {
   overflow: hidden;
 }
 
-.apo-entries-container.apo-style-4.apo-isotope.apo-cols-4 .grid-sizer,
-.apo-entries-container.apo-style-4.apo-isotope.apo-cols-4 .apo-item, .apo-entries-container.apo-style-4.apo-isotope.apo-cols-3 .grid-sizer,
-.apo-entries-container.apo-style-4.apo-isotope.apo-cols-3 .apo-item {
+.apo-entries-container.apo-style-4.apo-isotope.apo-cols-4 .grid-sizer, .apo-entries-container.apo-style-4.apo-isotope.apo-cols-4 .apo-item, .apo-entries-container.apo-style-4.apo-isotope.apo-cols-3 .grid-sizer, .apo-entries-container.apo-style-4.apo-isotope.apo-cols-3 .apo-item {
   width: 50%;
 }
 
@@ -6160,7 +5914,7 @@ table {
 
 .apo-csstransforms3d .apo-entries-container.apo-style-4 .apo-entry:hover .apo-entry-media {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
-          transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .apo-flexbox .apo-entries-container.apo-style-4 .apo-entry .apo-aligner-inner {
@@ -6169,11 +5923,11 @@ table {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .apo-flexbox .apo-entries-container.apo-style-4 .apo-entry .apo-aligner-inner .apo-entry-footer {
@@ -6183,6 +5937,7 @@ table {
 /* ------------------------------------------------------
 		    9.2.5. Style 5
 		------------------------------------------------------ */
+
 .apo-entries-container.apo-style-5 {
   overflow: hidden;
 }
@@ -6301,7 +6056,7 @@ table {
 
 .apo-csstransforms3d .apo-entries-container.apo-style-5 .apo-entry:hover .apo-entry-media {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
-          transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .apo-flexbox .apo-entries-container.apo-style-5 .apo-entry-content-wrap .apo-aligner-inner {
@@ -6310,8 +6065,8 @@ table {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .apo-flexbox .apo-entries-container.apo-style-5 .apo-entry-content-wrap .apo-entry-footer {
@@ -6321,8 +6076,8 @@ table {
 /* ------------------------------------------------------
 	    9.3. Single
 	------------------------------------------------------ */
-.apo-section-thin .apo-entry.apo-single .apo-entry-media,
-.apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
+
+.apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
   margin-left: -200px;
   margin-right: -200px;
 }
@@ -6332,16 +6087,12 @@ table {
   margin-right: -100px;
 }
 
-.apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-media,
-.apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption,
-.apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-media,
-.apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
+.apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
   margin-left: -100px;
   margin-right: -100px;
 }
 
-.apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-header,
-.apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-header {
+.apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-header, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-header {
   margin-left: 0;
   margin-right: 0;
 }
@@ -6359,7 +6110,7 @@ table {
   z-index: 1;
 }
 
-.apo-entry.apo-single .apo-entry-media + .apo-entry-content-wrap {
+.apo-entry.apo-single .apo-entry-media+.apo-entry-content-wrap {
   margin-top: -50px;
 }
 
@@ -6430,7 +6181,7 @@ table {
   margin-right: -7px;
 }
 
-.apo-entry.apo-single .apo-entry-meta > li {
+.apo-entry.apo-single .apo-entry-meta>li {
   display: inline-block;
   margin-left: 7px;
   margin-right: 7px;
@@ -6440,7 +6191,7 @@ table {
   background-position: 0 18px;
 }
 
-.apo-entry.apo-single .apo-entry-content > p:first-child:first-letter {
+.apo-entry.apo-single .apo-entry-content>p:first-child:first-letter {
   font-size: 72px;
   font-weight: 700;
   line-height: 1;
@@ -6478,7 +6229,7 @@ table {
   margin-top: -42px;
 }
 
-.apo-section-title + .comments-list {
+.apo-section-title+.comments-list {
   margin-top: -10px;
 }
 
@@ -6539,8 +6290,9 @@ table {
 }
 
 /* firefox only */
+
 @-moz-document url-prefix() {
-  .apo-entry.apo-single .apo-entry-content > p:first-child:first-letter {
+  .apo-entry.apo-single .apo-entry-content>p:first-child:first-letter {
     margin-top: 10px;
   }
 }
@@ -6548,6 +6300,7 @@ table {
 /* ------------------------------------------------------
     10. Portfolio
 ------------------------------------------------------ */
+
 /* ------------------------------------------------------
 	    10.1. Container
 	------------------------------------------------------ */
@@ -6559,6 +6312,7 @@ table {
 /* ------------------------------------------------------
 	    10.2. Items
 	------------------------------------------------------ */
+
 .apo-project {
   font-size: 12px;
   line-height: 24px;
@@ -6578,11 +6332,11 @@ table {
   text-transform: uppercase;
 }
 
-.apo-project-categories > li {
+.apo-project-categories>li {
   display: inline;
 }
 
-.apo-project-categories > li:not(:last-child)::after {
+.apo-project-categories>li:not(:last-child)::after {
   content: ", ";
 }
 
@@ -6593,15 +6347,14 @@ table {
   margin-right: -7px;
 }
 
-.apo-project-meta > li {
+.apo-project-meta>li {
   display: inline-block;
   padding-top: 10px;
   padding-left: 7px;
   padding-right: 7px;
 }
 
-.apo-project-meta > li .fa,
-.apo-project-meta > li [class*="icon"] {
+.apo-project-meta>li .fa, .apo-project-meta>li [class*="icon"] {
   font-size: 16px;
   display: inline-block;
   margin: 3px 8px 0 0;
@@ -6610,6 +6363,7 @@ table {
 /* ------------------------------------------------------
 		    10.2.1. Style 1
 		------------------------------------------------------ */
+
 .apo-portfolio-container.apo-style-1.apo-isotope {
   margin-top: -40px;
 }
@@ -6670,6 +6424,7 @@ table {
 /* ------------------------------------------------------
 		    10.2.2. Style 2
 		------------------------------------------------------ */
+
 .apo-portfolio-container.apo-style-2.apo-isotope {
   margin: 0;
 }
@@ -6679,8 +6434,7 @@ table {
   overflow: hidden;
 }
 
-.apo-portfolio-container.apo-isotope.apo-style-2,
-.apo-portfolio-container.apo-isotope.apo-style-3{
+.apo-portfolio-container.apo-isotope.apo-style-2, .apo-portfolio-container.apo-isotope.apo-style-3 {
   margin: -2px;
 }
 
@@ -6696,25 +6450,18 @@ table {
   background-position: 0 18px;
 }
 
-.apo-portfolio-container.apo-style-2 .apo-project-header, .apo-portfolio-container.apo-style-2 .apo-project-content, .apo-portfolio-container.apo-style-2 .apo-project-footer,
-.apo-portfolio-container.apo-style-2 .apo-project .apo-project-content-wrap::before {
+.apo-portfolio-container.apo-style-2 .apo-project-header, .apo-portfolio-container.apo-style-2 .apo-project-content, .apo-portfolio-container.apo-style-2 .apo-project-footer, .apo-portfolio-container.apo-style-2 .apo-project .apo-project-content-wrap::before {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.4s ease-out, visibility 0.4s ease-out;
 }
 
-.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-header,
-.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-content,
-.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-footer,
-.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-header,
-.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-content,
-.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-footer {
+.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-header, .apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-content, .apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-footer, .apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-header, .apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-content, .apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-footer {
   opacity: 1;
   visibility: visible;
 }
 
-.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-content-wrap::before,
-.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-content-wrap::before {
+.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-content-wrap::before, .apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-content-wrap::before {
   opacity: .8;
   visibility: visible;
 }
@@ -6783,12 +6530,12 @@ table {
   transition: transform 0.4s ease-out;
   transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
   -webkit-transform: scale3d(1.03, 1.03, 1.03);
-          transform: scale3d(1.03, 1.03, 1.03);
+  transform: scale3d(1.03, 1.03, 1.03);
 }
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-2 .apo-project-header, .apo-csstransforms3d .apo-portfolio-container.apo-style-2 .apo-project-content, .apo-csstransforms3d .apo-portfolio-container.apo-style-2 .apo-project-footer {
   -webkit-transform: scale3d(1.2, 1.2, 1.2);
-          transform: scale3d(1.2, 1.2, 1.2);
+  transform: scale3d(1.2, 1.2, 1.2);
   transition-property: opacity, visibility, -webkit-transform;
   transition-property: opacity, visibility, transform;
   transition-property: opacity, visibility, transform, -webkit-transform;
@@ -6802,21 +6549,15 @@ table {
   transition-delay: 400ms;
 }
 
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-media img,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-header,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-content,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-footer,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-media img,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-header,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-content,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-footer {
+.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-media img, .apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-header, .apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-content, .apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-footer, .apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-media img, .apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-header, .apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-content, .apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-footer {
   -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 
 /* ------------------------------------------------------
 		    10.2.3. Style 3
 		------------------------------------------------------ */
+
 .apo-portfolio-container.apo-style-3.apo-isotope {
   margin: 0;
 }
@@ -6825,10 +6566,7 @@ table {
   padding: 0;
 }
 
-.apo-portfolio-container:not(.apo-style-1) .apo-project.apo-isotope-effect,
-.apo-entries-container.apo-style-1 .apo-entry.apo-isotope-effect,
-.apo-entries-container.apo-style-2 .apo-entry.apo-isotope-effect,
-.apo-entries-container.apo-style-3 .apo-entry.apo-isotope-effect {
+.apo-portfolio-container:not(.apo-style-1) .apo-project.apo-isotope-effect, .apo-entries-container.apo-style-1 .apo-entry.apo-isotope-effect, .apo-entries-container.apo-style-2 .apo-entry.apo-isotope-effect, .apo-entries-container.apo-style-3 .apo-entry.apo-isotope-effect {
   overflow: hidden;
   width: 0%;
   transition-property: all;
@@ -6836,10 +6574,7 @@ table {
   transition-duration: .7s;
 }
 
-.apo-portfolio-container:not(.apo-style-1) .apo-project.apo-isotope-effect.apo-isotope-effect-loaded,
-.apo-entries-container.apo-style-1 .apo-entry.apo-isotope-effect.apo-isotope-effect-loaded,
-.apo-entries-container.apo-style-2 .apo-entry.apo-isotope-effect.apo-isotope-effect-loaded,
-.apo-entries-container.apo-style-3 .apo-entry.apo-isotope-effect.apo-isotope-effect-loaded {
+.apo-portfolio-container:not(.apo-style-1) .apo-project.apo-isotope-effect.apo-isotope-effect-loaded, .apo-entries-container.apo-style-1 .apo-entry.apo-isotope-effect.apo-isotope-effect-loaded, .apo-entries-container.apo-style-2 .apo-entry.apo-isotope-effect.apo-isotope-effect-loaded, .apo-entries-container.apo-style-3 .apo-entry.apo-isotope-effect.apo-isotope-effect-loaded {
   width: 100%;
 }
 
@@ -6916,18 +6651,12 @@ table {
   margin-bottom: 3px;
 }
 
-.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-content-wrap::after,
-.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-content-wrap::after {
+.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-content-wrap::after, .apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-content-wrap::after {
   opacity: .5;
   visibility: visible;
 }
 
-.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-header,
-.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-content,
-.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-footer,
-.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-header,
-.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-content,
-.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-footer {
+.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-header, .apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-content, .apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-footer, .apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-header, .apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-content, .apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-footer {
   opacity: 1;
   visibility: visible;
 }
@@ -6941,7 +6670,7 @@ table {
   transition: transform 0.4s ease-out;
   transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
   -webkit-transform: scale3d(1.03, 1.03, 1.03);
-          transform: scale3d(1.03, 1.03, 1.03);
+  transform: scale3d(1.03, 1.03, 1.03);
 }
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-3 .apo-project-header, .apo-csstransforms3d .apo-portfolio-container.apo-style-3 .apo-project-content, .apo-csstransforms3d .apo-portfolio-container.apo-style-3 .apo-project-footer {
@@ -6949,7 +6678,7 @@ table {
   transition-property: transform, opacity, visibility;
   transition-property: transform, opacity, visibility, -webkit-transform;
   -webkit-transform: scale3d(1.15, 1.15, 1.15);
-          transform: scale3d(1.15, 1.15, 1.15);
+  transform: scale3d(1.15, 1.15, 1.15);
 }
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-3 .apo-project-header {
@@ -6964,21 +6693,15 @@ table {
   transition-delay: 300ms;
 }
 
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-media img,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-header,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-content,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-footer,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-media img,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-header,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-content,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-footer {
+.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-media img, .apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-header, .apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-content, .apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-footer, .apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-media img, .apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-header, .apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-content, .apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-footer {
   -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 
 /* ------------------------------------------------------
 		    10.2.4. Style 4
 		------------------------------------------------------ */
+
 .apo-portfolio-container.apo-style-4.apo-isotope {
   margin: 0;
 }
@@ -7075,7 +6798,7 @@ table {
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project-media img {
   -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
   transition: -webkit-transform 0.4s ease-out;
   transition: transform 0.4s ease-out;
   transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
@@ -7083,7 +6806,7 @@ table {
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project-header, .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project-content, .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project-footer {
   -webkit-transform: translate3d(0, 5px, 0);
-          transform: translate3d(0, 5px, 0);
+  transform: translate3d(0, 5px, 0);
   transition-property: opacity, visibility, -webkit-transform;
   transition-property: transform, opacity, visibility;
   transition-property: transform, opacity, visibility, -webkit-transform;
@@ -7103,17 +6826,18 @@ table {
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project.apo-project--hover-state .apo-project-media img {
   -webkit-transform: rotate3d(0, 0, 1, 2deg) scale3d(1.05, 1.05, 1.05);
-          transform: rotate3d(0, 0, 1, 2deg) scale3d(1.05, 1.05, 1.05);
+  transform: rotate3d(0, 0, 1, 2deg) scale3d(1.05, 1.05, 1.05);
 }
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project.apo-project--hover-state .apo-project-header, .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project.apo-project--hover-state .apo-project-content, .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project.apo-project--hover-state .apo-project-footer {
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 /* ------------------------------------------------------
 		    10.2.5. Style 5
 		------------------------------------------------------ */
+
 .apo-portfolio-container.apo-style-5.apo-isotope {
   margin: 0;
 }
@@ -7208,12 +6932,13 @@ table {
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-5 .apo-project:hover .apo-project-media img {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
-          transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 /* ------------------------------------------------------
 		    10.2.6. Style 6
 		------------------------------------------------------ */
+
 .apo-portfolio-container.apo-style-6 .apo-project {
   color: #fff;
   font-weight: 400;
@@ -7279,8 +7004,7 @@ table {
   background-position: 0 17px;
 }
 
-.apo-no-touchevents .apo-portfolio-container.apo-style-6 .apo-project:hover .apo-project-content-wrap,
-.apo-touchevents .apo-portfolio-container.apo-style-6 .apo-project.apo-touch-state-hover .apo-project-content-wrap {
+.apo-no-touchevents .apo-portfolio-container.apo-style-6 .apo-project:hover .apo-project-content-wrap, .apo-touchevents .apo-portfolio-container.apo-style-6 .apo-project.apo-touch-state-hover .apo-project-content-wrap {
   opacity: 1;
   visibility: visible;
 }
@@ -7290,18 +7014,18 @@ table {
   transition-property: opacity, visibility, transform;
   transition-property: opacity, visibility, transform, -webkit-transform;
   -webkit-transform: scale3d(1.05, 1.05, 1.05);
-          transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
 }
 
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-6 .apo-project:hover .apo-project-content-wrap,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-6 .apo-project.apo-touch-state-hover .apo-project-content-wrap {
+.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-6 .apo-project:hover .apo-project-content-wrap, .apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-6 .apo-project.apo-touch-state-hover .apo-project-content-wrap {
   -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 
 /* ------------------------------------------------------
 	    10.3. Single
 	------------------------------------------------------ */
+
 .apo-project-details {
   font-size: 12px;
   line-height: 22px;
@@ -7342,15 +7066,12 @@ table {
 /* ------------------------------------------------------
     11. Dedicated Pages
 ------------------------------------------------------ */
+
 /* ------------------------------------------------------
         11.1. About Me
     ------------------------------------------------------ */
-.apo-person-header h1:not(:last-child),
-.apo-person-header h2:not(:last-child),
-.apo-person-header h3:not(:last-child),
-.apo-person-header h4:not(:last-child),
-.apo-person-header h5:not(:last-child),
-.apo-person-header h6:not(:last-child) {
+
+.apo-person-header h1:not(:last-child), .apo-person-header h2:not(:last-child), .apo-person-header h3:not(:last-child), .apo-person-header h4:not(:last-child), .apo-person-header h5:not(:last-child), .apo-person-header h6:not(:last-child) {
   margin-bottom: 17px;
 }
 
@@ -7380,7 +7101,7 @@ table {
   background-position: 0% 47px;
 }
 
-.apo-personal-body .apo-contact-info > li:not(:last-child) {
+.apo-personal-body .apo-contact-info>li:not(:last-child) {
   margin-bottom: 15px;
 }
 
@@ -7395,6 +7116,7 @@ table {
 /* ------------------------------------------------------
         11.2. Contact Us
     ------------------------------------------------------ */
+
 .apo-contact-info-section {
   font-size: 16px;
   line-height: 26px;
@@ -7405,11 +7127,11 @@ table {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .apo-contact-footer {
@@ -7428,7 +7150,7 @@ table {
   background-position: 0% 49px;
 }
 
-.apo-contact-info-section .apo-contact-info > li:not(:last-child) {
+.apo-contact-info-section .apo-contact-info>li:not(:last-child) {
   margin-bottom: 20px;
 }
 
@@ -7439,6 +7161,7 @@ table {
 /* ------------------------------------------------------
         11.3. Home
     ------------------------------------------------------ */
+
 .apo-content-logo {
   display: inline-block;
 }
@@ -7473,7 +7196,7 @@ table {
   background-position: 0 21px;
 }
 
-.apo-contact-section-body .apo-contact-info > li:not(:last-child) {
+.apo-contact-section-body .apo-contact-info>li:not(:last-child) {
   margin-bottom: 7px;
 }
 
@@ -7583,7 +7306,7 @@ table {
   margin-left: 75px;
 }
 
-.apo-photo-stream-actions > li:not(:last-child) {
+.apo-photo-stream-actions>li:not(:last-child) {
   margin-bottom: 20px;
 }
 
@@ -7596,12 +7319,12 @@ table {
 
 .apo-no-csstransforms3d .apo-fp-photo-stream .apo-photo-stream-actions {
   -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
 }
 
 .apo-csstransforms3d .apo-fp-photo-stream .apo-photo-stream-actions {
   -webkit-transform: translate3d(0, -50%, 0);
-          transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
 }
 
 .apo-photo-stream-hidden-img:-webkit-full-screen {
@@ -7622,6 +7345,7 @@ table {
 /* ------------------------------------------------------
     12. Modal Windows
 ------------------------------------------------------ */
+
 [class*="arcticmodal-container_"] {
   position: relative;
 }
@@ -7656,18 +7380,7 @@ table {
   opacity: 1;
 }
 
-.apo-modal .apo-oneline-form input[type="text"],
-.apo-modal .apo-oneline-form input[type="email"],
-.apo-modal .apo-oneline-form input[type="password"],
-.apo-modal .apo-oneline-form input[type="number"],
-.apo-modal .apo-oneline-form input[type="search"],
-.apo-modal .apo-oneline-form input[type="url"],
-.apo-modal .apo-oneline-form input[type="date"],
-.apo-modal .apo-oneline-form input[type="datetime-local"],
-.apo-modal .apo-oneline-form input[type="month"],
-.apo-modal .apo-oneline-form input[type="tel"],
-.apo-modal .apo-oneline-form input[type="time"],
-.apo-modal .apo-oneline-form input[type="week"] {
+.apo-modal .apo-oneline-form input[type="text"], .apo-modal .apo-oneline-form input[type="email"], .apo-modal .apo-oneline-form input[type="password"], .apo-modal .apo-oneline-form input[type="number"], .apo-modal .apo-oneline-form input[type="search"], .apo-modal .apo-oneline-form input[type="url"], .apo-modal .apo-oneline-form input[type="date"], .apo-modal .apo-oneline-form input[type="datetime-local"], .apo-modal .apo-oneline-form input[type="month"], .apo-modal .apo-oneline-form input[type="tel"], .apo-modal .apo-oneline-form input[type="time"], .apo-modal .apo-oneline-form input[type="week"] {
   background-color: #000000;
   height: 60px;
   border-radius: 30px;
@@ -7709,6 +7422,7 @@ table {
 /* ------------------------------------------------------
         12.1. Photo Info
     ------------------------------------------------------ */
+
 .apo-modal-photo-info {
   max-width: 1170px;
 }
@@ -7739,14 +7453,14 @@ table {
 /* ------------------------------------------------------
     13. Footer
 ------------------------------------------------------ */
+
 .apo-footer {
   color: #8a8a8a;
   background-color: #000;
   padding: 85px 0;
 }
 
-.apo-footer,
-.apo-footer .apo-widget-area .apo-widget {
+.apo-footer, .apo-footer .apo-widget-area .apo-widget {
   font-size: 12px;
   line-height: 30px;
   font-weight: 400;
@@ -7760,8 +7474,7 @@ table {
   color: #8a8a8a;
 }
 
-.apo-footer a:hover,
-.apo-footer a:focus {
+.apo-footer a:hover, .apo-footer a:focus {
   color: #fff;
 }
 
@@ -7775,11 +7488,11 @@ table {
   margin-bottom: 22px;
 }
 
-.apo-footer .apo-widget ul > li > a {
+.apo-footer .apo-widget ul>li>a {
   text-transform: none;
 }
 
-.apo-footer .apo-widget ul > li:not(:last-child) {
+.apo-footer .apo-widget ul>li:not(:last-child) {
   margin-bottom: 6px;
 }
 
@@ -7812,9 +7525,11 @@ table {
 /* ------------------------------------------------------
     14. Media Queries
 ------------------------------------------------------ */
+
 /* ------------------------------------------------------
         14.1. Override Bootstrap media queries
     ------------------------------------------------------ */
+
 .col-offset-0-5 {
   margin-left: 4%;
 }
@@ -7823,7 +7538,6 @@ table {
   .col-sm-offset-0-5 {
     margin-left: 4%;
   }
-
   .apo-table-row-sm {
     margin-left: 0;
     margin-right: 0;
@@ -7831,18 +7545,18 @@ table {
     width: 100%;
     table-layout: fixed;
   }
-  .apo-table-row-sm > [class*="col-sm-"] {
+  .apo-table-row-sm>[class*="col-sm-"] {
     display: table-cell;
     vertical-align: middle;
     float: none;
   }
-  .apo-table-row-sm > [class*="col-sm-"]:first-child {
+  .apo-table-row-sm>[class*="col-sm-"]:first-child {
     padding-left: 0;
   }
-  .apo-table-row-sm > [class*="col-sm-"]:last-child {
+  .apo-table-row-sm>[class*="col-sm-"]:last-child {
     padding-right: 0;
   }
-  .apo-table-row-sm > [class*="col-sm-"]:last-child:not(:only-child) {
+  .apo-table-row-sm>[class*="col-sm-"]:last-child:not(:only-child) {
     text-align: right;
   }
 }
@@ -7851,7 +7565,6 @@ table {
   .col-md-offset-0-5 {
     margin-left: 4%;
   }
-
   .apo-table-row-md {
     margin-left: 0;
     margin-right: 0;
@@ -7859,18 +7572,18 @@ table {
     width: 100%;
     table-layout: fixed;
   }
-  .apo-table-row-md > [class*="col-md-"] {
+  .apo-table-row-md>[class*="col-md-"] {
     display: table-cell;
     vertical-align: middle;
     float: none;
   }
-  .apo-table-row-md > [class*="col-md-"]:first-child {
+  .apo-table-row-md>[class*="col-md-"]:first-child {
     padding-left: 0;
   }
-  .apo-table-row-md > [class*="col-md-"]:last-child {
+  .apo-table-row-md>[class*="col-md-"]:last-child {
     padding-right: 0;
   }
-  .apo-table-row-md > [class*="col-md-"]:last-child:not(:only-child) {
+  .apo-table-row-md>[class*="col-md-"]:last-child:not(:only-child) {
     text-align: right;
   }
 }
@@ -7879,7 +7592,6 @@ table {
   .col-lg-offset-0-5 {
     margin-left: 4%;
   }
-
   .apo-table-row-lg {
     margin-left: 0;
     margin-right: 0;
@@ -7887,18 +7599,18 @@ table {
     width: 100%;
     table-layout: fixed;
   }
-  .apo-table-row-lg > [class*="col-lg-"] {
+  .apo-table-row-lg>[class*="col-lg-"] {
     display: table-cell;
     vertical-align: middle;
     float: none;
   }
-  .apo-table-row-lg > [class*="col-lg-"]:first-child {
+  .apo-table-row-lg>[class*="col-lg-"]:first-child {
     padding-left: 0;
   }
-  .apo-table-row-lg > [class*="col-lg-"]:last-child {
+  .apo-table-row-lg>[class*="col-lg-"]:last-child {
     padding-right: 0;
   }
-  .apo-table-row-lg > [class*="col-lg-"]:last-child:not(:only-child) {
+  .apo-table-row-lg>[class*="col-lg-"]:last-child:not(:only-child) {
     text-align: right;
   }
 }
@@ -7916,6 +7628,7 @@ table {
 /* ------------------------------------------------------
         14.2. Tablet (landscape) & Notebook 13'
     ------------------------------------------------------ */
+
 @media all and (min-height: 600px) {
   .apo-scroll-down-icon {
     display: block;
@@ -7930,17 +7643,13 @@ table {
   .apo-entries-container.apo-cols-4.apo-style-1 .apo-item {
     width: 33.33333%;
   }
-  .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .apo-item,
-  .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .grid-sizer {
+  .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .apo-item, .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .grid-sizer {
     width: 33.33333%;
   }
   .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .apo-item.apo-item-size-2x {
     width: 66.66666%;
   }
-  .apo-header-vertical-left .container,
-  .apo-header-vertical-right .container,
-  .apo-header-vertical-left .container-fluid,
-  .apo-header-vertical-right .container-fluid {
+  .apo-header-vertical-left .container, .apo-header-vertical-right .container, .apo-header-vertical-left .container-fluid, .apo-header-vertical-right .container-fluid {
     width: auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -8008,15 +7717,13 @@ table {
   .apo-fp-photo-stream .apo-photo-stream-actions {
     left: 55px;
   }
-
   .apo-fullscreen-control {
     display: none;
   }
 }
 
 @media all and (max-width: 1199px) {
-  .apo-isotope.apo-cols-4 .grid-sizer,
-  .apo-isotope.apo-cols-4 .apo-item {
+  .apo-isotope.apo-cols-4 .grid-sizer, .apo-isotope.apo-cols-4 .apo-item {
     width: 33.33333%;
   }
   .apo-isotope.apo-cols-4 .apo-item.apo-item-size-2x {
@@ -8028,13 +7735,10 @@ table {
   form [class*="col-"]:not([class*="col-md-"]):not([class*="col-sm-"]):not([class*="col-xs-"]):not(:last-child) {
     margin-bottom: 30px;
   }
-  .apo-has-sidebar .apo-grid.apo-cols-4 .apo-grid-col,
-  .apo-has-sidebar .apo-grid.apo-cols-3 .apo-grid-col {
+  .apo-has-sidebar .apo-grid.apo-cols-4 .apo-grid-col, .apo-has-sidebar .apo-grid.apo-cols-3 .apo-grid-col {
     width: 50%;
   }
-  .apo-widget-area.apo-cols-4 .apo-widget,
-  .apo-widget-area.apo-cols-4 .apo-widget.apo-widget-size-1_7x,
-  .apo-widget-area.apo-cols-4 .apo-widget.apo-widget-size-0_65x {
+  .apo-widget-area.apo-cols-4 .apo-widget, .apo-widget-area.apo-cols-4 .apo-widget.apo-widget-size-1_7x, .apo-widget-area.apo-cols-4 .apo-widget.apo-widget-size-0_65x {
     width: 50%;
   }
   .apo-widget .apo-gallery {
@@ -8053,8 +7757,7 @@ table {
     padding-left: 100px;
     padding-right: 100px;
   }
-  .apo-section-thin .apo-entry.apo-single .apo-entry-media,
-  .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
+  .apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
     margin-left: -100px;
     margin-right: -100px;
   }
@@ -8062,19 +7765,15 @@ table {
     margin-left: -50px;
     margin-right: -50px;
   }
-  .apo-has-sidebar.apo-section-thin,
-  .apo-has-sidebar .apo-section-thin {
+  .apo-has-sidebar.apo-section-thin, .apo-has-sidebar .apo-section-thin {
     padding-left: 60px;
     padding-right: 60px;
   }
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-media,
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption,
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-media,
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
+  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
     margin-left: -60px;
     margin-right: -60px;
   }
-  .apo-footer .apo-contact-info-widget ~ .apo-widget .apo-widget-title {
+  .apo-footer .apo-contact-info-widget~.apo-widget .apo-widget-title {
     margin-top: 0;
   }
   .apo-portfolio-container.apo-style-5 .apo-project-content-wrap .apo-aligner-inner {
@@ -8097,13 +7796,10 @@ table {
   .apo-entries-container.apo-style-5 .apo-entry-header:not(:last-child) {
     margin-bottom: 170px;
   }
-  .apo-header:not(.apo-header-vertical).apo-header-transparent .apo-header-component-first,
-  .apo-header:not(.apo-header-vertical).apo-header-transparent .apo-header-component-last,
-  .apo-header:not(.apo-header-vertical).apo-header-bottom .apo-header-component-first,
-  .apo-header:not(.apo-header-vertical).apo-header-bottom .apo-header-component-last {
+  .apo-header:not(.apo-header-vertical).apo-header-transparent .apo-header-component-first, .apo-header:not(.apo-header-vertical).apo-header-transparent .apo-header-component-last, .apo-header:not(.apo-header-vertical).apo-header-bottom .apo-header-component-first, .apo-header:not(.apo-header-vertical).apo-header-bottom .apo-header-component-last {
     width: 20%;
   }
-  .apo-has-children > .apo-sub-menu.apo-reverse {
+  .apo-has-children>.apo-sub-menu.apo-reverse {
     right: 0;
   }
 }
@@ -8119,17 +7815,17 @@ table {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-
   .apo-csstransforms3d .apo-header-vertical .apo-header-item .apo-page-title {
     -webkit-transform: rotate3d(0, 0, 1, -90deg) translate3d(-50%, 0, 0);
-        -ms-transform: rotate3d(0, 0, 1, -90deg) translate3d(-50%, 0, 0);
-            transform: rotate3d(0, 0, 1, -90deg) translate3d(-50%, 0, 0);
+    -ms-transform: rotate3d(0, 0, 1, -90deg) translate3d(-50%, 0, 0);
+    transform: rotate3d(0, 0, 1, -90deg) translate3d(-50%, 0, 0);
   }
 }
 
 /* ------------------------------------------------------
         14.3. Tablet (portait)
     ------------------------------------------------------ */
+
 @media all and (min-width: 768px) and (max-width: 991px) {
   .apo-widget .calendar_wrap table thead td, .apo-widget .calendar_wrap table thead th, .apo-widget .calendar_wrap table tbody td, .apo-widget .calendar_wrap table tbody th {
     padding: 9px 5px 5px;
@@ -8137,20 +7833,16 @@ table {
   .apo-widget .calendar_wrap table tbody td {
     padding: 6px 5px 8px;
   }
-
-  .apo-header-bottom ~ .apo-page .apo-revslider-theme .apo-revslider-controls {
+  .apo-header-bottom~.apo-page .apo-revslider-theme .apo-revslider-controls {
     bottom: 240px;
   }
 }
 
 @media all and (max-width: 991px) {
-  img.aligncenter:not(:last-child),
-  [class*="col-"]:not([class*="col-sm-"]):not([class*="col-xs-"]):not(:last-child),
-  [class*="col-"]:not([class*="col-md-"]):not([class*="col-sm-"]):not([class*="col-xs-"]):not(:last-child) {
+  img.aligncenter:not(:last-child), [class*="col-"]:not([class*="col-sm-"]):not([class*="col-xs-"]):not(:last-child), [class*="col-"]:not([class*="col-md-"]):not([class*="col-sm-"]):not([class*="col-xs-"]):not(:last-child) {
     margin-bottom: 60px;
   }
-  form [class*="col-"]:not([class*="col-sm-"]):not([class*="col-xs-"]):not(:last-child),
-  form [class*="col-"]:not([class*="col-md-"]):not([class*="col-sm-"]):not([class*="col-xs-"]):not(:last-child) {
+  form [class*="col-"]:not([class*="col-sm-"]):not([class*="col-xs-"]):not(:last-child), form [class*="col-"]:not([class*="col-md-"]):not([class*="col-sm-"]):not([class*="col-xs-"]):not(:last-child) {
     margin-bottom: 30px;
   }
   blockquote {
@@ -8170,8 +7862,7 @@ table {
   .apo-entries-container.apo-cols-4.apo-style-1 .apo-item.apo-item-size-2x .apo-entry-title a {
     background-position: 0 26px;
   }
-  .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .apo-item,
-  .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .grid-sizer {
+  .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .apo-item, .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .grid-sizer {
     width: 50%;
   }
   .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .apo-item.apo-item-size-2x {
@@ -8197,11 +7888,7 @@ table {
   .apo-page-header {
     display: block;
   }
-  .apo-page-header,
-  .apo-page-controls,
-  .apo-section,
-  .apo-section.apo-huge,
-  .apo-section.apo-medium {
+  .apo-page-header, .apo-page-controls, .apo-section, .apo-section.apo-huge, .apo-section.apo-medium {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -8209,10 +7896,10 @@ table {
     padding-top: 0;
     padding-bottom: 0;
   }
-  .apo-section + .apo-page-header.apo-small {
+  .apo-section+.apo-page-header.apo-small {
     margin-top: -60px;
   }
-  .apo-section + .apo-page-header.apo-medium {
+  .apo-section+.apo-page-header.apo-medium {
     margin-top: -65px;
   }
   .apo-page-header-column {
@@ -8233,11 +7920,7 @@ table {
   .apo-page-header.apo-style-3 .apo-page-header-column:not(:only-child):first-child {
     width: auto;
   }
-  .apo-isotope.apo-cols-4 .grid-sizer,
-  .apo-isotope.apo-cols-4 .apo-item,
-  .apo-isotope.apo-cols-4 .apo-item.apo-item-size-2x, .apo-isotope.apo-cols-3 .grid-sizer,
-  .apo-isotope.apo-cols-3 .apo-item,
-  .apo-isotope.apo-cols-3 .apo-item.apo-item-size-2x {
+  .apo-isotope.apo-cols-4 .grid-sizer, .apo-isotope.apo-cols-4 .apo-item, .apo-isotope.apo-cols-4 .apo-item.apo-item-size-2x, .apo-isotope.apo-cols-3 .grid-sizer, .apo-isotope.apo-cols-3 .apo-item, .apo-isotope.apo-cols-3 .apo-item.apo-item-size-2x {
     width: 50%;
   }
   .apo-widget .apo-gallery.apo-cols-3 .apo-gallery-item {
@@ -8264,20 +7947,15 @@ table {
   .apo-divider-large-offset:not(:last-child) {
     margin-bottom: 40px;
   }
-  .apo-has-sidebar.apo-section-thin,
-  .apo-has-sidebar .apo-section-thin {
+  .apo-has-sidebar.apo-section-thin, .apo-has-sidebar .apo-section-thin {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-media,
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption,
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-media,
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
+  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
     margin-left: -30px;
     margin-right: -30px;
   }
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-header,
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-header {
+  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-header, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-header {
     margin-left: -30px;
     margin-right: -30px;
   }
@@ -8321,11 +7999,11 @@ table {
   .apo-pricing-tables .apo-pricing-table-label {
     top: 20px;
   }
-  .apo-has-children > .apo-sub-menu {
+  .apo-has-children>.apo-sub-menu {
     padding: 40px 60px 20px;
     min-width: 500px;
   }
-  .apo-has-children .apo-has-children > .apo-sub-menu {
+  .apo-has-children .apo-has-children>.apo-sub-menu {
     margin-top: -40px;
   }
   .apo-header:not(.apo-header-vertical) .apo-header-section {
@@ -8334,13 +8012,7 @@ table {
   .apo-header:not(.apo-header-vertical) [class*="apo-header-component"]:not(:last-child) {
     margin-bottom: 10px;
   }
-  .apo-header:not(.apo-header-vertical) .apo-header-component-first,
-  .apo-header:not(.apo-header-vertical) .apo-header-component-middle,
-  .apo-header:not(.apo-header-vertical) .apo-header-component-last, .apo-header:not(.apo-header-vertical).apo-header-transparent .apo-header-component-first,
-  .apo-header:not(.apo-header-vertical).apo-header-transparent .apo-header-component-middle,
-  .apo-header:not(.apo-header-vertical).apo-header-transparent .apo-header-component-last, .apo-header:not(.apo-header-vertical).apo-header-bottom .apo-header-component-first,
-  .apo-header:not(.apo-header-vertical).apo-header-bottom .apo-header-component-middle,
-  .apo-header:not(.apo-header-vertical).apo-header-bottom .apo-header-component-last {
+  .apo-header:not(.apo-header-vertical) .apo-header-component-first, .apo-header:not(.apo-header-vertical) .apo-header-component-middle, .apo-header:not(.apo-header-vertical) .apo-header-component-last, .apo-header:not(.apo-header-vertical).apo-header-transparent .apo-header-component-first, .apo-header:not(.apo-header-vertical).apo-header-transparent .apo-header-component-middle, .apo-header:not(.apo-header-vertical).apo-header-transparent .apo-header-component-last, .apo-header:not(.apo-header-vertical).apo-header-bottom .apo-header-component-first, .apo-header:not(.apo-header-vertical).apo-header-bottom .apo-header-component-middle, .apo-header:not(.apo-header-vertical).apo-header-bottom .apo-header-component-last {
     text-align: center;
     display: block;
     width: 100%;
@@ -8434,7 +8106,7 @@ table {
   .apo-pricing-table.apo-recommended .apo-pricing-table-list:not(:last-child) {
     margin-bottom: 12px;
   }
-  .apo-pricing-table.apo-recommended .apo-pricing-table-list > li {
+  .apo-pricing-table.apo-recommended .apo-pricing-table-list>li {
     padding: 22px 0 20px;
   }
 }
@@ -8442,6 +8114,7 @@ table {
 /* ------------------------------------------------------
         14.4. Phone (landscape)
     ------------------------------------------------------ */
+
 @media all and (max-width: 767px) {
   [class*="col-"]:not([class*="col-xs-"]):not(:last-child) {
     margin-bottom: 55px !important;
@@ -8449,20 +8122,13 @@ table {
   form [class*="col-"]:not([class*="col-xs-"]):not(:last-child) {
     margin-bottom: 30px !important;
   }
-  .apo-footer.apo-style-2 [class*="col-"]:not([class*="col-xs-"]):not(:last-child),
-  .apo-contact-section-footer [class*="col-"]:not([class*="col-xs-"]):not(:last-child) {
+  .apo-footer.apo-style-2 [class*="col-"]:not([class*="col-xs-"]):not(:last-child), .apo-contact-section-footer [class*="col-"]:not([class*="col-xs-"]):not(:last-child) {
     margin-bottom: 20px !important;
   }
-  h1:not(:last-child),
-  h2:not(:last-child),
-  h3:not(:last-child),
-  h4:not(:last-child),
-  h5:not(:last-child),
-  h6:not(:last-child) {
+  h1:not(:last-child), h2:not(:last-child), h3:not(:last-child), h4:not(:last-child), h5:not(:last-child), h6:not(:last-child) {
     margin-bottom: 35px;
   }
-  .apo-section,
-  .apo-section.apo-medium {
+  .apo-section, .apo-section.apo-medium {
     padding-top: 55px;
     padding-bottom: 55px;
   }
@@ -8470,26 +8136,22 @@ table {
     padding-top: 0;
     padding-bottom: 0;
   }
-  .apo-section + .apo-page-controls.apo-small {
+  .apo-section+.apo-page-controls.apo-small {
     margin-top: -55px;
   }
-  .apo-section + .apo-page-controls.apo-medium {
+  .apo-section+.apo-page-controls.apo-medium {
     margin-top: -60px;
   }
-  .apo-widget-area.apo-cols-4 .apo-widget,
-  .apo-widget-area.apo-cols-4 .apo-widget.apo-widget-size-1_7x,
-  .apo-widget-area.apo-cols-4 .apo-widget.apo-widget-size-0_65x {
+  .apo-widget-area.apo-cols-4 .apo-widget, .apo-widget-area.apo-cols-4 .apo-widget.apo-widget-size-1_7x, .apo-widget-area.apo-cols-4 .apo-widget.apo-widget-size-0_65x {
     width: 100%;
   }
-  .apo-entries-container.apo-cols-4.apo-style-1 .apo-entry-header-dublicate,
-  .apo-entries-container.apo-cols-4.apo-style-1 .apo-entry .apo-aligner-inner {
+  .apo-entries-container.apo-cols-4.apo-style-1 .apo-entry-header-dublicate, .apo-entries-container.apo-cols-4.apo-style-1 .apo-entry .apo-aligner-inner {
     padding: 20px;
   }
   .apo-header-section {
     display: block;
   }
-  body.apo-header-vertical-left,
-  body.apo-header-vertical-right {
+  body.apo-header-vertical-left, body.apo-header-vertical-right {
     margin-left: 0;
     margin-right: 0;
   }
@@ -8508,8 +8170,7 @@ table {
     color: #ffffff;
     background-color: #000000;
   }
-  .apo-header:not(.apo-header-vertical) .apo-header-items,
-  .apo-header:not(.apo-header-vertical) .apo-header-component-middle .apo-header-item {
+  .apo-header:not(.apo-header-vertical) .apo-header-items, .apo-header:not(.apo-header-vertical) .apo-header-component-middle .apo-header-item {
     display: block;
   }
   .apo-header-vertical {
@@ -8543,7 +8204,7 @@ table {
     vertical-align: middle;
     padding: 15px 15px 0;
   }
-  .apo-header-vertical .apo-header-item .apo-social-networks > li {
+  .apo-header-vertical .apo-header-item .apo-social-networks>li {
     display: inline-block;
   }
   .apo-header-vertical .apo-header-item .apo-page-title {
@@ -8556,20 +8217,16 @@ table {
     width: auto;
     height: auto;
   }
-  .apo-csstransforms3d .apo-header-vertical .apo-header-item .apo-page-title,
-  .apo-nocsstransforms3d .apo-header-vertical .apo-header-item .apo-page-title {
+  .apo-csstransforms3d .apo-header-vertical .apo-header-item .apo-page-title, .apo-nocsstransforms3d .apo-header-vertical .apo-header-item .apo-page-title {
     -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
   .apo-full-page-fixed-content .apo-full-page-fixed-col {
     position: static;
     min-height: 300px;
     opacity: 1;
   }
-  .apo-full-page-fixed-content .fp-section,
-  .apo-full-page-fixed-content .fp-slide,
-  .apo-full-page-fixed-content .fp-scrollable,
-  .apo-full-page-fixed-content .fp-tableCell {
+  .apo-full-page-fixed-content .fp-section, .apo-full-page-fixed-content .fp-slide, .apo-full-page-fixed-content .fp-scrollable, .apo-full-page-fixed-content .fp-tableCell {
     height: auto;
   }
   .apo-full-page-fixed-content .apo-full-page-container {
@@ -8587,39 +8244,33 @@ table {
     width: auto;
     height: auto;
   }
-  .apo-fixed-content-fixed-col,
-  .apo-fixed-content-scroll-col,
-  .apo-fixed-content-fixed-col + .apo-fixed-content-scroll-col {
+  .apo-fixed-content-fixed-col, .apo-fixed-content-scroll-col, .apo-fixed-content-fixed-col+.apo-fixed-content-scroll-col {
     padding: 55px 30px;
   }
-  .apo-fixed-content-fixed-col + .apo-fixed-content-scroll-col {
+  .apo-fixed-content-fixed-col+.apo-fixed-content-scroll-col {
     padding-top: 0;
   }
-  .apo-d-xs-none,
-  .apo-fixed-content-fixed-col::after,
-  .apo-revslider-theme .apo-revslider-theme-nav {
+  .apo-d-xs-none, .apo-fixed-content-fixed-col::after, .apo-revslider-theme .apo-revslider-theme-nav {
     display: none;
   }
   .apo-d-xs-inline-block {
     display: inline-block;
   }
-  .apo-fixed-content-fixed-col + .apo-fixed-content-scroll-col {
+  .apo-fixed-content-fixed-col+.apo-fixed-content-scroll-col {
     padding-top: 0;
   }
   .apo-entry.apo-single .apo-entry-content-wrap blockquote {
     font-size: 20px;
     line-height: 30px;
   }
-  .apo-grid.apo-cols-4 .apo-grid-col,
-  .apo-grid.apo-cols-3 .apo-grid-col {
+  .apo-grid.apo-cols-4 .apo-grid-col, .apo-grid.apo-cols-3 .apo-grid-col {
     width: 50%;
   }
   blockquote.apo-style-3 {
     font-size: 28px;
     line-height: 40px;
   }
-  blockquote.apo-style-3 footer:not(:first-child),
-  blockquote.apo-style-3 .apo-bq-author:not(:first-child) {
+  blockquote.apo-style-3 footer:not(:first-child), blockquote.apo-style-3 .apo-bq-author:not(:first-child) {
     margin-top: 30px;
   }
   blockquote.apo-style-3:not(:last-child) {
@@ -8639,8 +8290,7 @@ table {
     padding-right: 30px;
   }
   /* TEMP */
-  .apo-header-section,
-  [class*="apo-hsection-component"] {
+  .apo-header-section, [class*="apo-hsection-component"] {
     display: block !important;
     width: 100% !important;
   }
@@ -8651,43 +8301,42 @@ table {
   .apo-navigation {
     margin-top: 0;
   }
-  .apo-navigation > li {
+  .apo-navigation>li {
     display: block;
     text-align: center;
     margin-top: 0;
   }
-  .apo-navigation > li > a {
+  .apo-navigation>li>a {
     padding: 10px;
   }
-  .apo-navigation > li > a::after {
+  .apo-navigation>li>a::after {
     display: none;
   }
-  .apo-has-children > .apo-sub-menu,
-  .apo-has-children .apo-has-children > .apo-sub-menu {
+  .apo-has-children>.apo-sub-menu, .apo-has-children .apo-has-children>.apo-sub-menu {
     opacity: 1;
     visibility: visible;
     min-width: initial;
     width: 100%;
     position: static;
     -webkit-transform: none !important;
-            transform: none !important;
+    transform: none !important;
     transition: none !important;
     padding: 20px 0 1px;
     margin: 0 !important;
   }
-  .apo-has-children .apo-has-children > .apo-sub-menu {
+  .apo-has-children .apo-has-children>.apo-sub-menu {
     margin-top: 10px !important;
   }
-  .apo-has-children > .apo-sub-menu > li {
+  .apo-has-children>.apo-sub-menu>li {
     display: block;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .apo-has-children .apo-has-children > a {
+  .apo-has-children .apo-has-children>a {
     padding-left: 30px;
   }
-  .apo-has-children .apo-has-children > a::after {
+  .apo-has-children .apo-has-children>a::after {
     content: "\e93a";
   }
   .apo-mobile-nav-btn {
@@ -8702,7 +8351,7 @@ table {
   }
   .apo-csstransforms3d .apo-fp-layer {
     -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
   .apo-photo-stream-date:not(:last-child) {
     margin-bottom: 20px;
@@ -8717,11 +8366,10 @@ table {
     padding-left: 0px;
     padding-right: 0px;
   }
-  .apo-entry.apo-single .apo-entry-media + .apo-entry-content-wrap {
+  .apo-entry.apo-single .apo-entry-media+.apo-entry-content-wrap {
     margin-top: 0;
   }
-  .apo-section-thin .apo-entry.apo-single .apo-entry-media,
-  .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
+  .apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -8729,8 +8377,7 @@ table {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .apo-fh-article-content .apo-scroll-down-label,
-  .apo-scroll-down-icon {
+  .apo-fh-article-content .apo-scroll-down-label, .apo-scroll-down-icon {
     display: none;
   }
   .apo-fh-article-content {
@@ -8777,32 +8424,22 @@ table {
   }
   .apo-csstransforms3d .apo-striped-photos.owl-carousel .owl-item.owl-item-unfocused .apo-striped-photo .apo-aligner-inner {
     -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
-
-  .apo-header-bottom ~ .apo-page .apo-revslider-theme .apo-revslider-controls {
+  .apo-header-bottom~.apo-page .apo-revslider-theme .apo-revslider-controls {
     bottom: 50px;
   }
-
   .apo-revslider-theme .apo-revslider-controls {
     left: 30px;
     bottom: 30px;
   }
-
   .apo-header-section.apo-sticky.apo-sticked {
     position: relative;
   }
-  
 }
 
 @media all and (max-width: 650px) {
-  .apo-isotope.apo-cols-4 .grid-sizer,
-  .apo-isotope.apo-cols-4 .apo-item,
-  .apo-isotope.apo-cols-4 .apo-item.apo-item-size-2x, .apo-isotope.apo-cols-3 .grid-sizer,
-  .apo-isotope.apo-cols-3 .apo-item,
-  .apo-isotope.apo-cols-3 .apo-item.apo-item-size-2x, .apo-isotope.apo-cols-2 .grid-sizer,
-  .apo-isotope.apo-cols-2 .apo-item,
-  .apo-isotope.apo-cols-2 .apo-item.apo-item-size-2x {
+  .apo-isotope.apo-cols-4 .grid-sizer, .apo-isotope.apo-cols-4 .apo-item, .apo-isotope.apo-cols-4 .apo-item.apo-item-size-2x, .apo-isotope.apo-cols-3 .grid-sizer, .apo-isotope.apo-cols-3 .apo-item, .apo-isotope.apo-cols-3 .apo-item.apo-item-size-2x, .apo-isotope.apo-cols-2 .grid-sizer, .apo-isotope.apo-cols-2 .apo-item, .apo-isotope.apo-cols-2 .apo-item.apo-item-size-2x {
     width: 100%;
   }
   .apo-full-page-container .apo-isotope.apo-cols-3 .apo-item {
@@ -8818,16 +8455,10 @@ table {
   .apo-entries-container.apo-cols-4.apo-style-1 .apo-item.apo-item-size-2x .apo-entry-title a {
     background-position: 0 26px;
   }
-  .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .apo-item,
-  .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .apo-item.apo-item-size-2x,
-  .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .grid-sizer {
+  .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .apo-item, .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .apo-item.apo-item-size-2x, .apo-entries-container.apo-cols-4.apo-style-1.apo-isotope .grid-sizer {
     width: 100%;
   }
-  .apo-entries-container.apo-style-4.apo-isotope.apo-cols-4 .grid-sizer,
-  .apo-entries-container.apo-style-4.apo-isotope.apo-cols-4 .apo-item,
-  .apo-entries-container.apo-style-4.apo-isotope.apo-cols-4 .apo-item.apo-item-size-2x, .apo-entries-container.apo-style-4.apo-isotope.apo-cols-3 .grid-sizer,
-  .apo-entries-container.apo-style-4.apo-isotope.apo-cols-3 .apo-item,
-  .apo-entries-container.apo-style-4.apo-isotope.apo-cols-3 .apo-item.apo-item-size-2x {
+  .apo-entries-container.apo-style-4.apo-isotope.apo-cols-4 .grid-sizer, .apo-entries-container.apo-style-4.apo-isotope.apo-cols-4 .apo-item, .apo-entries-container.apo-style-4.apo-isotope.apo-cols-4 .apo-item.apo-item-size-2x, .apo-entries-container.apo-style-4.apo-isotope.apo-cols-3 .grid-sizer, .apo-entries-container.apo-style-4.apo-isotope.apo-cols-3 .apo-item, .apo-entries-container.apo-style-4.apo-isotope.apo-cols-3 .apo-item.apo-item-size-2x {
     width: 100%;
   }
   .apo-entries-container.apo-style-4 .apo-entry .apo-aligner-inner {
@@ -8841,6 +8472,7 @@ table {
 /* ------------------------------------------------------
         14.5. Phone (portait)
     ------------------------------------------------------ */
+
 @media all and (max-width: 479px) {
   .apo-tabs.apo-vertical-tabs .apo-tabs-nav {
     float: none;
@@ -8849,18 +8481,12 @@ table {
   .apo-tabs.apo-vertical-tabs .apo-tabs-nav:not(:last-child) {
     margin-bottom: 20px;
   }
-  .apo-grid.apo-cols-4 .apo-grid-col,
-  .apo-grid.apo-cols-3 .apo-grid-col,
-  .apo-grid.apo-cols-2 .apo-grid-col,
-  .apo-has-sidebar .apo-grid.apo-cols-4 .apo-grid-col,
-  .apo-has-sidebar .apo-grid.apo-cols-3 .apo-grid-col {
+  .apo-grid.apo-cols-4 .apo-grid-col, .apo-grid.apo-cols-3 .apo-grid-col, .apo-grid.apo-cols-2 .apo-grid-col, .apo-has-sidebar .apo-grid.apo-cols-4 .apo-grid-col, .apo-has-sidebar .apo-grid.apo-cols-3 .apo-grid-col {
     width: 100%;
   }
-
   .apo-hr-controls {
     display: block;
   }
-
   [class*="apo-hr-controls-component"] {
     display: block;
     width: 100%;
@@ -8869,33 +8495,25 @@ table {
 }
 
 @media all and (max-width: 374px) {
-  .apo-has-sidebar.apo-section-thin,
-  .apo-has-sidebar .apo-section-thin {
+  .apo-has-sidebar.apo-section-thin, .apo-has-sidebar .apo-section-thin {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-media,
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption,
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-media,
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
+  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-media, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-content-wrap .wp-caption {
     margin-left: -10px;
     margin-right: -10px;
   }
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-header,
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-header {
+  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-header, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-header {
     margin-left: -10px;
     margin-right: -10px;
   }
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-media + .apo-entry-content-wrap,
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-media + .apo-entry-content-wrap {
+  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-media+.apo-entry-content-wrap, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-media+.apo-entry-content-wrap {
     margin-top: -20px;
   }
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-header,
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-header {
+  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-header, .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-header {
     padding: 25px 20px;
   }
-  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-content:not(:last-child),
-  .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-content:not(:last-child) {
+  .apo-has-sidebar.apo-section-thin .apo-entry.apo-single .apo-entry-content:not(:last-child), .apo-has-sidebar .apo-section-thin .apo-entry.apo-single .apo-entry-content:not(:last-child) {
     margin-bottom: 55px;
   }
 }
@@ -8904,10 +8522,9 @@ table {
     15. Retina Ready
 ------------------------------------------------ */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-resolution: 144 dpi){
-    .apo-scroll-down-icon {
-      background-image: url("../images/scrolldown-icon@2x.png");
-      background-size: 20px 120px;
-    }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144 dpi) {
+  .apo-scroll-down-icon {
+    background-image: url("../images/scrolldown-icon@2x.png");
+    background-size: 20px 120px;
+  }
 }

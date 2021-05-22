@@ -114,3 +114,98 @@
 }
 
 /* end of download buttons  */
+
+/* awesome text */
+
+.awesome {
+  width: auto;
+  color: #313131;
+  font-size: 45px;
+  font-weight: bold;
+  position: absolute;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #e1f549;
+  }
+  10% {
+    color: #29d0be
+  }
+  20% {
+    color: #ff5959;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: #6cb8ea;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: #ff5959;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #6cb8ea;
+  }
+  100% {
+    color: #ff5959;
+  }
+}
+
+.awesome {
+  width: auto;
+  color: #313131;
+  font-size: 45px;
+  font-weight: bold;
+  position: absolute;
+  background-color: white;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #e1f549;
+  }
+  10% {
+    color: #29d0be
+  }
+  20% {
+    color: #ff5959;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: #6cb8ea;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: #ff5959;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #6cb8ea;
+  }
+  100% {
+    color: #ff5959;
+  }
+}
+
+/* end of awesome text */

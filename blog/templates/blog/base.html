@@ -35,6 +35,7 @@
     <!-- Theme CSS-->
     <link rel="stylesheet" media="all" href='{% static "css/style.css"  %}' />
     <!-- Vendor JS-->
+    <script src='{% static "js/effects-jquery.js" %}'></script>
     <script src='{% static "vendors/modernizr.js"%}'></script>
     <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
     <!-- icon -->
@@ -188,12 +189,12 @@
                 <!-- Full Height Article-->
                 <article class="apo-fh-article">
                     <!-- Article Media-->
-                    <div data-bg-img-src='{% static "images/img-1524.png" %}' class="apo-fh-article-media">
+                    <div data-bg-img-src='{% static "images/img-0004.jpg" %}' class="apo-fh-article-media">
                         <div class="apo-aligner-outer">
                             <div class="apo-aligner-inner">
                                 <h2 class="apo-fh-article-title">
 
-                                    Kapil <b>Raj</b>
+                                    Kapil Raj
                                 </h2><small class="apo-fh-article-meta">Software Developer</small>
                             </div>
                         </div>
@@ -207,13 +208,7 @@
 
 
                         {% endblock about_me %}
-                        <span class="apo-scroll-down-label">
-                            <footer class="apo-align-center apo-section-main-action">
-                                <a href="blog_fit_width_4_columns.html" class="apo-btn apo-btn-small"> end of little
-                                    bit about me.
-                                </a>
-                            </footer>
-                        </span>
+
                     </div>
 
                     <!-- End of Article Content-->
@@ -321,7 +316,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-sm-6">
-                                    Developed by yours truly
+                                    By yours truly.
 
                                 </div>
 
@@ -336,8 +331,11 @@
     <!-- End Page Content-->
 
     <!-- Vendor JS-->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+
 
     <script src='{% static "vendors/handlebars.js" %}'></script>
     <script src='{% static "vendors/wt.validator.min.js"%}'></script>
@@ -365,6 +363,7 @@
     <script src='{% static "js/modules/apolo.appear.js"%}'></script>
     <script src='{% static "js/modules/apolo.isotope.js"%}'></script>
     <script src='{% static "js/apolo.init.js"%}'></script>
+    <!-- Optional bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>

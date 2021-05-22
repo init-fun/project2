@@ -1,0 +1,12 @@
+#module {
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+#heading_2 {
+    font-family: Unna, sans-serif;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: black;
+    margin-bottom: 0px;
+}

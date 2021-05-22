@@ -4289,7 +4289,7 @@ table {
 }
 
 .apo-experience-list-item {
-  padding: 35px 0;
+  padding: 20px 0px;
 }
 
 .apo-experience-list-item:not(:last-child) {
@@ -7666,7 +7666,7 @@ table {
   .apo-fh-article-content {
     left: 36%;
     width: 53%;
-    padding: 60px 100px 0px 30px;
+    padding: 30px 100px 0px 30px;
   }
   .apo-fh-article-content .apo-scroll-down-label:not(:first-child) {
     margin-top: 30px;

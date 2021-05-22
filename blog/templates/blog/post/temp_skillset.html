@@ -1,0 +1,19 @@
+<article class="apo-experience-list-item">
+    <div>
+        {% for s in all_skills %}
+        <div class="svg-wrapper">
+            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                <rect id="shape" height="40" width="150" />
+                <div id="text"><span class="spot">{{s}}</span></div>
+            </svg>
+        </div>
+        {% endfor %}
+
+
+        <!-- rainbow effect -->
+        <!-- <a id="rainbow" href="#">Data Structure & Algo</a>
+             <a id="rainbow" href="#">Python</a> -->
+        <!-- end of rainbow effect -->
+    </div>
+
+</article>

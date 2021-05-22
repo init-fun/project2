@@ -12,6 +12,7 @@ def post_list(request):
     # landing page objects
     index_obj = LandingPage.objects.first()
     web_obj = index_obj.social_json
+    all_skills = index_obj.skills.split("\r\n \r\n")
     # end of landing page objects
 
     # blog related objects
@@ -39,6 +40,7 @@ def post_list(request):
         "career_range": range(2),
         "index_obj": index_obj,
         "web_obj": web_obj,
+        "all_skills": all_skills,
     }
     return render(request, "blog/post/list.html", context)
 

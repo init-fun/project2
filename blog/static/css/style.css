@@ -3740,6 +3740,14 @@ hr:not(:last-child) {
   color: #000;
 }
 
+#hover_social {
+  color: gray;
+}
+
+#hover_social:hover, #hobev_social:focus {
+  color: #000;
+}
+
 .apo-social-networks-title {
   font-family: "Poppins", sans-serif;
   font-size: 12px;

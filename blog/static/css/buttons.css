@@ -1,120 +1,116 @@
-
 /*
     This is the outer svg wrapper that the SVG itself will 
     fill. Multiple svg-wrapper classes can be put side by side.
 */
 
 .svg-wrapper {
-    margin-top: 10px;
-    position: relative;
-    width: 150px;
-    /*make sure to use same height/width as in the html*/
-    height: 40px;
-    display: inline-block;
-    border-radius: 3px;
-    margin-left: 5px;
-    margin-right: 5px
+  margin-top: 10px;
+  position: relative;
+  width: 150px;
+  /*make sure to use same height/width as in the html*/
+  height: 40px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px
+}
 
-  }
-  /*
+/*
     This is where we define the fill, color, thickness,
     and stroke pattern of the SVG when there is no hover.
     The dasharray and offset together define the line position
     under the words. Here's also where the transition speed is set.
   */
-  
-  #shape {
-    stroke-width: 6px;
-    fill: transparent;
-    stroke: #00fd2a;
-    stroke-dasharray: 85 400;
-    stroke-dashoffset: -220;
-    transition: 1s all ease;
-  }
-  /* 
+
+#shape {
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: #00fd2a;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
+}
+
+/* 
       Pushing the text up into the SVG. Without this the
       text would be below the div's.
   */
-  
-  #text {
-    margin-top: -35px;
-    text-align: center;
-  }
-  
-  #text a {
-    color: black;
-    text-decoration: none;
-    font-weight: 100;
-    font-size: 1.1em;
-  }
-  /* 
+
+#text {
+  margin-top: -35px;
+  text-align: center;
+}
+
+#text a {
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.1em;
+}
+
+/* 
       Changing the shape on hover. I change the color of the stroke,
   make it thinner, then set it to again wrap around the entire parent element.
   */
-  
-  .svg-wrapper:hover #shape {
-    stroke-dasharray: 50 0;
-    stroke-width: 3px;
-    stroke-dashoffset: 0;
-    stroke: #06D6A0;
-  }
 
+.svg-wrapper:hover #shape {
+  stroke-dasharray: 50 0;
+  stroke-width: 3px;
+  stroke-dashoffset: 0;
+  stroke: #06D6A0;
+}
 
+/*  rainbow */
 
-  /*  rainbow */
-
-  
 #rainbow {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    font-size: 30px;
-    z-index: 1;
-  }
-  
-  #rainbow:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: .07em;
-    height: .1em;
-    width: 100%;
-    background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
-    z-index: -1;
-    transition: height .25s cubic-bezier(.6,0,.4,1);
-  }
-  
-  #rainbow:hover:after {
-    height: .2em;
-  }
-  
-  /* end of rainbow  */
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+}
 
+#rainbow:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: .02em;
+  height: .2em;
+  width: 100%;
+  background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+  z-index: -1;
+  transition: height .25s cubic-bezier(.6, 0, .4, 1);
+}
 
-  /* download buttons */
-  .button {
+#rainbow:hover:after {
+  height: 0.3em;
+}
 
-    border: none;
-    padding: 10px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    color: black;
-  }
-  
-  .button5 {
-    color: black;
-    border: 2px solid #555555;
-  }
-  
+/* end of rainbow  */
 
-  .button5:hover {
-    background-color: #555555;
-    color: white;
-     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  /* end of download buttons  */
+/* download buttons */
+
+.button {
+  border: none;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: black;
+}
+
+.button5 {
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* end of download buttons  */

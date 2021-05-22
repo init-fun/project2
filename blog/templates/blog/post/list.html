@@ -68,22 +68,37 @@
                 &mdash; <span>Google</span></em>
              </header> -->
         <div class="apo-experience-list-item-body">
+            <!-- part 1 -->
             <h2 style="font-family: Unna, sans-serif;font-weight: 400;
             line-height: 1.2em; color:black; margin-bottom: 0px;">Hello!</h2>
             {{index_obj.intro}}
 
+            <!-- end of part 1 -->
+            <!-- part 2 -->
+
             <div style="text-align: center; margin-top: 20px;">
+                <!-- start of skill module -->
                 <div style="margin-top: 20px;">
-                    <!-- download button -->
+                    <ul class="apo-hr-dotted-list" style="text-align: center;">
+                        {% for s in all_skills %}
+                        <li><a id="rainbow" href="#">{{s}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <!-- end of skill module -->
+                <!-- resume module  -->
+                <div style="margin-top: 30px;">
                     <a href="{{index_obj.resume.url}}">
                         <button class="button button5">
                             <i class="fa fa-angle-double-down" style="font-size:24px"></i> Resume
                         </button>
                     </a>
-                </div>
-                <div style="margin-top: 20px;">
-                    <!-- social networks -->
 
+                </div>
+                <!-- end of resume module -->
+
+                <!-- social networks -->
+                <div style="margin-top: 40px;">
                     <ul class="apo-hr-dotted-list" style="text-align: center;">
                         {% for web_name, web_url in web_obj.items %}
                         <li><a href="{{web_url}}">{{web_name}}</a></li>
@@ -91,9 +106,12 @@
                         <li><a href="#" data-toggle="tooltip" data-placement="bottom"
                                 title="Hit me up @gullibleMe#3500">Discord</a></li>
                     </ul>
-                    <!-- end of the social networks -->
                 </div>
+                <!-- end of the social networks -->
+
+
             </div>
+            <!-- end of part 2 -->
 
         </div>
     </article>

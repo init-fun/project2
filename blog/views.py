@@ -19,44 +19,30 @@ from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
 
 def post_list(request):
-    # projects
+    # landing page objects
+    # first two projects for the landing page
     all_project = Project.objects.all()
     first_two = all_project[:2]
-    # landing page objects
-
+    # img, text, quote , skills, resume etc
     index_obj = LandingPage.objects.first()
     web_obj = index_obj.social_json
     all_skills = index_obj.skills.split("\r\n \r\n")
     # end of landing page objects
 
     # blog related objects
-    bp_object_list = Post.published.all().order_by("-publish")
-    paginator = Paginator(bp_object_list, 2)
-    page = request.GET.get("page")
-    try:
-        posts = paginator.page(page)
-    except PageNotAnInteger:
-        posts = paginator.page(1)
-    except EmptyPage:
-        posts = paginator.page(paginator.num_pages)
-
-    all_posts = Post.published.all()
-
+    posts = Post.published.all().order_by("-publish")
+    first_two_posts = posts[:2]
     # career related objects
-    workplaces = career_post.objects.all()
+    wp = career_post.objects.all()
+    first_two_wp = wp[:2]
     context = {
-        "posts": posts,  # get the posts for the page number
-        "page": page,  # this has 2 pages
-        "all_posts": all_posts,
-        # career related context obj
-        "company": workplaces,
-        "first_two_company": workplaces[:2],
-        "career_range": range(2),
+        "first_two_posts": first_two_posts,  # get the posts for the page number
+        "posts": posts,
+        "first_two_company": first_two_wp,
         "index_obj": index_obj,
         "web_obj": web_obj,
         "all_skills": all_skills,
         "first_two_project": first_two,
-        "all_projects": all_project,
     }
     return render(request, "blog/post/list.html", context)
 

@@ -191,7 +191,7 @@
 {% block blogposts %}
 <!-- this is the inner loop for the blogposts -->
 
-{% for post in posts%}
+{% for post in first_two_posts %}
 
 {% if forloop.first or forloop.counter0|divisibleby:1%}
 <div class="apo-item apo-motivation">

@@ -48,7 +48,7 @@
     <title>Hey there!</title>
 </head>
 
-<body class="apo-header-vertical-left">
+<body class="apo-header-vertical-left" id="home">
     <!-- Hidden Side Column-->
     <div>
         <aside id="apo-hidden-column" class="apo-hidden-column">
@@ -56,7 +56,7 @@
                 <header class="apo-hidden-column-header">
                     <div class="apo-hidden-column-col">
                         <div class="apo-grid apo-cols-2">
-                            <div class="apo-grid-col"><a href="#" class="apo-logo"><img
+                            <div class="apo-grid-col"><a href="#" id="home" class="apo-logo"><img
                                         src='{% static "images/logo003.png"%}' alt="" /></a></div>
                             <div class="apo-grid-col apo-align-right">
                                 <!-- Social Networks-->
@@ -78,20 +78,20 @@
                         <!-- Navigation-->
                         <nav class="apo-navigation-container">
                             <ul class="apo-navigation">
-                                <li class="apo-has-children apo-current"><a href="index.html">Home</a>
+                                <li class="apo-has-children apo-current"><a href="#home">Home</a>
 
                                 </li>
-                                <li class="apo-has-children"><a href="pages_about_us.html">Projects</a>
+                                <li class="apo-has-children"><a href="#gotoProject">Projects</a>
 
                                 </li>
-                                <li class="apo-has-children"><a href="portfolio_masonry_fit_width_4_columns.html">Work
+                                <li class="apo-has-children"><a href="#gotoWorkExp">Work
                                         Experience</a>
 
                                 </li>
-                                <li class="apo-has-children"><a href="blog_classic_sortable_3_columns.html">Blog</a>
+                                <li class="apo-has-children"><a href="#gotoBlogposts">Blog</a>
 
                                 </li>
-                                <li><a href="pages_contact.html">Contact</a></li>
+                                <li><a href="#gotoContact">Contact</a></li>
                             </ul>
                         </nav>
                         <!-- End Navigation-->
@@ -189,7 +189,7 @@
             data-destroy-on-mobile="true" class="apo-full-page-container">
 
             <!-- ABOUT ME -->
-            <div class="fp-section">
+            <div class="fp-section" id="top">
                 <!-- Full Height Article-->
                 <article class="apo-fh-article">
                     <!-- Article Media-->
@@ -223,12 +223,12 @@
             <!-- END OF ABOUT ME -->
 
             <!-- WORK EXP -->
-            <div class="fp-section">
+            <div class="fp-section" id="gotoWorkExp">
                 <div class="apo-section">
                     <div class="container">
                         <!-- Isotope-->
                         <div class="grid-sizer"></div>
-                        <div class="apo-section-main-action apo-btn" id="module">
+                        <div class="apo-section-main-action apo-btn" id="work module">
                             Work Experience
                         </div>
                         <!-- <h1 class="text-center mb-5 display-4" style="color:black;">
@@ -253,7 +253,7 @@
             <!-- end of WORK EXP -->
 
             <!-- PROJECTS -->
-            <div class="fp-section">
+            <div class="fp-section" id="gotoProject">
                 <div class="container">
                     <div class="apo-section">
                         <!-- Isotope-->
@@ -276,13 +276,12 @@
                     </div>
                 </div>
             </div>
+            <!-- end of PROJECTS -->
+
         </div>
-        <!-- end of PROJECTS -->
-
-
 
         <!-- BLOG -->
-        <div class="fp-section">
+        <div class="fp-section" id="gotoBlogposts">
             <div class="apo-section">
                 <div class="container">
                     <!-- Isotope-->
@@ -307,7 +306,7 @@
         <!-- end of BLOG -->
 
         <!-- CONTACT ME ----FOOTER  -->
-        <div class="fp-section fp-centered-content">
+        <div class="fp-section fp-centered-content" id="gotoContact">
             <div class="apo-section apo-contact-section">
                 <div class="apo-contact-section-body">
                     <div class="container">
@@ -335,7 +334,7 @@
                             </div>
                             <div class="col-sm-6">
                                 By yours truly.<br>
-                                Yada Yada Yo, take me back to the top.
+                                <a href="#top">Yada Yada Yo, take me back to the Top</a>.
 
                             </div>
 
@@ -346,7 +345,7 @@
         </div>
         <!-- end of CONTACT ME ----- FOOTER -->
     </div>
-    </div>
+
     <!-- End Page Content-->
 
     <!-- Vendor JS-->

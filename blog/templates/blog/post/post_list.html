@@ -41,3 +41,7 @@ Posts
 
 {% endfor %}
 {% endblock middle-content %}
+
+{% block rem-content %}
+{% include 'blog/post/pagination.html' with page=page_obj %}
+{% endblock rem-content %}

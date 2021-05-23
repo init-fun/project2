@@ -3,13 +3,18 @@ from django.shortcuts import render, get_object_or_404
 from .models import Post
 from .models import career_post
 from .models import LandingPage
+from .models import Project
 
 # pagination imports
 from django.core.paginator import Page, EmptyPage, PageNotAnInteger, Paginator
 
 
 def post_list(request):
+    # projects
+    all_project = Project.objects.all()
+    first_two = all_project[:2]
     # landing page objects
+
     index_obj = LandingPage.objects.first()
     web_obj = index_obj.social_json
     all_skills = index_obj.skills.split("\r\n \r\n")
@@ -41,6 +46,8 @@ def post_list(request):
         "index_obj": index_obj,
         "web_obj": web_obj,
         "all_skills": all_skills,
+        "first_two_project": first_two,
+        "all_projects": all_project,
     }
     return render(request, "blog/post/list.html", context)
 

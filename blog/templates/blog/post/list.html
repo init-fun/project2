@@ -132,10 +132,15 @@
 
 
 {% block project %}
+{% for p in first_two_project %}
+
+{% if forloop.first or forloop.counter0|divisibleby:1%}
+
 <div class="apo-item apo-web-design">
+    {% endif %}
     <!-- Project-->
     <article class="apo-project">
-        <div class="apo-project-media"><img src='{% static "images/img-0001.jpg"%}' alt="" /></div>
+        <div class="apo-project-media"><img src='{{p.bg_img.url}}' alt="" /></div>
         <!-- below this is the on hover content -->
         <div class="apo-project-content-wrap">
             <div class="apo-aligner-outer">
@@ -144,17 +149,36 @@
                     <header class="apo-project-header">
                         <ul class="apo-project-categories">
                             <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Web Design</a></li>
+
                         </ul>
-                        <h2 class="apo-project-title"><a href="portfolio_single_post.html">Stories Collective</a>
+                        <h2 class="apo-project-title"><a href="#">{{p.name}}</a>
                         </h2>
                     </header>
-                    <div class="apo-project-content">Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                    <div class="apo-project-content">{{p.summary|truncatewords:50|linebreaks}}
+                    </div>
+                    <!-- language -->
+                    <!-- <div>
+                        {{p.features|truncatewords:10|linebreaks}}
+
+                    </div> -->
+
+                    <div>
+                        {{p.tech_used}}
+
+                    </div>
+
+
                 </div>
             </div>
+
         </div>
     </article>
+    {% if forloop.counter|divisibleby:1 or forloop.last %}
 </div>
+{% endif %}
+
+{% endfor %}
 {% endblock project %}
 
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->

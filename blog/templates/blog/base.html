@@ -34,16 +34,14 @@
     <link rel="stylesheet" media="all" href='{% static "vendors/mCustomScrollbar/jquery.mCustomScrollbar.min.css" %}' />
     <link rel="stylesheet" media="all" href='{% static "vendors/arcticmodal/jquery.arcticmodal-0.3.css" %}' />
     <!-- Theme CSS-->
-    <link rel="stylesheet" media="all" href='{% static "css/style.css"  %}' />
+    <link rel="stylesheet" media="all" href='{% static "css/style.css" %}' />
     <!-- Vendor JS-->
     <script src='{% static "js/effects-jquery.js" %}'></script>
     <script src='{% static "vendors/modernizr.js"%}'></script>
-    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
     <!-- icon -->
     <link rel="stylesheet" media="all" href='{% static "css/buttons.css"%}' />
     <link rel="stylesheet" media="all" href='{% static "css/Xtra.css"  %}' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
     <title>Hey there!</title>
 </head>
@@ -57,8 +55,8 @@
                 <header class="apo-hidden-column-header">
                     <div class="apo-hidden-column-col">
                         <div class="apo-grid apo-cols-2">
-                            <div class="apo-grid-col"><a href="#" id="home" class="apo-logo"><img
-                                        src='{% static "images/logo003.png"%}' alt="" /></a></div>
+                            <div class="apo-grid-col"><a href="{% url 'blog:post_list' %}" id="home"
+                                    class="apo-logo"><img src='{% static "images/logo003.png"%}' alt="" /></a></div>
                             <div class="apo-grid-col apo-align-right">
                                 <!-- Social Networks-->
                                 <ul class="apo-social-networks">
@@ -79,7 +77,8 @@
                         <!-- Navigation-->
                         <nav class="apo-navigation-container">
                             <ul class="apo-navigation">
-                                <li class="apo-has-children apo-current"><a href="#home">Home</a>
+                                <li class="apo-has-children apo-current"><a id="#home"
+                                        href="{% url 'blog:post_list'%}">Home</a>
 
                                 </li>
                                 <li class="apo-has-children"><a href="#gotoProject">Projects</a>
@@ -119,7 +118,7 @@
             <div class="apo-header-component-first">
                 <div class="apo-header-items">
                     <div class="apo-header-item">
-                        <!-- Logo--><a href="index.html" id="home" class="apo-logo"><img
+                        <!-- Logo--><a href="{% url 'blog:post_list' %}" id="home" class="apo-logo"><img
                                 src='{% static "images/logo003.png"%}' alt="Logo" /></a>
                         <!-- End Logo-->
                     </div>

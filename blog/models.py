@@ -1,7 +1,7 @@
 from datetime import datetime
 from django.db import models
 from django.db.models.fields import BLANK_CHOICE_DASH
-
+from django_resized import ResizedImageField
 from django.utils import timezone
 from django.contrib.auth.models import User
 
@@ -68,3 +68,20 @@ class LandingPage(models.Model):
     resume = models.FileField(upload_to="index/docs")
     social_json = models.JSONField(null=True)
     skills = models.TextField(max_length=400)
+
+
+class Project(models.Model):
+    bg_img = ResizedImageField(
+        size=[1000, 730],
+        quality=-1,
+        upload_to="project/images",
+        crop=["middle", "center"],
+        force_format="PNG",
+    )
+    name = models.CharField(max_length=200)
+    summary = models.TextField()
+    features = models.TextField()
+    tech_used = models.TextField()
+
+    def __str__(self):
+        return self.name

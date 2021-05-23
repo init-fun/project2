@@ -263,91 +263,89 @@
                             <div class="apo-section-main-action apo-btn" id="module">
                                 Projects
                             </div>
+
                             {% block project %}
 
                             {% endblock project %}
+
                         </div>
                         <!-- End Isotope-->
-
-
-                        <footer class="apo-align-center apo-section-main-action">
-                            <a href="portfolio_grid_with_top_white_header.html" class="apo-btn apo-btn-small">
-                                All other projects</a>
-                        </footer>
-
-
+                        <footer class="apo-align-center apo-section-main-action"><a
+                                href="portfolio_grid_with_top_white_header.html" class="apo-btn apo-btn-small">See All
+                                Works</a></footer>
                     </div>
                 </div>
             </div>
-            <!-- end of PROJECTS -->
+        </div>
+        <!-- end of PROJECTS -->
 
 
 
-            <!-- BLOG -->
-            <div class="fp-section">
-                <div class="apo-section">
+        <!-- BLOG -->
+        <div class="fp-section">
+            <div class="apo-section">
+                <div class="container">
+                    <!-- Isotope-->
+                    <div class="grid-sizer"></div>
+                    <div class="apo-section-main-action apo-btn" id="module">
+                        Blogposts
+                    </div>
+                    <div data-isotope-layout="grid"
+                        class="apo-isotope apo-cols-2 apo-entries-container apo-style-4 apo-same-height-container">
+
+
+                        {% block blogposts%}
+
+                        {% endblock blogposts %}
+                    </div>
+                    <!-- End Isotope-->
+                    <footer class="apo-align-center apo-section-main-action"><a href="blog_fit_width_4_columns.html"
+                            class="apo-btn apo-btn-small">See All Blog</a></footer>
+                </div>
+            </div>
+        </div>
+        <!-- end of BLOG -->
+
+        <!-- CONTACT ME ----FOOTER  -->
+        <div class="fp-section fp-centered-content">
+            <div class="apo-section apo-contact-section">
+                <div class="apo-contact-section-body">
                     <div class="container">
-                        <!-- Isotope-->
-                        <div class="grid-sizer"></div>
-                        <div class="apo-section-main-action apo-btn" id="module">
-                            Blogposts
-                        </div>
-                        <div data-isotope-layout="grid"
-                            class="apo-isotope apo-cols-2 apo-entries-container apo-style-4 apo-same-height-container">
-
-
-                            {% block blogposts%}
-
-                            {% endblock blogposts %}
-                        </div>
-                        <!-- End Isotope-->
-                        <footer class="apo-align-center apo-section-main-action"><a href="blog_fit_width_4_columns.html"
-                                class="apo-btn apo-btn-small">See All Blog</a></footer>
+                        <h2 class="apo-contact-section-title">Say hi!</h2>
+                        <ul class="apo-contact-info">
+                            <li>
+                                <a href="mailto:sde.kapilraj@gmail.com">sde.kapilraj@gmail.com</a>
+                            </li>
+                            <li><a href="tel:07417236296">+91-7417236296</a></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-            <!-- end of BLOG -->
-
-            <!-- CONTACT ME ----FOOTER  -->
-            <div class="fp-section fp-centered-content">
-                <div class="apo-section apo-contact-section">
-                    <div class="apo-contact-section-body">
-                        <div class="container">
-                            <h2 class="apo-contact-section-title">Say hi!</h2>
-                            <ul class="apo-contact-info">
-                                <li>
-                                    <a href="mailto:sde.kapilraj@gmail.com">sde.kapilraj@gmail.com</a>
-                                </li>
-                                <li><a href="tel:07417236296">+91-7417236296</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <footer class="apo-contact-section-footer">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <ul class="apo-hr-dotted-list">
-                                        <li><a href="https://www.linkedin.com/in/kapil-raj/">Linkedin</a></li>
-                                        <li><a href="https://github.com/init-fun">Github</a></li>
-                                        <li><a href="https://www.instagram.com/_kapilraj/">Instagram</a></li>
+                <footer class="apo-contact-section-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="apo-hr-dotted-list">
+                                    <li><a href="https://www.linkedin.com/in/kapil-raj/">Linkedin</a></li>
+                                    <li><a href="https://github.com/init-fun">Github</a></li>
+                                    <li><a href="https://www.instagram.com/_kapilraj/">Instagram</a></li>
 
 
 
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6">
-                                    By yours truly.<br>
-                                    Yada Yada Yo, take me back to the top.
-
-                                </div>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                By yours truly.<br>
+                                Yada Yada Yo, take me back to the top.
 
                             </div>
+
                         </div>
-                    </footer>
-                </div>
+                    </div>
+                </footer>
             </div>
-            <!-- end of CONTACT ME ----- FOOTER -->
         </div>
+        <!-- end of CONTACT ME ----- FOOTER -->
+    </div>
     </div>
     <!-- End Page Content-->
 

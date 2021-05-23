@@ -466,7 +466,7 @@ body {
   padding: 30px 15px 0;
 }
 
-.apo-isotope.apo-cols-4 {
+.apo-isotope .apo-cols-4 {
   /*.apo-item.apo-item-size-1-3x {
 					width: 33.33333%;
 				}*/
@@ -6964,10 +6964,6 @@ table {
   bottom: 0;
   left: 0;
   z-index: 2;
-  background-color: rgba(183, 149, 108, 0.9);
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.4s ease-out, visibility 0.4s ease-out;
 }
 
 .apo-portfolio-container.apo-style-6 .apo-project-content-wrap .apo-aligner-inner {

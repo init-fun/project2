@@ -66,3 +66,7 @@ def post_detail(request, year, month, day, post):
         "post": post,
     }
     return render(request, "blog/post/detail.html", context)
+
+
+def coming_soon(request):
+    return render(request, "blog/post/comingsoon.html", {})

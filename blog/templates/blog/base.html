@@ -49,6 +49,7 @@
 </head>
 
 <body class="apo-header-vertical-left" id="home">
+
     <!-- Hidden Side Column-->
     <div>
         <aside id="apo-hidden-column" class="apo-hidden-column">
@@ -112,13 +113,14 @@
         </aside>
     </div>
     <!-- End Hidden Side Column-->
+
     <header id="header" class="apo-header apo-header-light apo-header-vertical">
         <div class="apo-header-section">
             <div class="apo-header-component-first">
                 <div class="apo-header-items">
                     <div class="apo-header-item">
-                        <!-- Logo--><a href="index.html" class="apo-logo"><img src='{% static "images/logo003.png"%}'
-                                alt="Logo" /></a>
+                        <!-- Logo--><a href="index.html" id="home" class="apo-logo"><img
+                                src='{% static "images/logo003.png"%}' alt="Logo" /></a>
                         <!-- End Logo-->
                     </div>
                     <div class="apo-header-item">
@@ -166,11 +168,11 @@
         </div>
     </header>
     <!-- End Site Header-->
-    {% block content %}
 
 
 
-    {% endblock content %}
+
+
     <!-- Page Content-->
     <div class="apo-page">
         <aside class="apo-full-page-controls">
@@ -187,7 +189,7 @@
         <div id="apo-full-page" data-navigation="false" data-menu="#apo-fp-menu"
             data-anchors="[&quot;about&quot;, &quot;portfolio&quot;, &quot;blog&quot;, &quot;contact&quot;]"
             data-destroy-on-mobile="true" class="apo-full-page-container">
-
+            {% block clean_slate %}
             <!-- ABOUT ME -->
             <div class="fp-section" id="top">
                 <!-- Full Height Article-->
@@ -243,7 +245,7 @@
                         </div>
                         <!-- End Isotope-->
                         <footer class="apo-align-center apo-section-main-action">
-                            <a href="blog_fit_width_4_columns.html" class="apo-btn apo-btn-small">See All Work
+                            <a href="{% url 'blog:coming_soon'%}" class="apo-btn apo-btn-small">See All Work
                                 Experience stuff
                             </a>
                         </footer>
@@ -270,41 +272,45 @@
 
                         </div>
                         <!-- End Isotope-->
-                        <footer class="apo-align-center apo-section-main-action"><a
-                                href="portfolio_grid_with_top_white_header.html" class="apo-btn apo-btn-small">See All
-                                Works</a></footer>
+                        <footer class="apo-align-center apo-section-main-action"><a href="{% url 'blog:coming_soon'%}"
+                                class="apo-btn apo-btn-small">See All
+                                Projects</a></footer>
                     </div>
                 </div>
             </div>
             <!-- end of PROJECTS -->
 
-        </div>
 
-        <!-- BLOG -->
-        <div class="fp-section" id="gotoBlogposts">
-            <div class="apo-section">
-                <div class="container">
-                    <!-- Isotope-->
-                    <div class="grid-sizer"></div>
-                    <div class="apo-section-main-action apo-btn" id="module">
-                        Blogposts
+            <!-- BLOG -->
+            <div class="fp-section" id="gotoBlogposts">
+                <div class="apo-section">
+                    <div class="container">
+                        <!-- Isotope-->
+                        <div class="grid-sizer"></div>
+                        <div class="apo-section-main-action apo-btn" id="module">
+                            Blogposts
+                        </div>
+                        <div data-isotope-layout="grid"
+                            class="apo-isotope apo-cols-2 apo-entries-container apo-style-4 apo-same-height-container">
+
+
+                            {% block blogposts%}
+
+                            {% endblock blogposts %}
+                        </div>
+                        <!-- End Isotope-->
+                        <footer class="apo-align-center apo-section-main-action"><a href="{% url 'blog:coming_soon'%}"
+                                class="apo-btn apo-btn-small">See All Blogposts</a></footer>
                     </div>
-                    <div data-isotope-layout="grid"
-                        class="apo-isotope apo-cols-2 apo-entries-container apo-style-4 apo-same-height-container">
-
-
-                        {% block blogposts%}
-
-                        {% endblock blogposts %}
-                    </div>
-                    <!-- End Isotope-->
-                    <footer class="apo-align-center apo-section-main-action"><a href="blog_fit_width_4_columns.html"
-                            class="apo-btn apo-btn-small">See All Blog</a></footer>
                 </div>
             </div>
-        </div>
-        <!-- end of BLOG -->
+            <!-- end of BLOG -->
 
+            {% endblock clean_slate %}
+
+        </div>
+
+        {% block footer %}
         <!-- CONTACT ME ----FOOTER  -->
         <div class="fp-section fp-centered-content" id="gotoContact">
             <div class="apo-section apo-contact-section">
@@ -327,9 +333,6 @@
                                     <li><a href="https://www.linkedin.com/in/kapil-raj/">Linkedin</a></li>
                                     <li><a href="https://github.com/init-fun">Github</a></li>
                                     <li><a href="https://www.instagram.com/_kapilraj/">Instagram</a></li>
-
-
-
                                 </ul>
                             </div>
                             <div class="col-sm-6">
@@ -344,8 +347,8 @@
             </div>
         </div>
         <!-- end of CONTACT ME ----- FOOTER -->
+        {% endblock footer %}
     </div>
-
     <!-- End Page Content-->
 
     <!-- Vendor JS-->

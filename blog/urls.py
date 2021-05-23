@@ -10,4 +10,5 @@ urlpatterns = [
         views.post_detail,
         name="post_detail",
     ),
+    path("comingsoon", views.coming_soon, name="coming_soon"),
 ]

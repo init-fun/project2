@@ -1,1 +1,137 @@
 {% extends 'blog/post/post_base.html' %}
+{% load static %}
+
+{% block page-nav-path %}
+<li><a href="#">Post</a></li>
+<li>{{post.title}}</li>
+{% endblock page-nav-path %}
+
+{% block mid-side-part%}
+<div class="apo-page">
+    <div class="container">
+        <div class="apo-section apo-has-sidebar">
+            <div class="row">
+                <!-- Main Content Column-->
+
+                <main class="col-sm-8">
+                    <div class="apo-section-thin">
+                        <div class="apo-section apo-medium">
+                            <!-- Article-->
+                            <article class="apo-entry apo-single">
+                                <!-- Article Media-->
+                                <!-- <div class="apo-entry-media">
+                                    <img src="{% static 'images/img-0001.jpg' %}" alt="" />
+                                </div> -->
+                                <!-- End of Article Media-->
+                                <!-- Article Content-->
+                                <div class="apo-entry-content-wrap">
+                                    <header class="apo-entry-header">
+                                        <h2 class="apo-entry-title">{{post.title}}</h2>
+                                        <ul class="apo-entry-meta">
+                                            <li>Author: <a href="#">{{post.author}}</a></li>
+                                            <li>Published at: <a href="#">{{post.publish}}</a></li>
+                                            <li>Categories: <a href="#">Travel</a>, <a href="#">Lifestyle</a></li>
+                                        </ul>
+                                    </header>
+                                    <div class="apo-entry-content">
+                                        <p>{{post.body}} </p>
+                                    </div>
+                                    <footer class="apo-entry-footer">
+                                        <div class="row apo-table-row-md">
+                                            <div class="col-md-6">
+                                                <div class="apo-inline-block">
+                                                    <div class="apo-named-element"><span
+                                                            class="apo-named-element-caption">Tags:
+                                                        </span>
+                                                        <div class="apo-named-element-container">
+                                                            <ul class="apo-entry-tags">
+                                                                <li><a href="#">Travel</a></li>
+                                                                <li><a href="#">Autumn</a></li>
+                                                                <li><a href="#">Leaf</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="apo-inline-block">
+                                                    <div class="apo-named-element"><span
+                                                            class="apo-named-element-caption">Share
+                                                            On:</span>
+                                                        <div class="apo-named-element-container">
+                                                            <!-- Social Networks-->
+                                                            <ul class="apo-social-networks">
+                                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a>
+                                                                </li>
+                                                            </ul>
+                                                            <!-- End Social Networks-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </footer>
+                                </div>
+                                <!-- End of Article Content-->
+                            </article>
+                            <!-- End Article-->
+                        </div>
+                        <hr />
+                        {% block rem-content %}
+                        <div class="apo-section apo-medium">
+                            {% with comments.count as total_comments %}
+
+                            <h2 class="apo-section-title apo-style-2">
+
+                                {{total_comments}} Comment{{total_comments|pluralize}}
+                            </h2>
+                            {% endwith %}
+
+                            <ol class="comments-list">
+                                <li class="comment depth-1 parent">
+                                    {% for c in comments %}
+
+                                    <div>
+                                        <cite class="fn">{{c.name}} > </cite>
+                                        "{{c.body}}"
+                                    </div>
+                                    {% empty %}
+                                    <p>No comments so far.</p>
+                                    {% endfor %}
+
+
+                                </li>
+                            </ol>
+                        </div>
+
+
+
+                        <div class="apo-section apo-medium">
+                            <h2 class="apo-section-title apo-style-2">Leave a comment</h2>
+                            {% if new_comment %}
+                            <p>Your comment has been added.</p>
+                            {% else %}
+                            <form method="POST">
+
+                                <ul>
+                                    {{comment_form.as_p}}
+                                    {% csrf_token %}
+
+                                    <li class="apo-align-center">
+                                        <button type="submit" class="apo-btn apo-btn-rectangle">Post Comment</button>
+                                    </li>
+                                </ul>
+                            </form>
+                            {% endif%}
+                        </div>
+                        {% endblock rem-content %}
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock mid-side-part %}

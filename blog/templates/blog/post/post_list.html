@@ -25,8 +25,9 @@ Posts
                             <ul class="apo-entry-categories">
                                 <li><a href="#">Tags</a></li>
                             </ul>
-                            <h2 class="apo-entry-title"><a href="#">{{post.title}}</a></h2>
+                            <h2 class="apo-entry-title"><a href="{{post.get_absolute_url}}">{{post.title}}</a></h2>
                         </header>
+                        <!-- <p>{{post.body}}</p> -->
                         <footer class="apo-entry-footer">
                             <time datetime="2016-12-24" class="apo-entry-publish-date">{{post.publish}}</time>
                         </footer>

@@ -89,7 +89,7 @@ def post_detail(request, year, month, day, post):
         "new_comment": new_comment,
         "comment_form": comment_form,
     }
-    return render(request, "blog/post/detail.html", context)
+    return render(request, "blog/post/post_detail.html", context)
 
 
 def coming_soon(request):

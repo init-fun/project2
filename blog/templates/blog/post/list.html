@@ -1,55 +1,6 @@
 {% extends 'blog/base.html' %}
 {% load static %}
 
-
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>BLOGSPOT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-
-{% block blogposts %}
-<!-- this is the inner loop for the blogposts -->
-
-{% for post in posts%}
-
-{% if forloop.first or forloop.counter0|divisibleby:1%}
-<div class="apo-item apo-motivation">
-    {% endif %}
-    <!-- THESE ARE THE ARTICLES/BLOGPOSTS -->
-    <!-- Article-->
-    <article class="apo-entry">
-        <div class="apo-entry-media">
-        </div>
-        <div class="apo-entry-content-wrap">
-            <div class="apo-aligner-outer">
-                <div class="apo-aligner-inner apo-same-height">
-                    <header class="apo-entry-header">
-                        <ul class="apo-entry-categories">
-                            <li> <a href='{{post.get_absolute_url}}'>{{post.title}}</a></li>
-                        </ul>
-                        <h2 class="apo-entry-title"><a href="#">{{post.body|truncatewords:10|linebreaks}}</a>
-                        </h2>
-                    </header>
-                    <footer class="apo-entry-footer">
-                        <time datetime="2016-12-24" class="apo-entry-publish-date">At
-                            {{post.publish}}</time>
-                    </footer>
-                </div>
-            </div>
-        </div>
-    </article>
-    <!-- End Article-->
-    {% if forloop.counter|divisibleby:1 or forloop.last %}
-</div>
-{% endif %}
-
-{% endfor %}
-<!-- end of the inner loop -->
-
-{% endblock blogposts %}
-
-
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ABOUT ME>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
@@ -114,44 +65,6 @@
 
 {% endblock about_me %}
 
-
-
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>DEAD PART >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-{% block about_me_2 %}
-
-{% for c in first_two_company%}
-
-{% if forloop.first or forloop.counter0|divisibleby:2%}
-<div class="apo-experience-list apo-style-2">
-    {% endif %}
-    <article class="apo-experience-list-item">
-        <header class="apo-experience-list-item-header">
-            <em class="apo-experience-list-item-period">{{c.from_year}}
-                &mdash; {{c.to_year}}
-                <br>
-                <span style="font-size: 16px; color: #b7956c; ">{{c.company_name}}</span>
-            </em>
-            <h2 class=" apo-experience-list-item-title">{{c.role}}</h2>
-        </header>
-        <div class="apo-experience-list-item-body">
-            <p>{{c.summary|truncatewords:50|linebreaks}}</p>
-        </div>
-    </article>
-    {% if forloop.counter|divisibleby:2 or forloop.last %}
-</div>
-{% endif %}
-
-{% endfor %}
-{% endblock about_me_2 %}
-
-
-
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
@@ -172,6 +85,7 @@
     <article class="apo-entry">
         <div class="apo-entry-media">
         </div>
+
         <div class="apo-entry-content-wrap">
             <div class="apo-aligner-outer">
                 <div class="apo-aligner-inner apo-same-height">
@@ -194,6 +108,8 @@
                 </div>
             </div>
         </div>
+
+
     </article>
     <!-- End Article-->
     {% if forloop.counter|divisibleby:1 or forloop.last %}
@@ -217,13 +133,13 @@
 
 {% block project %}
 <div class="apo-item apo-web-design">
-    <!-- Article-->
+    <!-- Project-->
     <article class="apo-project">
-        <div class="apo-project-media">
-            <img src='{% static "images/img-154.jpg"%}' alt="" />
-        </div>
+        <div class="apo-project-media"><img src='{% static "images/img-0001.jpg"%}' alt="" /></div>
+        <!-- below this is the on hover content -->
         <div class="apo-project-content-wrap">
             <div class="apo-aligner-outer">
+
                 <div class="apo-aligner-inner">
                     <header class="apo-project-header">
                         <ul class="apo-project-categories">
@@ -239,25 +155,51 @@
         </div>
     </article>
 </div>
-<div class="apo-item apo-web-design">
+{% endblock project %}
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>BLOGSPOT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+{% block blogposts %}
+<!-- this is the inner loop for the blogposts -->
+
+{% for post in posts%}
+
+{% if forloop.first or forloop.counter0|divisibleby:1%}
+<div class="apo-item apo-motivation">
+    {% endif %}
+    <!-- THESE ARE THE ARTICLES/BLOGPOSTS -->
     <!-- Article-->
-    <article class="apo-project">
-        <div class="apo-project-media"><img src='{% static "images/img-154.jpg"%}' alt="" />
+    <article class="apo-entry">
+        <div class="apo-entry-media">
         </div>
-        <div class="apo-project-content-wrap">
+        <div class="apo-entry-content-wrap">
             <div class="apo-aligner-outer">
-                <div class="apo-aligner-inner">
-                    <header class="apo-project-header">
-                        <ul class="apo-project-categories">
-                            <li><a href="#">Web Design</a></li>
+                <div class="apo-aligner-inner apo-same-height">
+                    <header class="apo-entry-header">
+                        <ul class="apo-entry-categories">
+                            <li> <a href='{{post.get_absolute_url}}'>{{post.title}}</a></li>
                         </ul>
-                        <h2 class="apo-project-title"><a href="portfolio_single_post.html">Hand Decor</a></h2>
+                        <h2 class="apo-entry-title"><a href="#">{{post.body|truncatewords:10|linebreaks}}</a>
+                        </h2>
                     </header>
-                    <div class="apo-project-content">Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                    <footer class="apo-entry-footer">
+                        <time datetime="2016-12-24" class="apo-entry-publish-date">At
+                            {{post.publish}}</time>
+                    </footer>
                 </div>
             </div>
         </div>
     </article>
+    <!-- End Article-->
+    {% if forloop.counter|divisibleby:1 or forloop.last %}
 </div>
-{% endblock project %}
+{% endif %}
+
+{% endfor %}
+<!-- end of the inner loop -->
+
+{% endblock blogposts %}

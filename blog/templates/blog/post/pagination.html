@@ -1,0 +1,22 @@
+<nav>
+    <ul class="apo-pagination">
+        <li>
+            <span class="page-numbers">
+                {% if page.has_previous %}
+                <a href="?page={{page.previous_page_number}}">{{page.previous_page_number}}</a>
+                {% endif %}
+            </span>
+        </li>
+
+        <li class="nv-current"><span class="page-numbers current">
+                {{ page.number }}
+            </span>
+        </li>
+        <li>
+
+            {% if page.has_next %}
+            <a href="?page={{ page.next_page_number }}">{{ page.next_page_number }}</a>
+            {% endif %}
+        </li>
+    </ul>
+</nav>

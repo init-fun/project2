@@ -1,0 +1,42 @@
+<div class="apo-page">
+    <div class="container">
+        <div class="apo-page-header apo-style-2">
+            <div class="apo-page-header-column apo-align-left">
+                <h1 class="apo-page-title">Blog 2 Columns With Sidebar</h1>
+                <nav>
+                    <ul class="apo-breadcrumbs">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li>Blog 2 Columns With Sidebar</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="apo-section apo-has-sidebar">
+            <div class="row">
+                <main class="col-sm-8">
+                    <div data-isotope-layout="grid" class="apo-isotope apo-cols-2 apo-entries-container apo-style-3">
+                        <div class="grid-sizer"></div>
+
+                        <!-- middle-->
+                        {% block middle %}
+                        {% endblock middle %}
+
+                        <!-- end middle-->
+                    </div>
+
+            </div>
+
+            </main>
+            <!-- Sidebar-->
+            <aside id="sidebar" class="apo-sidebar col-sm-4">
+                <div class="apo-widget-area">
+                    {% block sidebar %}
+                    {% endblock sidebar %}
+                </div>
+            </aside>
+            <!-- End Sidebar-->
+        </div>
+    </div>
+</div>
+</div>

@@ -11,4 +11,6 @@ urlpatterns = [
         name="post_detail",
     ),
     path("comingsoon", views.coming_soon, name="coming_soon"),
+    path("posts", views.PostListView.as_view(), name="postlist"),
+    path("show", views.show_base_post, name="show"),
 ]

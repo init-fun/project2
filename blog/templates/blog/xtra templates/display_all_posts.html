@@ -1,0 +1,33 @@
+{% load static %}
+
+{% for post in posts%}
+{% if forloop.first or forloop.counter0|divisibleby:1%}
+<div class="apo-item apo-travel">
+    {% endif %}
+
+    <article class="apo-entry">
+        <div class="apo-entry-inner">
+            <!-- <div class="apo-entry-media"><a href="#"><img src='{% static "images/img-154-dark.jpg" %}' alt="" /></a>
+            </div> -->
+            <div class="apo-entry-content-wrap">
+                <div class="apo-aligner-outer">
+                    <div class="apo-aligner-inner">
+                        <header class="apo-entry-header">
+                            <ul class="apo-entry-categories">
+                                <li><a href="#">Tags</a></li>
+                            </ul>
+                            <h2 class="apo-entry-title"><a href="#">{{post.title}}</a></h2>
+                        </header>
+                        <footer class="apo-entry-footer">
+                            <time datetime="2016-12-24" class="apo-entry-publish-date">{{post.publish}}</time>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    {% if forloop.counter|divisibleby:1 or forloop.last %}
+</div>
+{% endif %}
+
+{% endfor %}

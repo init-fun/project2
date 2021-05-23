@@ -1,0 +1,134 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block clean_slate %}
+<div class="apo-page">
+    <div class="container">
+        <!-- Page Header-->
+        <div class="apo-page-header apo-style-2">
+            <div class="apo-page-header-column apo-align-left">
+                <h1 class="apo-page-title">Blog</h1>
+                <nav>
+                    <ul class="apo-breadcrumbs">
+                        <li><a href="#">Home</a></li>
+                        <li>Blog 2 Columns With Sidebar</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- End Page Header-->
+        <div class="apo-section apo-has-sidebar">
+            <div class="row">
+                <!-- Main Content Column-->
+                <main class="col-sm-8">
+                    <!-- Isotope-->
+                    <div data-isotope-layout="grid" class="apo-isotope apo-cols-2 apo-entries-container apo-style-3">
+                        <div class="grid-sizer"></div>
+                        <!-- Article -->
+                        {% include 'blog/post/display_all_posts.html' with posts=posts %}
+                        <!-- End Article-->
+                    </div>
+                    <!-- End Isotope-->
+                    <div class="apo-page-controls">
+                        <!-- Pagination-->
+
+                        {% include 'blog/post/pagination.html' with page=page_obj %}
+                        <!-- End Pagination-->
+                    </div>
+                </main>
+                <!-- End Main Content Column-->
+                <!-- Sidebar-->
+                <aside id="sidebar" class="apo-sidebar col-sm-4">
+                    <div class="apo-widget-area">
+                        <!-- Widget-->
+                        <div class="apo-widget">
+                            <form class="apo-oneline-form">
+                                <input type="text" name="s" placeholder="Leave an anonymous review" />
+
+                                <button type="submit"><i style='font-size: 20px;' class="icon fas fa-mask"></i></button>
+                            </form>
+                        </div>
+                        <!-- End Widget-->
+
+                        <!-- Widget-->
+                        <section class="apo-widget apo-widget-popular-entries">
+                            <h2 class="apo-widget-title">Popular Posts</h2>
+                            <div class="apo-entries-container">
+                                <div class="apo-item">
+                                    <article class="apo-entry">
+                                        <header class="apo-entry-header">
+                                            <ul class="apo-entry-categories">
+                                                <li><a href="#">Cooking</a></li>
+                                            </ul>
+                                            <h2 class="apo-entry-title"><a href="#">The Wonderful Tools Of Cooking</a>
+                                            </h2>
+                                        </header>
+                                        <footer class="apo-entry-footer">
+                                            <time datetime="2017-12-24" class="apo-entry-publish-date">24 December,
+                                                2016</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                                <div class="apo-item">
+                                    <article class="apo-entry">
+                                        <header class="apo-entry-header">
+                                            <ul class="apo-entry-categories">
+                                                <li><a href="#">Philosophy</a></li>
+                                            </ul>
+                                            <h2 class="apo-entry-title"><a href="#">A Brief History Of Creation</a></h2>
+                                        </header>
+                                        <footer class="apo-entry-footer">
+                                            <time datetime="2017-12-24" class="apo-entry-publish-date">24 December,
+                                                2016</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                                <div class="apo-item">
+                                    <article class="apo-entry">
+                                        <header class="apo-entry-header">
+                                            <ul class="apo-entry-categories">
+                                                <li><a href="#">Philosophy</a></li>
+                                            </ul>
+                                            <h2 class="apo-entry-title"><a href="#">Selecting The Right Hotel</a></h2>
+                                        </header>
+                                        <footer class="apo-entry-footer">
+                                            <time datetime="2017-12-24" class="apo-entry-publish-date">24 December,
+                                                2016</time>
+                                        </footer>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End Widget-->
+
+                        <!-- Widget-->
+                        <section class="apo-widget apo-widget-comments">
+                            <h2 class="apo-widget-title">Popular Comments</h2>
+                            <div class="apo-comments">
+                                <article class="apo-comment">
+                                    <header class="apo-comment-header"><span class="apo-comment-author"> <a href="#"
+                                                rel="external nofollow">Apolo</a></span>on</header>
+                                    <h2 class="apo-comment-entry-title"><a href="#">The Wonderful Tools Of Cooking</a>
+                                    </h2>
+                                </article>
+                                <article class="apo-comment">
+                                    <header class="apo-comment-header"><span class="apo-comment-author"> <a href="#"
+                                                rel="external nofollow">Jane</a></span>on</header>
+                                    <h2 class="apo-comment-entry-title"><a href="#">A Brief History Of Creation</a></h2>
+                                </article>
+                                <article class="apo-comment">
+                                    <header class="apo-comment-header"><span class="apo-comment-author"> <a href="#"
+                                                rel="external nofollow">Apolo</a></span>on</header>
+                                    <h2 class="apo-comment-entry-title"><a href="#">Selecting The Right Hotel</a></h2>
+                                </article>
+                            </div>
+                        </section>
+                        <!-- End Widget-->
+
+                    </div>
+                </aside>
+                <!-- End Sidebar-->
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock clean_slate %}

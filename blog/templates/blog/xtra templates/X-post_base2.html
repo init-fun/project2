@@ -1,0 +1,105 @@
+{% extends 'blog/base.html' %}
+
+{% block clean_slate %}
+
+<div class="apo-page">
+    <div class="container">
+        <div class="apo-page-header apo-style-2">
+            <div class="apo-page-header-column apo-align-left">
+                <h1 class="apo-page-title">{% block pagetitle %}replace path {% endblock pagetitle %}</h1>
+                <nav>
+                    <ul class="apo-breadcrumbs">
+                        <li><a href="#">Home</a></li>
+                        {% block page-nav-path %}
+                        replace this
+                        {% endblock page-nav-path %}
+
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+        <div class="apo-section apo-has-sidebar">
+            <div class="row">
+                <main class="col-sm-8">
+                    <div data-isotope-layout="grid" class="apo-isotope apo-cols-2 apo-entries-container apo-style-3">
+                        <div class="grid-sizer"></div>
+
+                        <!-- middle-->
+                        {% block middle %}
+                        <div class="apo-item apo-travel">
+                            <!-- Article-->
+                            <article class="apo-entry">
+                                <div class="apo-entry-inner">
+                                    <div class="apo-entry-media"><a href="#"><img src="images/img-27.jpg" alt="" /></a>
+                                    </div>
+                                    <div class="apo-entry-content-wrap">
+                                        <div class="apo-aligner-outer">
+                                            <div class="apo-aligner-inner">
+                                                <header class="apo-entry-header">
+                                                    <ul class="apo-entry-categories">
+                                                        <li><a href="#">Sample tag</a></li>
+                                                    </ul>
+                                                    <h2 class="apo-entry-title"><a href="#">Sample title</a></h2>
+                                                </header>
+                                                <footer class="apo-entry-footer">
+                                                    <time datetime="2016-12-24" class="apo-entry-publish-date">24
+                                                        December, 2016</time>
+                                                </footer>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- End Article-->
+                        </div>
+                        {% endblock middle %}
+
+                        <!-- end middle-->
+                    </div>
+
+            </div>
+
+            </main>
+            <!-- Sidebar-->
+            <aside id="sidebar" class="apo-sidebar col-sm-4">
+                <div class="apo-widget-area">
+                    {% block sidebar %}
+
+                    <!-- Widget-->
+                    <section class="apo-widget apo-widget-popular-entries">
+                        <h2 class="apo-widget-title">Sample sidebar</h2>
+                        <div class="apo-entries-container">
+                            <div class="apo-item">
+                                <article class="apo-entry">
+                                    <header class="apo-entry-header">
+                                        <ul class="apo-entry-categories">
+                                            <li><a href="#">sample tag</a></li>
+                                        </ul>
+                                        <h2 class="apo-entry-title"><a href="#">Sample title</a>
+                                        </h2>
+                                    </header>
+                                    <footer class="apo-entry-footer">
+                                        <time datetime="2017-12-24" class="apo-entry-publish-date">88 Dec 88</time>
+                                    </footer>
+                                </article>
+                            </div>
+
+                        </div>
+                    </section>
+                    <!-- End Widget-->
+
+                    {% endblock sidebar %}
+
+                </div>
+            </aside>
+            <!-- End Sidebar-->
+        </div>
+    </div>
+</div>
+</div>
+{% endblock clean_slate %}
+
+
+{% block footer %}
+{% endblock footer %}

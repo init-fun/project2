@@ -10,6 +10,9 @@ from .models import Project
 # class based views
 from django.views.generic import ListView
 
+# tagging
+from taggit.models import Tag
+
 # comment system
 from .models import Comment
 from .forms import CommentForm
@@ -19,6 +22,7 @@ from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
 
 def post_list(request):
+
     # landing page objects
     # first two projects for the landing page
     all_project = Project.objects.all()
@@ -35,6 +39,7 @@ def post_list(request):
     # career related objects
     wp = career_post.objects.all()
     first_two_wp = wp[:2]
+
     context = {
         "first_two_posts": first_two_posts,  # get the posts for the page number
         "posts": posts,
@@ -87,7 +92,7 @@ def coming_soon(request):
 # 2. Class based
 
 
-def all_posts(request):
+def posts_homepage(request, tag_slug=None):
     object_list = Post.published.all()
     # print(object_list)
     paginator = Paginator(object_list, 6)
@@ -98,7 +103,21 @@ def all_posts(request):
         posts = paginator.page(1)
     except EmptyPage:
         posts = paginator.page(paginator.num_pages)
-    return render(request, "blog/post/all_posts.html", {"page": page, "posts": posts})
+
+    # tagging
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        posts = object_list.filter(tags__in=[tag])
+    print(f">>>>>>>>>>>>>>>>>>>>> : Total {len(posts)} forr tag {tag}")
+
+    context = {
+        "page": page,
+        "posts": posts,
+        "tag": tag,
+    }
+
+    return render(request, "blog/post/post_list.html", context)
 
 
 class PostListView(ListView):

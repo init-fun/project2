@@ -10,7 +10,8 @@ urlpatterns = [
         views.post_detail,
         name="post_detail",
     ),
-    path("comingsoon", views.coming_soon, name="coming_soon"),
-    path("posts", views.PostListView.as_view(), name="postlist"),
-    path("show", views.show_base_post, name="show"),
+    path("comingsoon/", views.coming_soon, name="coming_soon"),
+    path("posts/", views.posts_homepage, name="posts_homepage"),
+    path("posts/tag/<slug:tag_slug>/", views.posts_homepage, name="tagged"),
+    path("show/", views.show_base_post, name="show"),
 ]

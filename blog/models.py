@@ -8,6 +8,9 @@ from django.contrib.auth.models import User
 # for creating a canonical url for our post
 from django.urls import reverse
 
+# tagging model
+from taggit.managers import TaggableManager
+
 # a model manager to get all published posts
 class PublishedObjManager(models.Manager):
     def get_queryset(self):
@@ -35,6 +38,9 @@ class Post(models.Model):
         ("published", "Published"),
     )
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default="draft")
+
+    # tagging
+    tags = TaggableManager()
 
     class Meta:
         ordering = ("-publish",)

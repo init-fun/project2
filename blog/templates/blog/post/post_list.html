@@ -1,11 +1,15 @@
 {% extends 'blog/post/post_base.html' %}
 {% load static %}
+
+
 {% block pagetitle %}
-Posts
+Post homepage
 {% endblock pagetitle %}
+
 {% block page-nav-path %}
-<li><a href="#">Posts</a></li>
+<li><a href="#">Post homepage</a></li>
 {% endblock page-nav-path %}
+
 
 {% block middle-content %}
 {% for post in posts%}
@@ -23,9 +27,15 @@ Posts
                     <div class="apo-aligner-inner">
                         <header class="apo-entry-header">
                             <ul class="apo-entry-categories">
-                                <li><a href="#">Tags</a></li>
+                                {% for tag in post.tags.all %}
+                                <li><a href="{% url 'blog:tagged' tag.slug %}"> {{ tag.name }}</a>
+                                </li>
+                                {% if not forloop.last %}, {% endif %}
+                                {% endfor %}
+
                             </ul>
-                            <h2 class="apo-entry-title"><a href="{{post.get_absolute_url}}">{{post.title}}</a></h2>
+                            <h2 class=" apo-entry-title"><a href="{{post.get_absolute_url}}">{{post.title}}</a></h2>
+
                         </header>
                         <!-- <p>{{post.body}}</p> -->
                         <footer class="apo-entry-footer">
@@ -44,5 +54,5 @@ Posts
 {% endblock middle-content %}
 
 {% block rem-content %}
-{% include 'blog/post/pagination.html' with page=page_obj %}
+{% include 'blog/post/pagination.html' with page=posts %}
 {% endblock rem-content %}

@@ -1,0 +1,49 @@
+{% extends 'blog/post/sidebar.html' %}
+{% load static %}
+
+
+
+
+{% if similar_posts %}
+
+{% block sidebar-title %}
+Similar post
+{% endblock sidebar-title %}
+
+{% block sidebar-post %}
+
+
+{% for p in similar_posts %}
+
+
+<header class="apo-entry-header">
+    <ul class="apo-entry-categories">
+        {% for tag in p.tags.all %}
+        <li><a href="{% url 'blog:tagged' tag.slug %}"> {{ tag.name }}</a>
+        </li>
+        {% if not forloop.last %}, {% endif %}
+        {% endfor %}
+
+    </ul>
+    <h2 class="apo-entry-title">
+        <a href="#">{{p.title}}</a>
+    </h2>
+
+</header>
+<footer class="apo-entry-footer">
+    <time datetime="2017-12-24" class="apo-entry-publish-date">
+        {{p.publish}}
+    </time>
+</footer>
+<br>
+
+{% empty %}
+<p>There are no similar post yet.</p>
+{% endfor %}
+
+
+
+
+
+{% endblock sidebar-post %}
+{% endif %}

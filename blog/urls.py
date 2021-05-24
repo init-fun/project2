@@ -14,4 +14,5 @@ urlpatterns = [
     path("posts/", views.posts_homepage, name="posts_homepage"),
     path("posts/tag/<slug:tag_slug>/", views.posts_homepage, name="tagged"),
     path("show/", views.show_base_post, name="show"),
+    path("showpost/", views.post_sidebar, name="show"),
 ]

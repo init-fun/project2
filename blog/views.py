@@ -10,6 +10,9 @@ from .models import Project
 # class based views
 from django.views.generic import ListView
 
+# similar post
+from django.db.models import Count
+
 # tagging
 from taggit.models import Tag
 
@@ -73,13 +76,21 @@ def post_detail(request, year, month, day, post):
             new_comment.save()
     else:
         comment_form = CommentForm()
+    # similar posts
+    posts_tags_ids = post.tags.values_list("id", flat=True)
+    similar_posts = Post.published.filter(tags__in=posts_tags_ids).exclude(id=post.id)
+    similar_posts = similar_posts.annotate(same_tags=Count("tags")).order_by(
+        "-same_tags", "-publish"
+    )[:4]
 
     context = {
         "post": post,
         "comments": comments,
         "new_comment": new_comment,
         "comment_form": comment_form,
+        "similar_posts": similar_posts,
     }
+
     return render(request, "blog/post/post_detail.html", context)
 
 
@@ -109,7 +120,6 @@ def posts_homepage(request, tag_slug=None):
     if tag_slug:
         tag = get_object_or_404(Tag, slug=tag_slug)
         posts = object_list.filter(tags__in=[tag])
-    print(f">>>>>>>>>>>>>>>>>>>>> : Total {len(posts)} forr tag {tag}")
 
     context = {
         "page": page,
@@ -129,3 +139,7 @@ class PostListView(ListView):
 
 def show_base_post(request):
     return render(request, "blog/post/post_base.html", {})
+
+
+def post_sidebar(request):
+    return render(request, "blog/post/sidebar.html", {})

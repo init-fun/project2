@@ -1,0 +1,39 @@
+<!-- Sidebar-->
+<aside id="sidebar" class="apo-sidebar col-sm-4">
+    <div class="apo-widget-area">
+        <!-- Widget-->
+        {% block sidebar %}
+        <section class="apo-widget apo-widget-popular-entries">
+            <h2 class="apo-widget-title">{% block sidebar-title %} sidebartitle
+                {% endblock sidebar-title %}
+            </h2>
+            <div class="apo-entries-container">
+                <div class="apo-item">
+                    <article class="apo-entry">
+                        {% block sidebar-post %}
+                        <header class="apo-entry-header">
+                            <ul class="apo-entry-categories">
+                                <li><a href="#">tag</a></li>
+                            </ul>
+                            <h2 class="apo-entry-title">
+                                <a href="#">default sidebar</a>
+                            </h2>
+                        </header>
+                        <footer class="apo-entry-footer">
+                            <time datetime="2017-12-24" class="apo-entry-publish-date">24 December,
+                                2016</time>
+                        </footer>
+                        {% endblock sidebar-post %}
+                    </article>
+                </div>
+
+            </div>
+        </section>
+        {% endblock sidebar %}
+        <!-- End Widget-->
+
+
+
+    </div>
+</aside>
+<!-- End Sidebar-->

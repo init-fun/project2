@@ -17,8 +17,8 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # aws
-AWS_ACCESS_KEY_ID = os.environ(["AWS_ACCESS_KEY_ID"])
-AWS_SECRET_ACCESS_KEY = os.environ(["AWS_SECRET_ACCESS_KEY"])
+AWS_ACCESS_KEY_ID = config("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = config("AWS_SECRET_ACCESS_KEY")
 AWS_STORAGE_BUCKET_NAME = "portfolio-rj"
 AWS_DEFAULT_ACL = "public-read"
 AWS_S3_FILE_OVERWRITE = False
@@ -40,7 +40,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": "db_portfolio",
         "USER": "postgres",
-        "PASSWORD": os.environ(["PASSWORD"]),
+        "PASSWORD": config("PASSWORD"),
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }
@@ -50,8 +50,7 @@ DATABASES = {
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-ov*zszebu=9(zeo7gvb5f@zpy3_eze=&c@++ew_zg=48g7(e6p"
-SECRET_KEY = os.environ(["SECRET_KEY"])
+SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 

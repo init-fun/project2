@@ -34,15 +34,15 @@ DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
 
 SECRET_KEY = config("SECRET_KEY")
-DEBUG = config("DEBUG", cast=bool)
+DEBUG = True
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": config("NAME"),
-        "USER": config("USER"),
+        "NAME": "db_portfolio",
+        "USER": "postgres",
         "PASSWORD": config("PASSWORD"),
-        "HOST": config("HOST"),
-        "PORT": config("PORT"),
+        "HOST": "127.0.0.1",
+        "PORT": "5432",
     }
 }
 

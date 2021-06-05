@@ -12,7 +12,7 @@ Post homepage
 
 
 {% block middle-content %}
-{% for post in posts%}
+{% for post in posts %}
 
 {% if forloop.first or forloop.counter0|divisibleby:1%}
 <div class="apo-item apo-travel">
@@ -34,7 +34,12 @@ Post homepage
                                 {% endfor %}
 
                             </ul>
-                            <h2 class=" apo-entry-title"><a href="{{post.get_absolute_url}}">{{post.title}}</a></h2>
+
+                            <h2 class=" apo-entry-title">
+                                <a href="{{ post.get_absolute_url }}">{{post.title}}</a>
+                                <br>
+                                {{ post.get_absolute_url }}
+                            </h2>
 
                         </header>
                         <!-- <p>{{post.body}}</p> -->

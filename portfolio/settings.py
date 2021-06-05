@@ -32,10 +32,6 @@ STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)
 STATICFILES_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
-
-SECRET_KEY = config("SECRET_KEY")
-DEBUG = False
-
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",

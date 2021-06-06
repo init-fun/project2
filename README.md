@@ -1,6 +1,6 @@
 # Portfolio website
 
-A portfolio website made using django.
+A portfolio website made using Django, JavaScript, AWS, Heroku along with basic front-end technology like HTML/CSS/BOOTSTRAP.
 
 Here's a snapshot of it:
 

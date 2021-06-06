@@ -12,6 +12,7 @@ django-storages==1.11.1
 django-taggit==1.4.0
 fontawesome-free==5.15.3
 jmespath==0.10.0
+Markdown==3.3.4
 mypy-extensions==0.4.3
 pathspec==0.8.1
 Pillow==8.2.0

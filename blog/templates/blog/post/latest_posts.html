@@ -1,0 +1,15 @@
+{% load blog_tags %}
+
+<div class="apo-section-main-action apo-btn" id="work module">
+    Latest Posts
+</div>
+
+<div style="padding-top: 20px;">
+    <ul>
+        {% for post in latest_posts %}
+        <li>
+            <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

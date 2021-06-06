@@ -1,3 +1,4 @@
+{% load blog_tags %}
 <div class="apo-page-controls">
 
     <nav>
@@ -11,7 +12,7 @@
             </li>
 
             <li class="nv-current"><span class="page-numbers current">
-                    {{ page.number }}
+                    {{ page.number }} / {% total_posts %}
                 </span>
             </li>
             <li>

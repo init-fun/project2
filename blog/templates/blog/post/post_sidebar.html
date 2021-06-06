@@ -4,12 +4,13 @@
 
 
 
-{% if similar_posts %}
+
 
 {% block sidebar-title %}
 Similar post
 {% endblock sidebar-title %}
 
+{% if similar_posts %}
 {% block sidebar-post %}
 
 
@@ -39,11 +40,8 @@ Similar post
 
 {% empty %}
 <p>There are no similar post yet.</p>
+
 {% endfor %}
-
-
-
-
 
 {% endblock sidebar-post %}
 {% endif %}

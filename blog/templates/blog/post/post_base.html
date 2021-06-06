@@ -9,7 +9,7 @@
                 <h1 class="apo-page-title">{% block pagetitle %}{% endblock pagetitle %}</h1>
                 <nav>
                     <ul class="apo-breadcrumbs">
-                        <li><a href="#">Home </a></li>
+                        <li><a href="{% url 'blog:post_list' %}">Home </a></li>
                         {% block page-nav-path %}
 
                         {% endblock page-nav-path %}

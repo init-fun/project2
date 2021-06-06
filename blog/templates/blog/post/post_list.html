@@ -7,7 +7,7 @@ Post homepage
 {% endblock pagetitle %}
 
 {% block page-nav-path %}
-<li><a href="#">Post homepage</a></li>
+<li>Posts</li>
 {% endblock page-nav-path %}
 
 
@@ -37,8 +37,7 @@ Post homepage
 
                             <h2 class=" apo-entry-title">
                                 <a href="{{ post.get_absolute_url }}">{{post.title}}</a>
-                                <br>
-                                {{ post.get_absolute_url }}
+
                             </h2>
 
                         </header>

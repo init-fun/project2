@@ -40,7 +40,7 @@ def post_list(request):
     posts = Post.published.all().order_by("-publish")
     first_two_posts = posts[:2]
     # career related objects
-    wp = career_post.objects.all()
+    wp = career_post.objects.all().order_by("-from_year")
     first_two_wp = wp[:2]
 
     context = {

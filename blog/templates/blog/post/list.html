@@ -208,7 +208,8 @@
                         <ul class="apo-entry-categories">
                             <li> <a href='{{ post.get_absolute_url }}'>{{post.title}}</a></li>
                         </ul>
-                        <h2 class="apo-entry-title"><a href="#">{{post.body|truncatewords:10|linebreaks}}</a>
+                        <h2 class="apo-entry-title"><a
+                                href="{{ post.get_absolute_url }}">{{post.body|truncatewords:10|linebreaks}}</a>
                         </h2>
                     </header>
                     <footer class="apo-entry-footer">

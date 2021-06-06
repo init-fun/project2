@@ -4,13 +4,13 @@ A portfolio website made using django.
 
 Here's a snapshot of it:
 
-![Screenshot 2021-05-22 005358](https://user-images.githubusercontent.com/65326183/119189044-25b03680-ba99-11eb-92d7-ed5026e59cbd.png)
+![image](https://user-images.githubusercontent.com/65326183/120919955-e826ec80-c6d9-11eb-98ee-acb2f5714fc1.png)
 
 ### Functionality: :tada:
 - [ ] **Anonymous commenting.**
-- [ ] **Tagging of posts.**
-- [ ] **Latest and most commented posts.**
-- [ ] **Similar posts.**
+- [ * ] **Tagging of posts.**
+- [ * ] **Latest and most commented posts.**
+- [ * ] **Similar posts.**
 - [ ] **Using github API to display projects.**
 - [ ] **Upgrading front end.**
 
@@ -19,9 +19,9 @@ Here's a snapshot of it:
 
 ### Known Issues (_as of May 22,21_) 🐫:
 - [ ] Dead hyperlinks.
-- [ ] 'Skills' module is under developement.
-- [ ] 'Project' module is also under developement.
-- [ ] 'Blog' module need little bit of cosmetic changes.
+- [ * ] 'Skills' module is under developement.
+- [ * ] 'Project' module is also under developement.
+- [ * ] 'Blog' module need little bit of cosmetic changes.
 
 
 ##### Developer is solely working on this project.Very soon this will go live. Peace. :metal:
